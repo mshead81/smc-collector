@@ -16,18 +16,19 @@ import { analyse } from './smc.mjs';
 // ----------------------------------------------------------------------------
 const SYMBOLS = [
   // dataSymbol = Bybit linear perp; tvSymbol = TradingView ticker for the image
-  { name: 'BTC',   dataSymbol: 'BTCUSDT',   tvSymbol: 'BYBIT:BTCUSDT.P' },
-  { name: 'ETH',   dataSymbol: 'ETHUSDT',   tvSymbol: 'BYBIT:ETHUSDT.P' },
-  { name: 'SOL',   dataSymbol: 'SOLUSDT',   tvSymbol: 'BYBIT:SOLUSDT.P' },
-  { name: 'HYPE',  dataSymbol: 'HYPEUSDT',  tvSymbol: 'BYBIT:HYPEUSDT.P' },
-  { name: 'ASTER', dataSymbol: 'ASTERUSDT', tvSymbol: 'BYBIT:ASTERUSDT.P' },
+  // hlCoin = Hyperliquid perp name (data source); tvSymbol = TradingView ticker for the chart image
+  { name: 'BTC',   hlCoin: 'BTC',   tvSymbol: 'BYBIT:BTCUSDT.P' },
+  { name: 'ETH',   hlCoin: 'ETH',   tvSymbol: 'BYBIT:ETHUSDT.P' },
+  { name: 'SOL',   hlCoin: 'SOL',   tvSymbol: 'BYBIT:SOLUSDT.P' },
+  { name: 'HYPE',  hlCoin: 'HYPE',  tvSymbol: 'BYBIT:HYPEUSDT.P' },
+  { name: 'ASTER', hlCoin: 'ASTER', tvSymbol: 'BYBIT:ASTERUSDT.P' },
 ];
 
-// Bybit interval codes (minutes, or D/W/M) -> chart-img interval strings
+// Hyperliquid candle intervals -> chart-img interval strings
 const TIMEFRAMES = [
-  { label: '1h', bybit: '60',  chartImg: '1h'  },
-  { label: '4h', bybit: '240', chartImg: '4h'  },
-  { label: '1D', bybit: 'D',   chartImg: '1D'  },
+  { label: '1h', hl: '1h', chartImg: '1h' },
+  { label: '4h', hl: '4h', chartImg: '4h' },
+  { label: '1D', hl: '1d', chartImg: '1D' },
 ];
 
 const CANDLE_LIMIT = 300;           // enough for EMA200 + structure history
@@ -41,36 +42,49 @@ const DO_IMAGES = !MOCK && CHART_IMG_KEY && (new Date().getUTCHours() % IMAGE_EV
 // ----------------------------------------------------------------------------
 // FETCHERS
 // ----------------------------------------------------------------------------
-async function fetchCandles(dataSymbol, bybitInterval) {
-  const url = `https://api.bybit.com/v5/market/kline?category=linear&symbol=${dataSymbol}&interval=${bybitInterval}&limit=${CANDLE_LIMIT}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`bybit ${res.status} for ${dataSymbol} ${bybitInterval}`);
-  const json = await res.json();
-  if (json.retCode !== 0) throw new Error(`bybit retCode ${json.retCode}: ${json.retMsg}`);
-  // result.list rows: [start, open, high, low, close, volume, turnover] — NEWEST first
-  const rows = json.result?.list ?? [];
-  return rows
-    .map((r) => ({
-      time: +r[0], open: +r[1], high: +r[2], low: +r[3], close: +r[4], volume: +r[5],
-    }))
-    .reverse(); // -> oldest first
+const HL_URL = 'https://api.hyperliquid.xyz/info';
+const IV_MS = { '1h': 3600e3, '4h': 4 * 3600e3, '1d': 24 * 3600e3 };
+
+async function hlPost(body) {
+  const res = await fetch(HL_URL, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`hyperliquid ${res.status}`);
+  return res.json();
 }
 
-// one call for ALL linear tickers → map of symbol -> { turnover24h, oiValue, lastPrice }
+async function fetchCandles(hlCoin, hlInterval) {
+  const endTime = Date.now();
+  const startTime = endTime - CANDLE_LIMIT * (IV_MS[hlInterval] || 3600e3);
+  const rows = await hlPost({
+    type: 'candleSnapshot',
+    req: { coin: hlCoin, interval: hlInterval, startTime, endTime },
+  });
+  if (!Array.isArray(rows)) throw new Error(`hyperliquid bad candles for ${hlCoin} ${hlInterval}`);
+  // each row: { t:openMs, T:closeMs, o,h,l,c,v: strings, n:trades } — oldest first already
+  return rows.map((r) => ({
+    time: +r.t, open: +r.o, high: +r.h, low: +r.l, close: +r.c, volume: +r.v,
+  }));
+}
+
+// one call for ALL perps → map of coin -> { turnover24h, oiValue, lastPrice }
 async function fetchTickers() {
-  const url = `https://api.bybit.com/v5/market/tickers?category=linear`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`bybit tickers ${res.status}`);
-  const json = await res.json();
-  if (json.retCode !== 0) throw new Error(`bybit tickers retCode ${json.retCode}`);
+  const data = await hlPost({ type: 'metaAndAssetCtxs' });
+  // data = [ meta, assetCtxs ] parallel by index
+  const universe = data?.[0]?.universe ?? [];
+  const ctxs = data?.[1] ?? [];
   const map = {};
-  for (const t of json.result?.list ?? []) {
-    map[t.symbol] = {
-      turnover24h: +t.turnover24h || 0,          // 24h USD(T) traded — the liquidity measure
-      oiValue: +t.openInterestValue || 0,         // open interest in USD(T)
-      lastPrice: +t.lastPrice || 0,
+  universe.forEach((u, i) => {
+    const c = ctxs[i] || {};
+    const mark = +c.markPx || +c.oraclePx || 0;
+    map[u.name] = {
+      turnover24h: +c.dayNtlVlm || 0,          // 24h notional (USD) traded — the liquidity measure
+      oiValue: (+c.openInterest || 0) * mark,   // OI is in base units → × mark = USD
+      lastPrice: mark,
     };
-  }
+  });
   return map;
 }
 
@@ -139,7 +153,7 @@ async function run() {
       try {
         const candles = MOCK
           ? mockCandles(si + 1)
-          : await fetchCandles(sym.dataSymbol, tf.bybit);
+          : await fetchCandles(sym.hlCoin, tf.hl);
 
         const smc = analyse(candles);
 
@@ -162,7 +176,7 @@ async function run() {
     const bias = bull > bear ? 'bullish' : bear > bull ? 'bearish' : 'mixed';
 
     // liquidity gate data
-    const tk = tickers[sym.dataSymbol];
+    const tk = tickers[sym.hlCoin];
     const turnover24h = MOCK ? 1e9 * (si + 1) : (tk?.turnover24h ?? null);
     const oiValue = MOCK ? 5e8 : (tk?.oiValue ?? null);
     // tier: high >= $1B/24h, mid >= $100M, low below (or unknown)
