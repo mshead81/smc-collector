@@ -1,5 +1,41 @@
 [
   {
+    "id": 1784836353891,
+    "ts": "2026-07-23T19:52:33.891Z",
+    "pair": "LINK/USDT",
+    "symbol": "LINK",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "8.4351",
+    "nearSupport": "1D bullish FVG 8.4061–8.5690 / 1h bullish FVG 8.3845–8.5109",
+    "nearResistance": "1h bearish OB 8.4570–8.4998 / 4h bearish OB 8.3676–8.5357",
+    "location": "mid-range",
+    "verdict": "HOLD",
+    "conviction": "low",
+    "entryType": "limit",
+    "trigger": "Wait for price to pull back and hold the 1D bullish FVG bottom at 8.4061 with a 1h bullish reaction (bullish engulf or CHoCH on 1h), OR for a clean break and close above the 1h bearish OB at 8.4998 with retest before entering long",
+    "entry": "8.4100",
+    "stop": "8.3200",
+    "target1": "8.6113",
+    "target2": "8.7571",
+    "rr": "2.4R",
+    "liqMagnet": "8.7571 (1h equal highs, 4-touch liquidity pool)",
+    "rationale": [
+      "Top-down bias is bullish: 4h trend is UP with a confirmed bullish CHoCH at 8.7606, EMA stack bullish, price above 4h E200; 1D printed a bullish BOS at 8.1846 — directional bias favors longs on pullbacks.",
+      "Price is currently sandwiched: sitting inside the 1D bullish FVG (8.4061–8.5690) which is valid demand, but the 1h trend is bearish (BOS at 8.5209) and price is below 1h E200 with a bearish OB directly overhead at 8.4570–8.4998 — no clean long entry exists at current price without confirmation.",
+      "Funding at +10.95%/yr is mildly positive (within neutral band) and OI dropped -2.22% in 24h, suggesting some long unwinding; this is not a crowded-long squeeze risk but does not add urgency — waiting for the 1D FVG bottom retest at 8.4061 gives a defined invalidation below 4h equal lows at 8.2880 and targets resting liquidity at 8.7571."
+    ],
+    "invalidation": "4h daily close below 8.2880 (4h equal lows / 1h equal lows) would negate the bullish FVG demand and invalidate the long thesis.",
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1784836362154,
+    "deleted": true
+  },
+  {
     "id": 1784835679569,
     "ts": "2026-07-23T19:41:19.569Z",
     "pair": "DOGE/USDT",
@@ -30,9 +66,23 @@
       "Funding at -0.00056%/hr (-4.93%/yr) is mildly negative (shorts slightly crowded) but within the neutral band (-15% to +15%/yr), so it does not override the structural short bias; OI down -4.42% in 24h suggests deleveraging consistent with a bearish continuation rather than a short-squeeze setup"
     ],
     "invalidation": "1h bullish BOS above 0.072082 (the last bearish BOS level) confirmed on close, or price sustains above the 4h bearish FVG top at 0.072123, invalidating the short setup",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784835679569
+    "mod": 1784836265054,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price has already traded through and below the entry zone (current 0.069057 vs entry 0.069900) — the limit sell was never filled and price has since moved ~1.2% below the intended entry, meaning the setup ran away without triggering; chasing it now risks entering mid-move with a poor R:R, and the 4h bearish FVG bottom at 0.069773 has already been breached to the downside, collapsing the confluence that justified the entry level.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-23T19:50:44.118Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784832653863,
