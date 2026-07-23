@@ -1,5 +1,40 @@
 [
   {
+    "id": 1784835679569,
+    "ts": "2026-07-23T19:41:19.569Z",
+    "pair": "DOGE/USDT",
+    "symbol": "DOGE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.069263",
+    "nearSupport": "1h bullish OB 0.068398–0.070211 (also overlaps 4h bearish FVG bottom 0.069773)",
+    "nearResistance": "4h bearish FVG 0.069773–0.072123 / 1h bearish FVG 0.069753–0.07006",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell on a pullback into the 1h bearish FVG top at 0.07006–0.07006 / 4h bearish FVG bottom at 0.069773, confluent with the underside of the broken 1D BOS level (0.070983) acting as resistance; enter only if price rejects that zone with no bullish BOS on 1h",
+    "entry": "0.069900",
+    "stop": "0.071300",
+    "target1": "0.067200",
+    "target2": "0.065500",
+    "rr": "2.4R",
+    "liqMagnet": "4h equal lows cluster 0.070953 (3 touches) then 0.071652 above; downside magnet: 4h equal lows 0.071926 already swept — next draw is 0.068398 demand OB bottom and below",
+    "rationale": [
+      "1D/4h/1h all show bearish trend, bearish EMA stack, price below EMA200, with 1D BOS bearish at 0.070983 and 4h CHoCH bearish at 0.072931 confirming top-down directional bias is short",
+      "Price is currently inside the 4h unfilled bearish FVG (0.069773–0.072123) and the 1h bearish FVG (0.069753–0.07006); a pullback to 0.069900 puts entry at the FVG ceiling — a textbook supply re-entry with the 1h bearish OBs stacked above (0.072505–0.073864) capping any rally",
+      "Funding at -0.00056%/hr (-4.93%/yr) is mildly negative (shorts slightly crowded) but within the neutral band (-15% to +15%/yr), so it does not override the structural short bias; OI down -4.42% in 24h suggests deleveraging consistent with a bearish continuation rather than a short-squeeze setup"
+    ],
+    "invalidation": "1h bullish BOS above 0.072082 (the last bearish BOS level) confirmed on close, or price sustains above the 4h bearish FVG top at 0.072123, invalidating the short setup",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784835679569
+  },
+  {
     "id": 1784832653863,
     "ts": "2026-07-23T18:50:53.863Z",
     "pair": "TAO/USDT",
@@ -30,9 +65,23 @@
       "Funding at +10.95%/yr is mildly positive (longs paying) but within the neutral band — it does not contradict the short bias; OI at $24M with -2.35% 24h change suggests longs are being unwound, supporting the directional short; nearest liquidity magnets are the 1h equal-low cluster at 192.67 (5 touches) and the 1D bullish OB bottom at 189.51, both below current price and acting as draw-on-liquidity targets."
     ],
     "invalidation": "1h candle close above 197.70 (above the 1h bearish OB top at 197.61 and the 4h bearish OB top at 196.40), which would negate the supply zone and signal a structural reclaim.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784832653863
+    "mod": 1784835648323,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price has already traded through and below your 195.10 entry — currently at 193.23 — so the limit sell never filled and the move has largely played out without you; chasing it now risks entering near T1 (192.67) with minimal reward and the 4h bearish FVG bottom at 193.80 now acting as overhead resistance, making a retrace back to 195.10 unlikely to offer a clean R:R reset.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-23T19:40:23.343Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784827354420,
