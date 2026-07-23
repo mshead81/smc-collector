@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1784812577442,
+    "ts": "2026-07-23T13:16:17.442Z",
+    "pair": "SUI/USDT",
+    "symbol": "SUI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "net": "neutral",
+    "btc": "$65,859",
+    "price": "0.75723",
+    "nearSupport": "4h bullish OB top 0.75292 / bottom 0.75884 zone (mid: ~0.75292)",
+    "nearResistance": "1h equal highs cluster 0.77480 / 4h bearish OB 0.77420–0.75923",
+    "location": "mid-range",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy on pullback into 4h bullish OB demand zone 0.75292–0.75884, confirmed by 1h price holding above 1h bullish FVG top 0.75124 and no bearish CHoCH on 1h",
+    "entry": "0.75400",
+    "stop": "0.74250",
+    "target1": "0.77480",
+    "target2": "0.78020",
+    "rr": "2.5R",
+    "liqMagnet": "1h equal highs 0.77480 (3-touch pool) — primary draw",
+    "rationale": [
+      "1D BOS bullish at 0.75555 confirmed structural shift higher; price now above that break level, validating demand. 4h CHoCH bullish at 0.77499 and full bullish EMA stack on both 1h and 4h support continuation bias despite 1D EMA stack being bearish (price below 1D E200 — caps upside, limits to medium conviction).",
+      "4h bullish OB 0.75292–0.76736 is the nearest institutional demand zone below current price; entry at 0.75400 sits inside this OB, with the 1h bullish FVG 0.74614–0.75124 providing secondary confluence just below — stop at 0.74250 clears both the 1h equal lows at 0.74525 and the 1h bullish FVG bottom 0.74287, placing invalidation beyond all demand structure.",
+      "Primary liquidity magnet is the 1h equal highs cluster at 0.77480 (3 touches = resting buy-side liquidity above), with secondary target at 1D bearish OB top 0.78020; 4h ATR 1.44% (~0.0109) confirms the 0.0115 stop distance is proportionate, and BTC macro is neutral (funding +0.0043%, OI stable) — no macro headwind to override the SMC long setup."
+    ],
+    "invalidation": "1h bearish CHoCH below 0.74287 (1h bullish FVG bottom breached) or 4h candle close below 0.75292 OB bottom — both signal demand exhaustion and cancel the long.",
+    "status": "filled",
+    "filledAt": "2026-07-23T13:18:21.626Z",
+    "updates": [
+      {
+        "action": "TRAIL STOP",
+        "bias": "more upside",
+        "note": "1H/4H structure bullish above stacked EMAs but price is grinding into a dense cluster of bearish OBs and unfilled bearish FVGs between 0.761–0.770; raise stop to protect gains while letting T1/T2 run, as equal highs liquidity at 0.7748 remains the magnet.",
+        "entry": "0.75400",
+        "newStop": "0.75124",
+        "newTarget": "0.77480",
+        "addZone": "",
+        "ts": "2026-07-23T13:34:56.532Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more upside",
+        "note": "4H EMA stack bullish and price above E200 supports trend, but 1H is below E200 with stacked bearish OBs and FVGs from 0.7543–0.7693 acting as resistance; trail stop up to just below the 1H bullish FVG top at 0.75124 to lock in near breakeven while giving room for a push toward T1 at 0.77480 where equal highs liquidity clusters at 0.77480 sit as a magnet.",
+        "entry": "0.75400",
+        "newStop": "0.75050",
+        "newTarget": "0.77480",
+        "addZone": "",
+        "ts": "2026-07-23T14:05:15.428Z"
+      }
+    ]
+  },
+  {
+    "id": 1784801250160,
+    "ts": "2026-07-23T10:07:30.160Z",
+    "pair": "TAO/USDT",
+    "symbol": "TAO",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "net": "bear",
+    "btc": "$65,746",
+    "price": "196.64",
+    "nearSupport": "194.36 (1h bullish OB bottom / 4h bullish OB bottom)",
+    "nearResistance": "196.95–198.99 (1h bearish FVG cluster + bearish OBs 196.99–198.16)",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Price retraces into 1h bearish FVG 196.31–196.95 or bearish OB 196.98–197.61; enter short on rejection confirmation (no close above 198.16)",
+    "entry": "196.95",
+    "stop": "199.10",
+    "target1": "193.44",
+    "target2": "192.32",
+    "rr": "2.1R",
+    "liqMagnet": "192.668 (1h equal lows cluster, 5 touches)",
+    "rationale": [
+      "1D/4h top-down: full bearish alignment — both timeframes show CHoCH/BOS bearish breaks (1D BOS at 200.44, 4h CHoCH at 195.55), bearish EMA stack, price below EMA200, and a 4h bearish OB 195.88–201.90 capping upside directly overhead.",
+      "1h entry zone: price is trading directly into a dense bearish resistance cluster — unfilled bearish FVGs at 196.31–196.95 and 198.16–198.99, plus multiple bearish OBs (196.98–197.61, 196.35–200.85) — all confluent with the 4h supply zone, making this a high-probability rejection area.",
+      "Liquidity magnet below: 1h equal lows at 192.668 (5 touches) and 192.32 (bullish FVG bottom) sit below current price as draw-on-liquidity targets; BTC macro bias is bearish (price below EMA200, fear at 29, liquidation spikes) supporting continued downside pressure on this low-liquidity alt ($5M 24h turnover)."
+    ],
+    "invalidation": "Hourly close above 199.10 (inside 4h bearish OB body at 198.69–201.08) negates the short setup and signals potential reclaim of the supply zone.",
+    "updates": [
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "Bearish CHoCH confirmed on both 1h and 4h, EMA stack bearish across all TFs, price below E200, bearish OBs overhead at 196.78-197.61 capping upside — trail stop down to just above the 1h bearish OB cluster top at 197.65 to lock in gains while targeting the bullish FVG/equal-lows confluence at 192.67-192.32",
+        "entry": "196.95",
+        "newStop": "197.65",
+        "newTarget": "192.32",
+        "addZone": "",
+        "ts": "2026-07-23T12:15:57.755Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "Bearish CHoCH confirmed on both 1h and 4h, price below bearish OB 196.78-195.65 and below 4h CHoCH at 195.55; T1 at 193.44 aligns with bullish FVG top and equal lows cluster at 192.67 — trail stop down to just above 1h bearish OB top at 196.80 to lock in gains while letting price run to T1/T2.",
+        "entry": "196.95",
+        "newStop": "196.80",
+        "newTarget": "192.32",
+        "addZone": "",
+        "ts": "2026-07-23T13:35:09.740Z"
+      },
+      {
+        "action": "SCALE OUT",
+        "bias": "more downside",
+        "note": "Price at 193.7 has hit T1 (193.44 bullish FVG 192.32–193.44 acting as magnet); close 50% here, trail remainder to 195.95 (just above 1h bearish OB 194.71–195.74) targeting T2 192.32 then equal lows at 192.67.",
+        "entry": "196.95",
+        "newStop": "195.95",
+        "newTarget": "192.32",
+        "addZone": "",
+        "ts": "2026-07-23T14:04:05.727Z"
+      }
+    ],
+    "outcome": "TP1",
+    "r": 1.63
+  }
+]
