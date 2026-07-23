@@ -1,5 +1,75 @@
 [
   {
+    "id": 1784825877890,
+    "ts": "2026-07-23T16:57:57.890Z",
+    "pair": "AVAX/USDT",
+    "symbol": "AVAX",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "6.4287",
+    "nearSupport": "4H bullish OB top 6.4970 / bottom 6.3877 — price currently inside this zone",
+    "nearResistance": "1H bearish OB cluster 6.5614–6.5921 confluent with 4H bearish FVG 6.4466–6.5482 top",
+    "location": "at support",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy at 4H bullish OB top edge 6.4466 (also bottom of 4H bearish FVG acting as demand flip); enter only if price pulls back to that level without closing a 4H candle below 6.3877",
+    "entry": "6.4466",
+    "stop": "6.3750",
+    "target1": "6.5787",
+    "target2": "6.6508",
+    "rr": "2.6R",
+    "liqMagnet": "1H equal highs at 6.6508 (5 touches) — primary draw for price",
+    "rationale": [
+      "4H structure: bullish BOS confirmed at 6.6493 with price now pulling back into the 4H bullish OB (6.3877–6.4970); this is a textbook premium-to-discount retracement offering a high-probability demand entry, stop placed below OB bottom at 6.3750 (~1.1% below entry, within 4H ATR of 1.47%).",
+      "1H CHoCH bullish at 6.5839 confirms short-term buyers stepped in; the dense 1H equal-highs cluster at 6.6508 (5 touches) is the nearest resting liquidity magnet and aligns with the 1H bearish OB at 6.6281–6.6599, making it a clean T1; T2 targets the next equal-highs pool at 6.6512 area / 4H equal-highs at 6.6818.",
+      "Funding at +3.19%/yr is effectively neutral (well within ±15%/yr threshold), so no crowding risk distorts the structural long bias; 1D trend is bearish with bearish EMA stack, which caps conviction to medium — trade is counter-trend on daily but supported by 4H BOS and 1H CHoCH, so position sizing should reflect that."
+    ],
+    "invalidation": "Any 4H candle close below 6.3750 (below the 4H bullish OB bottom) negates the demand thesis and signals continuation of the 1D bearish structure.",
+    "status": "filled",
+    "filledAt": "2026-07-23T17:08:22.934Z",
+    "mod": 1784826502934
+  },
+  {
+    "id": 1784825506478,
+    "ts": "2026-07-23T16:51:46.478Z",
+    "pair": "SUI/USDT",
+    "symbol": "SUI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.74607",
+    "nearSupport": "4h bullish OB top 0.75292 / bottom 0.75884 overlap; 1D bullish OB top 0.74694",
+    "nearResistance": "4h bearish FVG 0.7487–0.76626 / 1h bearish OB cluster 0.75372–0.76751",
+    "location": "at support",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy on pullback into 4h bullish OB bottom edge 0.75292 or 1D bullish OB top 0.74694; entry valid while price holds above 1D OB bottom 0.73369",
+    "entry": "0.75292",
+    "stop": "0.73250",
+    "target1": "0.76775",
+    "target2": "0.77480",
+    "rr": "2.5R",
+    "liqMagnet": "1h equal highs cluster 0.77480 (3 touches) / 4h equal highs 0.76776",
+    "rationale": [
+      "1D BOS bullish at 0.75555 confirmed structural shift; 4h CHoCH bullish at 0.77499 with bullish EMA stack and price above E200 — directional bias is unambiguously long on the dominant timeframes.",
+      "Price is sitting inside the 4h bullish OB (0.75292–0.76736) and the 1D bullish OB (0.70765–0.74694 top at 0.74694), providing a confluence demand zone; a limit at 0.75292 (4h OB top) offers a defined low-risk entry with stop below 1D OB structure at 0.73250 (~2.7% away, consistent with 4h ATR of 1.55%).",
+      "Funding at +10.95%/yr is mild-positive (within neutral band), OI at $27M with -3.85% 24h change suggests recent long liquidation has partially cleaned positioning; equal highs at 0.77480 (3-touch liquidity pool) act as a clear magnetic target for a sweep, giving a clean 2.5R setup."
+    ],
+    "invalidation": "Daily close below 1D bullish OB bottom 0.73369 negates the demand thesis and signals continuation lower toward 4h equal lows at 0.72913.",
+    "status": "filled",
+    "filledAt": "2026-07-23T16:53:45.921Z",
+    "mod": 1784825625921
+  },
+  {
     "id": 1784818242533,
     "ts": "2026-07-23T14:50:42.533Z",
     "pair": "HYPE/USDT",
@@ -180,10 +250,20 @@
         "newTarget": "189.48",
         "addZone": "",
         "ts": "2026-07-23T15:45:54.848Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "Price broke 4H CHoCH at 195.55 and sits inside 4H bearish FVG 195.51–193.68 with equal lows cluster at 192.67–192.88 as next magnet; trail stop down to just above 4H bearish OB top at 196.40 to lock profit while giving room to sweep those lows toward D1 bullish OB top at 193.00 and beyond.",
+        "entry": "196.95",
+        "newStop": "196.45",
+        "newTarget": "189.48",
+        "addZone": "",
+        "ts": "2026-07-23T16:23:36.950Z"
       }
     ],
-    "outcome": "TP1",
-    "r": 1.63,
-    "mod": 1784821554853
+    "outcome": "TP2",
+    "r": 2.15,
+    "mod": 1784823816951
   }
 ]
