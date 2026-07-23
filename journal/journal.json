@@ -1,5 +1,112 @@
 [
   {
+    "id": 1784838010355,
+    "ts": "2026-07-23T20:20:10.355Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "58.36",
+    "nearSupport": "1D bullish OB 58.45–61.679 (bottom at 58.45); 4h equal lows at 58.2985",
+    "nearResistance": "4h bearish OB 58.783–60.06; 1h bearish FVG 58.776–59.348; 1h bearish OBs clustered 58.976–60.06",
+    "location": "at support",
+    "verdict": "HOLD",
+    "conviction": "low",
+    "entryType": "limit",
+    "trigger": "Price must either (a) reclaim and close above the 4h bearish OB top at 60.06 on the 1h to confirm bullish CHoCH follow-through before considering long, OR (b) break and close below 1D bullish OB bottom at 58.45 / 4h equal lows at 58.2985 to confirm short continuation — neither condition is met at current price of 58.36 sitting exactly on contested support",
+    "entry": "N/A — no valid entry until trigger fires",
+    "stop": "N/A",
+    "target1": "N/A",
+    "target2": "N/A",
+    "rr": "N/A",
+    "liqMagnet": "4h equal lows at 58.2985 (immediate downside magnet); 1h equal highs at 60.0305 (upside magnet)",
+    "rationale": [
+      "1D/4h top-down bias is bearish: 1D CHoCH broke bearish at 66.10, 4h CHoCH broke bearish at 59.78, both EMA stacks bearish on 4h, price below 4h/1h EMA200 — structural trend is down and no confirmed reversal exists",
+      "Price at 58.36 sits precisely on the 1D bullish OB bottom (58.45) and just above 4h equal lows (58.2985), making it a contested zone — shorting into this support without a confirmed break risks a stop-hunt bounce; going long means fighting the dominant bearish structure with a dense ceiling of 1h/4h bearish OBs and FVGs from 58.776 up to 60.06 within one ATR (1h ATR ~1.23%, 4h ATR ~2.15%)",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive, meaning longs are slightly crowded — this marginally reinforces the bearish structural bias and reduces conviction for a long; combined with $1.3B OI and -2.4% 24h OI change suggesting deleveraging, the risk/reward for forcing a trade here is poor and HOLD is the correct disciplined call"
+    ],
+    "invalidation": "A confirmed 1h close below 58.248 (1h equal lows) and 4h equal lows at 58.2985 would activate a short setup targeting 54.716 (1D bullish FVG top); a confirmed 1h close above 60.06 (4h bearish OB top) would activate a long setup targeting 61.325 (1h equal highs)",
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1784838014777,
+    "deleted": true
+  },
+  {
+    "id": 1784837790806,
+    "ts": "2026-07-23T20:16:30.806Z",
+    "pair": "ADA/USDT",
+    "symbol": "ADA",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.17019",
+    "nearSupport": "1h bullish OB 0.16891–0.17168 / 4h bullish FVG 0.16688–0.16716",
+    "nearResistance": "1h bearish FVG 0.17061–0.17074 / 1h bearish OB 0.17365–0.17533 / 4h bearish FVG 0.17050–0.17258",
+    "location": "mid-range",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell at the 1h bearish FVG 0.17061–0.17074 confluence with the 4h bearish FVG lower edge 0.17050; wait for price to tap and reject that zone before fill",
+    "entry": "0.17068",
+    "stop": "0.17410",
+    "target1": "0.16499",
+    "target2": "0.16208",
+    "rr": "2.0R",
+    "liqMagnet": "4h equal lows at 0.16498 (resting sell-side liquidity)",
+    "rationale": [
+      "1D: trend down, EMA stack bearish, price below E200, CHoCH bearish at 0.16468; daily bearish OB 0.16503–0.16972 caps current price from above — structural bias is unambiguously short.",
+      "4h: CHoCH bearish confirmed at 0.17041 (broken 1784808000); price is now inside the 4h bearish FVG 0.17050–0.17258 which acts as a supply imbalance; 4h equal lows at 0.16498 are the nearest liquidity magnet below.",
+      "1h: CHoCH bearish at 0.17222; stacked bearish FVGs at 0.17061–0.17074, 0.17168–0.17194, 0.17309–0.17391 all overhead; funding -16.96%/yr is mildly negative (shorts slightly crowded) but within the neutral band and does not override the triple-timeframe structural short bias."
+    ],
+    "invalidation": "Hourly candle closes above the 1h bullish OB top at 0.17404, reclaiming the CHoCH level at 0.17222 with momentum — structure would flip and the short thesis is void.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784837790806
+  },
+  {
+    "id": 1784837755168,
+    "ts": "2026-07-23T20:15:55.168Z",
+    "pair": "BNB/USDT",
+    "symbol": "BNB",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "568.11",
+    "nearSupport": "4h bullish OB top 572.32 / bottom 566.71 — price currently inside; 1D bullish OB top 574.54 / bottom 555.26 below",
+    "nearResistance": "1h bearish FVG 568.99–569.34 immediately above; 4h bearish FVG 567.42–568.95 overlapping; 4h bearish OB 568.73–571.49",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit short on a pullback into the 1h bearish FVG 568.99–569.34 / 4h bearish FVG top 568.95, confluent with the underside of the 4h bearish OB (568.73–571.49); entry valid while price remains below the 1h bearish OB cluster 570.19–571.88",
+    "entry": "569.20",
+    "stop": "572.00",
+    "target1": "564.23",
+    "target2": "562.40",
+    "rr": "2.5R",
+    "liqMagnet": "4h equal lows 566.435 / 562.395 — resting sell-side liquidity below",
+    "rationale": [
+      "1D/4h top-down bias: both timeframes show CHoCH bearish breaks (1D CHoCH at 562.08, 4h CHoCH at 566.71), EMA stacks bearish, price below E200 on all three timeframes — directional bias is unambiguously short.",
+      "Price is currently inside a dense resistance cluster: 1h bearish FVG 568.99–569.34 sits directly above spot (568.11), overlapping the 4h bearish FVG 567.42–568.95 and the 4h bearish OB 568.73–571.49 — a limit short at 569.20 enters into supply with multiple confluences rather than chasing.",
+      "Downside magnets are clear: 1h bullish FVG 562.42–564.23 is the first target; 4h equal lows at 562.395 and 566.435 represent resting sell-side liquidity that price is likely to sweep; funding at +8.77%/yr is mildly positive (longs paying) but within the neutral band — no material squeeze risk to contradict the short thesis."
+    ],
+    "invalidation": "Close above 572.00 (above the 1h bearish OB cluster top at 571.88 and 4h bearish OB top at 571.49) invalidates the short — that would reclaim all supply zones and signal a structural shift.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784837762783,
+    "deleted": true
+  },
+  {
     "id": 1784836353891,
     "ts": "2026-07-23T19:52:33.891Z",
     "pair": "LINK/USDT",
@@ -166,7 +273,7 @@
     "invalidation": "Any 1h candle close above 0.13800 (above the 1h bearish OB cluster and beyond 1× 4h ATR from entry) negates the bearish mitigation thesis.",
     "status": "filled",
     "filledAt": "2026-07-23T17:56:11.615Z",
-    "mod": 1784832119134,
+    "mod": 1784837675956,
     "outcome": "TP1",
     "r": 1.08,
     "updates": [
@@ -179,6 +286,16 @@
         "newTarget": "0.12947",
         "addZone": "",
         "ts": "2026-07-23T18:41:59.133Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "4H bearish CHoCH confirmed, daily trend down, price below E200 on all TFs, bearish OBs overhead at 0.13449-0.13525 capping upside; 1H bullish CHoCH at 0.13722 is a concern but price remains below that level — tighten stop to just above the 1H/4H bearish OB cluster and bearish FVG top at 0.13525 to lock in gains while targeting the bullish FVG at 0.12947-0.13007.",
+        "entry": "0.13490",
+        "newStop": "0.13530",
+        "newTarget": "0.12947",
+        "addZone": "",
+        "ts": "2026-07-23T20:14:35.955Z"
       }
     ]
   },
