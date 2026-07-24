@@ -1,5 +1,89 @@
 [
   {
+    "id": 1784890652439,
+    "ts": "2026-07-24T10:57:32.439Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "58.376",
+    "nearSupport": "4h bullish OB 57.10–58.446 / 1h bullish OB 57.10–57.639",
+    "nearResistance": "1h bearish FVG 58.776–59.348 / 1h bearish OB cluster 58.635–59.744",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit short on a pullback into the 1h bearish FVG 58.776–59.348 or the 1h bearish OB cluster top at 59.017–59.284, whichever is tagged first, with no bullish CHoCH on 1h before fill",
+    "entry": "59.10",
+    "stop": "59.80",
+    "target1": "58.248",
+    "target2": "57.10",
+    "rr": "2.8R",
+    "liqMagnet": "4h equal lows at 58.2985 / 1h equal lows at 58.248",
+    "rationale": [
+      "1D CHoCH bearish at 66.10 confirmed trend reversal; 4h BOS bearish at 58.269 just printed (brokenAt 1784836800000) with full bearish EMA stack and price below E200 on both 4h and 1h — top-down bias is unambiguously short.",
+      "Price is sitting directly below a dense 1h bearish OB/FVG cluster (58.635–59.744) and a 1h bearish FVG (58.776–59.348); any relief rally into 59.10 fills that imbalance and re-enters supply, providing a high-probability short entry with defined invalidation above the OB top at 59.744.",
+      "Funding at +10.95%/yr is mildly positive (longs paying shorts) but within the neutral band — it does not contradict the structural short bias; OI at $1.3B with -1.35% 24h change suggests longs are being squeezed, supporting downside continuation toward equal-low liquidity pools at 58.298 and 57.10 bullish OB bottom."
+    ],
+    "invalidation": "1h bullish CHoCH above 59.744 (top of bearish OB cluster) closes on the 1h candle, signalling demand absorption and structural shift.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784890652439
+  },
+  {
+    "id": 1784888888030,
+    "ts": "2026-07-24T10:28:08.030Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "58.376",
+    "nearSupport": "4h bullish OB 57.10–58.446 / 1h bullish OB 57.10–57.639",
+    "nearResistance": "1h bearish OB 58.635–59.017 / 4h bearish OB 58.723–60.06",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit short on a pullback into the 1h bearish OB cluster 58.776–59.017 (also overlaps 4h bearish OB bottom at 58.723 and unfilled 1h bearish FVG 58.776–59.348); enter only if price tags that zone and shows no 1h BOS to the upside",
+    "entry": "58.90",
+    "stop": "59.56",
+    "target1": "57.10",
+    "target2": "54.72",
+    "rr": "2.8R",
+    "liqMagnet": "4h equal lows 58.2985 then 1D bullish FVG top 54.716",
+    "rationale": [
+      "1D CHoCH bearish at 66.10, 4h BOS bearish at 58.269 (most recent break), 1h CHoCH bearish at 58.783 — all three timeframes confirm a top-down bearish structure with price below the 4h and 1h EMA stacks; 1D EMA stack is still bullish but price action broke structure, reducing its weight.",
+      "Entry zone 58.776–59.348 is a confluence of three 1h bearish OBs (58.635–59.017, 58.976–59.511, 58.783–59.559) and an unfilled 1h bearish FVG (58.776–59.348), sitting directly inside the 4h bearish OB (58.723–60.06) — a high-density supply cluster for a dead-cat bounce short.",
+      "Funding at +10.95%/yr is mildly positive (within the neutral ±15% band) so it does not contradict the short; OI at $1.3B with -1.35% 24h change signals unwinding longs, consistent with bearish bias; nearest liquidity magnets are 4h equal lows at 58.2985 and the 1D bullish FVG top at 54.716 as extended target."
+    ],
+    "invalidation": "1h candle closes above 59.56 (top of the 1h bearish OB cluster / 4h bearish OB interior), signalling demand absorption and potential structure flip.",
+    "status": "cancelled",
+    "filledAt": null,
+    "mod": 1784890631401,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price has already traded through and below the 58.776–59.017 entry zone without filling the limit (current price 58.398), meaning the zone was never tagged on a pullback — instead price broke down through it directly; the 1h CHoCH bearish at 58.783 confirms structure has shifted lower and a pullback to 58.90 is now unlikely to materialise cleanly, making the original thesis stale and the risk/reward on any re-entry at that level poor.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-24T10:56:43.544Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
+  },
+  {
     "id": 1784881311695,
     "ts": "2026-07-24T08:21:51.695Z",
     "pair": "HYPE/USDT",
@@ -30,9 +114,23 @@
       "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive (longs paying shorts) but sits within the neutral band; it does not contradict the structural short bias, and the $1.3B OI with -0.04% 24h change suggests no aggressive short squeeze pressure — conviction held at medium rather than high."
     ],
     "invalidation": "1h bullish CHoCH above 60.06 (top of the 1h bearish OB cluster) would negate the short setup and signal demand absorption.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784881311695
+    "mod": 1784886089520,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price has already traded through and below the 59.25 entry zone — current price 58.738 is well beneath the limit, the 1h bearish FVG bottom (58.776) has been breached, and the setup's thesis (short on pullback into the OB/FVG) never triggered; chasing it now means entering mid-move with no clean structure reference, so cancel the resting order.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-24T09:41:23.634Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784876257756,
@@ -67,7 +165,9 @@
     "invalidation": "1h candle closes above 76.60 (above the bearish OB top at 76.139 plus one 1h ATR of ~0.43), which would reclaim the supply zone and negate the short thesis.",
     "status": "filled",
     "filledAt": "2026-07-24T08:17:49.570Z",
-    "mod": 1784881069570
+    "mod": 1784895261499,
+    "outcome": "TP1",
+    "r": 1.67
   },
   {
     "id": 1784871762681,
