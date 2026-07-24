@@ -1,5 +1,41 @@
 [
   {
+    "id": 1784871762681,
+    "ts": "2026-07-24T05:42:42.681Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "58.31",
+    "nearSupport": "4h bullish OB 57.10–58.45 / 1D bullish OB 58.45–61.68",
+    "nearResistance": "4h bearish FVG 58.44–58.78 / 4h bearish OB 58.72–60.06",
+    "location": "at support",
+    "verdict": "HOLD",
+    "conviction": "low",
+    "entryType": "limit",
+    "trigger": "HOLD now; re-evaluate SHORT only on a limit entry at 4h bearish OB/FVG cluster 59.11–59.51 with bearish confirmation candle close, OR re-evaluate LONG only if 1D bullish OB 58.45 holds and 1h prints a bullish CHoCH above 58.78",
+    "entry": "N/A",
+    "stop": "N/A",
+    "target1": "N/A",
+    "target2": "N/A",
+    "rr": "N/A",
+    "liqMagnet": "4h equal lows 58.2985 — immediate downside liquidity pool just below current price",
+    "rationale": [
+      "1D/4h directional bias is bearish: 1D printed a CHoCH at 66.10, 4h confirmed a BOS at 58.27 with full bearish EMA stack and price below E200 on both 1h and 4h — structural trend is down across all relevant timeframes.",
+      "Price is sitting directly on the 4h bullish OB (57.10–58.45) and the 1D bullish OB (58.45–61.68) while the 4h equal-lows liquidity pool at 58.2985 sits just below — shorting here means selling into demand with a liquidity sweep risk; longing means fighting the dominant bearish structure with no confirmed reversal signal.",
+      "Funding at +8.13%/yr is mild-neutral and does not contradict the bearish bias, but the $1.3B open interest with -1.33% 24h OI change signals deleveraging rather than a fresh short setup — entering short at current price risks being stopped by a sweep of the 58.2985 equal lows before any continuation, making mid-range entry unfavorable."
+    ],
+    "invalidation": "A confirmed 1h bullish CHoCH above 58.78 with reclaim of the 4h bearish FVG (58.44–58.78) would invalidate the short bias; a clean break and close below 57.10 (4h bullish OB base) would invalidate any long consideration.",
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1784871768944,
+    "deleted": true
+  },
+  {
     "id": 1784851592173,
     "ts": "2026-07-24T00:06:32.173Z",
     "pair": "ETH/USDT",
@@ -30,9 +66,21 @@
       "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive (within neutral band) so longs are slightly crowded but not extreme; OI at $1.9B with -3.09% 24h change signals deleveraging pressure consistent with the short thesis; liquidity magnet at 1h equal lows 1843 (3 touches) and 4h bullish FVG 1779.3–1794.6 provide clear downside draw."
     ],
     "invalidation": "1h candle close above 1913 (above 4h CHoCH level and into 4h bearish FVG top), which would negate the bearish CHoCH structure on both 1h and 4h.",
-    "status": "pending",
-    "filledAt": null,
-    "mod": 1784851592173
+    "status": "filled",
+    "filledAt": "2026-07-24T05:41:01.392Z",
+    "mod": 1784871722947,
+    "updates": [
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "1H bearish BOS confirmed below 1868, price sitting under 1H bearish OB 1874-1888 and daily bearish FVG 1881-1910 — structure favors continuation short but 4H trend is up with bullish EMA stack creating headwind; trail stop to just above 1H bearish OB top at 1889 to lock partial gains while targeting equal lows at 1843 then 1H bullish FVG 1796-1803",
+        "entry": "1879",
+        "newStop": "1889",
+        "newTarget": "1843",
+        "addZone": "",
+        "ts": "2026-07-24T05:42:02.946Z"
+      }
+    ]
   },
   {
     "id": 1784850823140,
@@ -65,9 +113,23 @@
       "Funding at +10.95%/yr is mildly positive (within neutral band) and does not contradict the short; OI at $23M with -2.3% 24h change suggests longs are being unwound, supporting downside continuation toward the 1h equal-lows liquidity pool at 192.67 and the 1D bullish OB lower edge at 189.51."
     ],
     "invalidation": "4h candle close above 196.50 (above the 4h bearish OB top and 1h equal highs cluster at 196.33), which would negate the supply zone and signal a structural shift.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784850823140
+    "mod": 1784871672983,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price is already trading at 193.54, well below the 194.50–194.83 entry zone — the limit sell was never filled and price has since moved through and past the target area, making the original entry both stale and unreachable without a significant retracement that would undermine the short thesis; the setup is dead.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-24T05:41:10.328Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784850704588,
@@ -100,9 +162,23 @@
       "Funding at +10.95%/yr is mildly positive (longs paying shorts) but within the neutral band — it does not contradict the short bias; OI at $19M with -2.54% 24h change and low $3.2M turnover suggests thin, directional selling pressure with no crowded-short squeeze risk to worry about on this trade."
     ],
     "invalidation": "Hourly candle closes above 0.13760 (bearish OB top / above 4h CHoCH origin), signalling demand absorption and structural reclaim — exit immediately.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784850704588
+    "mod": 1784871699607,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price at 0.13345 has already traded through and below the entry zone (0.13444–0.13525) without filling the limit sell, then continued lower — the setup's entry level is now overhead resistance and price has moved away; the original thesis played out but the order was never triggered, making it stale and unreachable at a favourable risk/reward.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-24T05:41:33.067Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784838010355,
