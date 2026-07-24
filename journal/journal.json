@@ -1,5 +1,40 @@
 [
   {
+    "id": 1784881311695,
+    "ts": "2026-07-24T08:21:51.695Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "58.866",
+    "nearSupport": "4h bullish OB 58.269–59.511 / 1D bullish OB 58.45–61.679",
+    "nearResistance": "1h bearish OB cluster 58.976–60.06 / 1h bearish FVG 58.776–59.348",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit short on a pullback into the 1h bearish FVG top at 59.348 or the 1h bearish OB zone 58.976–59.511; enter only if price tags that zone and shows no bullish CHoCH on 1h",
+    "entry": "59.25",
+    "stop": "60.10",
+    "target1": "58.25",
+    "target2": "57.10",
+    "rr": "2.3R",
+    "liqMagnet": "4h equal lows at 58.2985 / 1h equal lows at 58.248 and 58.753",
+    "rationale": [
+      "1D CHoCH bearish at 66.10 confirmed trend reversal; 4h BOS bearish at 58.269 printed most recently — both higher timeframes align bearish with price below EMA stacks on 1h and 4h, confirming top-down directional bias SHORT.",
+      "Price is currently inside the 1h bearish FVG (58.776–59.348) and approaching the dense bearish OB cluster (58.976–60.06 on 1h; 58.723–60.06 on 4h) — a textbook supply zone for a short entry on a minor pullback to 59.25, with the 1h CHoCH at 58.783 already confirming bearish intent.",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive (longs paying shorts) but sits within the neutral band; it does not contradict the structural short bias, and the $1.3B OI with -0.04% 24h change suggests no aggressive short squeeze pressure — conviction held at medium rather than high."
+    ],
+    "invalidation": "1h bullish CHoCH above 60.06 (top of the 1h bearish OB cluster) would negate the short setup and signal demand absorption.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784881311695
+  },
+  {
     "id": 1784876257756,
     "ts": "2026-07-24T06:57:37.756Z",
     "pair": "SOL/USDT",
@@ -30,9 +65,9 @@
       "Funding at +0.00025%/hr (+2.18%/yr) is mild/neutral and does not contradict the structural short bias; OI at $348M with a -2.28% 24h change suggests longs are being unwound, consistent with the bearish structure — no crowded-short squeeze risk to flag."
     ],
     "invalidation": "1h candle closes above 76.60 (above the bearish OB top at 76.139 plus one 1h ATR of ~0.43), which would reclaim the supply zone and negate the short thesis.",
-    "status": "pending",
-    "filledAt": null,
-    "mod": 1784876257757
+    "status": "filled",
+    "filledAt": "2026-07-24T08:17:49.570Z",
+    "mod": 1784881069570
   },
   {
     "id": 1784871762681,
@@ -103,7 +138,7 @@
     "invalidation": "1h candle close above 1913 (above 4h CHoCH level and into 4h bearish FVG top), which would negate the bearish CHoCH structure on both 1h and 4h.",
     "status": "filled",
     "filledAt": "2026-07-24T05:41:01.392Z",
-    "mod": 1784876336504,
+    "mod": 1784881055894,
     "updates": [
       {
         "action": "TRAIL STOP",
@@ -135,7 +170,9 @@
         "addZone": "",
         "ts": "2026-07-24T06:58:56.503Z"
       }
-    ]
+    ],
+    "outcome": "SL",
+    "r": -1
   },
   {
     "id": 1784850823140,
