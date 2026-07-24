@@ -1,5 +1,40 @@
 [
   {
+    "id": 1784876257756,
+    "ts": "2026-07-24T06:57:37.756Z",
+    "pair": "SOL/USDT",
+    "symbol": "SOL",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "75.759",
+    "nearSupport": "1D bullish OB top 75.696 / 4h bullish FVG 75.138–75.300",
+    "nearResistance": "1h bearish OB 75.677–76.139 / 1D bearish FVG 76.068–76.970",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell into the 1h bearish OB 75.677–76.139 zone; enter on any intrabar rejection or bearish 1h close within that range confirming supply",
+    "entry": "76.00",
+    "stop": "76.60",
+    "target1": "74.999",
+    "target2": "74.059",
+    "rr": "2.7R",
+    "liqMagnet": "4h equalLows cluster 75.372–75.544 then 1D BOS level 74.059",
+    "rationale": [
+      "Top-down bias is bearish: 1D trend=down with a confirmed bearish BOS at 74.059, EMA stack bearish, price below E200; 1h trend=down with a fresh bearish BOS at 75.369 — the 4h CHoCH bullish at 78.547 is a counter-trend blip that has already faded as price sits 3.7% below that break level.",
+      "Price is currently trading into the 1h bearish OB (75.677–76.139) and directly below the 1D bearish FVG (76.068–76.970) and 1h bearish FVG (76.413–76.519), stacking supply confluence at the 76.00 limit entry; the 1h equal-highs liquidity pool at 75.616 just below current price has already been swept, removing the nearby long magnet.",
+      "Funding at +0.00025%/hr (+2.18%/yr) is mild/neutral and does not contradict the structural short bias; OI at $348M with a -2.28% 24h change suggests longs are being unwound, consistent with the bearish structure — no crowded-short squeeze risk to flag."
+    ],
+    "invalidation": "1h candle closes above 76.60 (above the bearish OB top at 76.139 plus one 1h ATR of ~0.43), which would reclaim the supply zone and negate the short thesis.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784876257757
+  },
+  {
     "id": 1784871762681,
     "ts": "2026-07-24T05:42:42.681Z",
     "pair": "HYPE/USDT",
@@ -68,7 +103,7 @@
     "invalidation": "1h candle close above 1913 (above 4h CHoCH level and into 4h bearish FVG top), which would negate the bearish CHoCH structure on both 1h and 4h.",
     "status": "filled",
     "filledAt": "2026-07-24T05:41:01.392Z",
-    "mod": 1784873796950,
+    "mod": 1784876336504,
     "updates": [
       {
         "action": "TRAIL STOP",
@@ -89,6 +124,16 @@
         "newTarget": "1843",
         "addZone": "",
         "ts": "2026-07-24T06:16:36.949Z"
+      },
+      {
+        "action": "EXIT",
+        "bias": "more upside",
+        "note": "Price at 1886.8 is above entry 1879 and sitting inside a 1H bullish OB (1868.1–1882.8) and a daily bearish FVG (1887.1–1910.4) that could act as support; 4H trend is up with bullish EMA stack, daily trend is up, price is above E200 on 1H/4H — multi-TF structure is fighting the short thesis and stop at 1913 is dangerously close to dense bearish OB cluster above, risk/reward has collapsed.",
+        "entry": "1879",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-24T06:58:56.503Z"
       }
     ]
   },
