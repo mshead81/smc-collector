@@ -1,5 +1,54 @@
 [
   {
+    "id": 1785002483266,
+    "ts": "2026-07-25T18:01:23.266Z",
+    "pair": "AVAX/USDT",
+    "symbol": "AVAX",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "6.673",
+    "nearSupport": "4h bullish OB top 6.2555–6.2771 / 1h bullish OB 6.2353–6.2633",
+    "nearResistance": "4h bearish OB 6.6021–6.6847 / 1h bearish OB 6.5752–6.728",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell into the 4h bearish OB zone 6.6493–6.6847; entry valid while price trades within or tags that supply block without a 4h close above 6.728",
+    "entry": "6.6493",
+    "stop": "6.755",
+    "target1": "6.385",
+    "target2": "6.203",
+    "rr": "2.5R",
+    "liqMagnet": "4h equalLows at 6.3850 and 1h CHoCH level 6.2771",
+    "rationale": [
+      "1D + 4h structural bias is bearish: 1D printed a bearish CHoCH at 6.3147 with full bearish EMA stack and price below E200; 4h confirmed a bearish BOS at 6.1987 with bearish EMA stack — top-down bias is unambiguously short.",
+      "Price is currently trading directly inside the 4h bearish OB (6.6021–6.6847) and the 1h bearish OB (6.5752–6.728), which is a textbook supply zone confluence; the 1h CHoCH bullish at 6.2771 is a counter-trend bounce into resistance, not a structural reversal on higher timeframes.",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly elevated but within the neutral band; it does not contradict the short bias but confirms longs are slightly crowded at this resistance, adding marginal squeeze risk to any long — consistent with fading the move here."
+    ],
+    "invalidation": "4h candle close above 6.755 (above the 1h bearish OB high of 6.728 with buffer), which would negate the supply zone and suggest a structural shift toward the 4h equalHighs at 6.8118.",
+    "status": "cancelled",
+    "filledAt": null,
+    "mod": 1785002611951,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more upside",
+        "note": "Price is trading at 6.6894, already above the entry of 6.6493 and inside the bearish OB zone, but the 1h trend has flipped bullish with a CHoCH, the 1h EMA stack is mixed, price is pushing toward the 1h equal highs at 6.6508 and beyond — the supply zone is being consumed from below rather than rejected from above, and a limit sell at 6.6493 would now be filled into rising price with structure working against the short thesis; cancel the order.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-25T18:03:30.140Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
+  },
+  {
     "id": 1784971598393,
     "ts": "2026-07-25T09:26:38.393Z",
     "pair": "HYPE/USDT",
@@ -32,7 +81,9 @@
     "invalidation": "Price closes a 1h candle above 58.10 (above the 1h bearish OB top at 57.98 and 4h FVG top at 58.027), reclaiming supply and negating the bearish BOS sequence.",
     "status": "filled",
     "filledAt": "2026-07-25T10:17:14.091Z",
-    "mod": 1784974634091
+    "mod": 1785002427366,
+    "outcome": "SL",
+    "r": -1
   },
   {
     "id": 1784971573616,
@@ -103,7 +154,9 @@
     "invalidation": "1h candle close above 6.3207 (top of 1h bearish OB cluster) invalidates the short — price would be reclaiming supply and threatening the 1D CHoCH level at 6.3147.",
     "status": "filled",
     "filledAt": "2026-07-25T11:57:55.831Z",
-    "mod": 1784980675831
+    "mod": 1785002428465,
+    "outcome": "SL",
+    "r": -1
   },
   {
     "id": 1784964163422,
