@@ -1,5 +1,41 @@
 [
   {
+    "id": 1784964163422,
+    "ts": "2026-07-25T07:22:43.422Z",
+    "pair": "AVAX/USDT",
+    "symbol": "AVAX",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "6.2463",
+    "nearSupport": "4h bullish OB 6.1366–6.2555 / 1h bullish OB 6.1366–6.2167",
+    "nearResistance": "4h bearish OB 6.2238–6.3105 / 1h bearish OB 6.2764–6.3207",
+    "location": "at support",
+    "verdict": "HOLD",
+    "conviction": "low",
+    "entryType": "limit",
+    "trigger": "Do NOT short into the 4h/1h bullish OB cluster (6.1366–6.2555) without a confirmed BOS below 6.1366; do NOT long against stacked bearish structure. Wait for price to either (a) break and close below 6.1366 on 1h then retest from below for a short entry, or (b) reclaim and close above the 4h bearish OB base at 6.2764 with momentum for a counter-trend scalp — neither condition is met now.",
+    "entry": "6.1300 limit-short on confirmed 1h close below 6.1366 and retest, OR pass",
+    "stop": "6.2600 (above 4h bullish OB top and 1h bearish OB cluster, ~2.1% / ~1.4× 4h ATR)",
+    "target1": "5.9628 (4h equal-lows liquidity pool)",
+    "target2": "5.8500 (next structural void below 4h equal-lows)",
+    "rr": "2.5R",
+    "liqMagnet": "4h equal-lows at 5.9628",
+    "rationale": [
+      "1D/4h/1h all show bearish trend, bearish EMA stack, price below EMA-200, and recent bearish BOS/CHoCH — directional bias is unambiguously short across all timeframes.",
+      "Current price (6.2463) sits inside the 4h bullish demand OB (6.1987–6.4466) and the 1h bullish OB (6.1366–6.2167 top at 6.2167 is just below); shorting here without a structural break below 6.1366 means selling into demand — a rule violation; the nearest short trigger is a confirmed 1h close below 6.1366 to invalidate the demand block.",
+      "Funding at -8.45%/yr is mildly negative (shorts slightly crowded) but within the neutral band, so it does not override structure; however it does reduce urgency to chase a short entry, supporting HOLD until the demand zone is decisively broken."
+    ],
+    "invalidation": "Any 1h close back above 6.3207 (top of 1h bearish OB cluster) would negate the short setup and signal demand absorption.",
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1784964170141,
+    "deleted": true
+  },
+  {
     "id": 1784961224173,
     "ts": "2026-07-25T06:33:44.173Z",
     "pair": "AVAX/USDT",
@@ -30,9 +66,23 @@
       "Funding at -0.0012%/hr (-10.5%/yr) is mildly negative (shorts slightly crowded) but within the neutral band (-15% to +15%/yr), so it does not override the structural short bias; equal lows at 6.2031 and 6.2313 are the nearest liquidity magnets and align with the 1h bullish FVG (6.2048–6.2093) as a natural draw for price"
     ],
     "invalidation": "1h close above 6.3350 (above all confluent bearish OBs and the 1D FVG bottom at 6.3133) negates the supply zone and invalidates the short",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1784961224173
+    "mod": 1784964774709,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price is already at 6.2455, well below the 6.28–6.31 entry zone — the limit sell was never filled and price has since moved ~80 pips through and past the target area; the supply zone was never tested and the move has already played out without the order triggering, making the setup stale and the entry unreachable at a favourable risk/reward.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-25T07:21:14.952Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1784939639677,
