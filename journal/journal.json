@@ -1,5 +1,40 @@
 [
   {
+    "id": 1784938676118,
+    "ts": "2026-07-25T00:17:56.118Z",
+    "pair": "WIF/USDT",
+    "symbol": "WIF",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.14418",
+    "nearSupport": "4h bullish OB 0.14066–0.14327 / 1h bullish OB 0.14066–0.14311",
+    "nearResistance": "4h bearish OB 0.14407–0.14655 / 1h bearish OB 0.14390–0.14616",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell into the 1h bearish OB top at 0.14616 (overlap with 4h bearish OB 0.14407–0.14655); wait for price to wick into 0.14509–0.14616 and show rejection before fill",
+    "entry": "0.14560",
+    "stop": "0.14780",
+    "target1": "0.14167",
+    "target2": "0.13705",
+    "rr": "2.6R",
+    "liqMagnet": "4h equal lows at 0.13705 (2 touches, resting sell-side liquidity)",
+    "rationale": [
+      "1D/4h/1h all show bearish trend, bearish EMA stack, price below E200, and recent bearish BOS/CHoCH confirms downtrend continuation — top-down bias is unambiguously short.",
+      "Current price 0.14418 sits directly inside the 4h bearish OB (0.14407–0.14655) and 1h bearish OB (0.14390–0.14616), which are supply zones; the 4h unfilled bearish FVG (0.14626–0.14763) sits just above as additional resistance, making this a confluence short zone with no confirmed break above.",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive but within the neutral band; it does not contradict the short bias, though it slightly elevates long-squeeze risk on any further dip — net effect is neutral on conviction; 4h equal lows at 0.13705 are the primary liquidity magnet below."
+    ],
+    "invalidation": "4h candle close above 0.14780 (above the 4h bearish OB top at 0.14655 plus one 1h ATR buffer of ~0.0012), which would signal demand absorption and structural shift.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1784938676118
+  },
+  {
     "id": 1784901876525,
     "ts": "2026-07-24T14:04:36.525Z",
     "pair": "HYPE/USDT",
@@ -32,7 +67,7 @@
     "invalidation": "Close above 59.76 (top of the 1h bearish OB cluster / above the CHoCH origin) would negate the short setup and signal a structural reclaim.",
     "status": "filled",
     "filledAt": "2026-07-24T16:55:10.289Z",
-    "mod": 1784925225828,
+    "mod": 1784938651118,
     "updates": [
       {
         "action": "TRAIL STOP",
@@ -74,7 +109,9 @@
         "addZone": "",
         "ts": "2026-07-24T20:33:45.827Z"
       }
-    ]
+    ],
+    "outcome": "TP1",
+    "r": 2.09
   },
   {
     "id": 1784901848095,
