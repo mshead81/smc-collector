@@ -1,5 +1,54 @@
 [
   {
+    "id": 1785092107934,
+    "ts": "2026-07-26T18:55:07.934Z",
+    "pair": "TAO/USDT",
+    "symbol": "TAO",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "197.43",
+    "nearSupport": "4h bullish OB 191.95–195.20 (also 1h bullish OB 195.85–197.03)",
+    "nearResistance": "4h bearish OB 198.69–201.08 / 1h bearish OB 197.33–199.51",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit short at 198.69 (bottom edge of 4h bearish OB 198.69–201.08), confirmed by 1h bearish OB 197.33–199.51 overhead; do not enter unless price tags that zone without a 1h close above 201.08",
+    "entry": "198.69",
+    "stop": "201.50",
+    "target1": "195.17",
+    "target2": "192.88",
+    "rr": "2.6R",
+    "liqMagnet": "192.88 (4h equal lows resting liquidity)",
+    "rationale": [
+      "Top-down bias is bearish: 1D trend is down with a confirmed bearish BOS at 188.68, EMA stack bearish, price below E200; 4h EMA stack also bearish and price below E200 despite a minor bullish CHoCH at 192.39 — that CHoCH is a counter-trend bounce, not a structural reversal.",
+      "Price is currently trading directly into confluent resistance: the 4h bearish OB (198.69–201.08) stacks with the 1h bearish OB (197.33–199.51) and the 1h equal highs liquidity pool at 199.94 — a classic SMC sell-side distribution zone; the 1h CHoCH at 195.85 already confirmed bearish intent on the lower timeframe.",
+      "Funding at +10.95%/yr is mildly positive (longs paying), sitting just at the neutral boundary — not a strong contrarian signal but marginally supportive of fading the long side; open interest at $27M with a 3.31% 24h OI increase suggests fresh longs being added into resistance, raising squeeze risk to the downside."
+    ],
+    "invalidation": "1h close above 201.08 (top of 4h bearish OB) negates the short thesis and signals continuation toward 4h equal highs at 201.905",
+    "status": "cancelled",
+    "filledAt": null,
+    "mod": 1785095390184,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more upside",
+        "note": "Price never reached 198.69 and has since pulled back to 197.94 — the entry zone is now overhead resistance rather than an imminent tag; the 4h CHoCH just flipped bullish at 192.39 and the 1h trend is down but price is sitting in bullish OBs/FVGs below the entry, making a clean re-tag of 198.69 unlikely before the setup goes stale; cancel and reassess if price reclaims and consolidates near the 4h bearish OB again.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-26T19:49:23.374Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
+  },
+  {
     "id": 1785089564174,
     "ts": "2026-07-26T18:12:44.174Z",
     "pair": "XRP/USDT",
@@ -32,7 +81,19 @@
     "invalidation": "1H candle closes below 1.0860, invalidating the 4H bullish OB and signaling potential retest of 4H equal lows at 1.0693",
     "status": "watch",
     "filledAt": null,
-    "mod": 1785089564174
+    "mod": 1785095411914,
+    "updates": [
+      {
+        "action": "WAIT",
+        "bias": "more upside",
+        "note": "Price at 1.1014 is sitting AT the top of the 1H OB (1.0972–1.1004) and above the 4H FVG (1.0909–1.0970), never pulling back INTO the overlap zone; the 1H CHoCH at 1.1024 fired above current price so no confirmed demand-absorption candle from within the trigger zone has printed — trigger condition unmet, wait for a dip back into 1.0970–1.1004 with a bullish confirmation candle.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "1.0970–1.1004 (1H OB / 4H FVG overlap re-test zone)",
+        "ts": "2026-07-26T19:50:11.913Z"
+      }
+    ]
   },
   {
     "id": 1785085745409,
@@ -202,7 +263,19 @@
     "invalidation": "Price closes a 4h candle above 47.824 (top of 1D bearish OB) without a pullback — entry opportunity is lost; or price breaks below 45.90 (4h bearish BOS swing), invalidating the bullish thesis entirely.",
     "status": "watch",
     "filledAt": null,
-    "mod": 1785052992089
+    "mod": 1785095432292,
+    "updates": [
+      {
+        "action": "WAIT",
+        "bias": "more upside",
+        "note": "Price at 47.889 never pulled back to the 46.162–46.628 confluence trigger zone; original setup condition unmet and price has run ~1.3 ATR above it — wait for a fresh pullback or reassess if price sweeps equal highs at 47.857/47.694 and rejects back into the 4h bearish OB 46.507–47.603 before re-evaluating entry.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "Watch 47.061–47.292 (1h bullish FVG + prior CHoCH level) as nearest support if price dips; deeper re-entry zone still 46.162–46.628 if price corrects",
+        "ts": "2026-07-26T19:50:32.291Z"
+      }
+    ]
   },
   {
     "id": 1785044272178,
