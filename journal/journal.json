@@ -100,9 +100,23 @@
       "Funding at +0.00125%/hr (+10.95%/yr) is mildly elevated but within neutral bounds; it does not contradict the short bias but confirms longs are slightly crowded, adding marginal squeeze risk to the upside and supporting a fade of this resistance zone rather than chasing longs."
     ],
     "invalidation": "1h close above 75.676 (top of 1h bearish FVG) and reclaim of 4h bearish OB base at 75.559 would negate the short setup.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1785044187263
+    "mod": 1785057704032,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more upside",
+        "note": "Price never reached 75.30 and is now trading at 75.044 — it has moved away from the entry zone, not toward it; the 1h printed a bullish BOS at 74.921 flipping short-term structure bullish, and the 4h bearish FVG entry zone (75.25–75.559) is now above current price with no clear catalyst to push back up to it, making the limit fill increasingly unlikely and the thesis stale after 4h of non-engagement.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-26T09:21:23.117Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1785044075587,
@@ -135,9 +149,23 @@
       "Funding at +10.95%/yr is mildly positive (within neutral band) so it does not strongly contradict the short, but longs are slightly crowded — this marginally supports a short squeeze toward equal lows at 0.08528/0.08506 and the 1D bullish FVG base at 0.08125 as sequential targets; OI -2.58% 24h shows some deleveraging already underway."
     ],
     "invalidation": "Hourly candle closes above 0.08730 (above the full 1h bearish OB and reclaims the 4h CHoCH break level), signalling demand absorption of supply and structural flip.",
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1785044075587
+    "mod": 1785057699411,
+    "updates": [
+      {
+        "action": "CANCEL",
+        "bias": "more downside",
+        "note": "Price is now at 0.08503, already ~1.4% below your 0.08620 entry and trading through your T1 zone — the setup ran without you, the 1h bearish OB cluster has been left far above current price, and after 4h unfilled this intraday limit is stale; no edge in chasing it up now.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-26T09:21:36.579Z"
+      }
+    ],
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1785043866787,
@@ -279,7 +307,21 @@
     "invalidation": "Hourly candle closes below 0.70180 (beneath both the 1h bullish FVG bottom 0.70786 and the 4h OB base 0.70701), negating the CHoCH structure and demand confluence.",
     "status": "filled",
     "filledAt": "2026-07-26T03:44:30.759Z",
-    "mod": 1785037470759
+    "mod": 1785058215038,
+    "updates": [
+      {
+        "action": "SCALE OUT",
+        "bias": "more upside",
+        "note": "Price tagged 1H BOS at 0.71716 and sits inside a dense cluster of bearish OBs/FVGs (0.71863–0.72926) on 1H and a large bearish 4H FVG capping from 0.71762–0.72926; T1 at 0.72719 aligns with the bottom of the 1H bearish FVG — take partial profit here, move stop to breakeven (0.71100), and let remainder run toward T2 0.74106 only if price clears 0.72926 with conviction; 4H trend remains bearish and EMA stack is bearish across all TFs so full position carry is high risk.",
+        "entry": "0.71100",
+        "newStop": "0.71100",
+        "newTarget": "0.74106",
+        "addZone": "",
+        "ts": "2026-07-26T09:23:04.892Z"
+      }
+    ],
+    "outcome": "TP1",
+    "r": 1.76
   },
   {
     "id": 1785004021316,
