@@ -1,5 +1,64 @@
 [
   {
+    "id": 1785192796539,
+    "ts": "2026-07-27T22:53:16.539Z",
+    "pair": "BTC/USDT",
+    "symbol": "BTC",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "63984",
+    "nearSupport": "4h bullish OB top 63730 / 1h equal lows 63733",
+    "nearResistance": "1h bearish FVG 64788–64865 / 4h bearish OB 64599–65561",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Price retraces into 1h bearish FVG 64788–64865 (also confluent with 4h bearish OB bottom 64599) — enter short on limit at 64800, confirming rejection from that supply zone",
+    "entry": "64800",
+    "stop": "65562",
+    "target1": "63733",
+    "target2": "63206",
+    "rr": "2.3R",
+    "liqMagnet": "4h equal lows 63206 (2 touches, resting sell-side liquidity)",
+    "rationale": [
+      "1D/4h directional bias is bearish: 4h printed a confirmed BOS bearish at 64637, 1D EMA stack is bearish and price is below E200 on 1h — multi-timeframe structure favors downside continuation",
+      "Entry at 64800 sits inside the 1h bearish FVG (64788–64865) and the 4h bearish OB cluster (64599–65561), providing a high-probability supply zone for a short; stop at 65562 clears the 4h bearish OB top and the 1h CHoCH level at 64866, invalidating the setup only on a full reclaim",
+      "Funding at -0.00038%/hr (-3.29%/yr) is mildly negative (within neutral band), so short-side crowding is not a concern; OI down -2.14% in 24h signals deleveraging consistent with bearish price action, not a squeeze setup"
+    ],
+    "invalidation": "4h candle close above 65562 (top of 4h bearish OB), which would reclaim the supply zone and negate the bearish BOS structure",
+    "horizon": {
+      "label": "multi-session",
+      "t1Atr1": 3.1,
+      "t2Atr4": 2.8,
+      "t2Pct": 2.46
+    },
+    "regime": {
+      "regime": "transitional",
+      "confidence": 100,
+      "why": [
+        "volatility expanding"
+      ]
+    },
+    "setup": {
+      "score": 47,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 11,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785192796539
+  },
+  {
     "id": 1785192762545,
     "ts": "2026-07-27T22:52:42.545Z",
     "pair": "ONDO/USDT",
