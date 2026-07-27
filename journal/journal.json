@@ -1,5 +1,75 @@
 [
   {
+    "id": 1785134779647,
+    "ts": "2026-07-27T06:46:19.647Z",
+    "pair": "BNB/USDT",
+    "symbol": "BNB",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "575.23",
+    "nearSupport": "4h bullish OB top 569.99 / 1D bullish OB top 574.54",
+    "nearResistance": "4h bearish OB 574.60–579.68 / 1h bearish OB 573.75–576.43",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell into 4h bearish OB 574.60–576.43 confluence zone; enter on any 1h bearish reaction candle (bearish engulf or CHoCH) confirming rejection from this supply cluster",
+    "entry": "575.80",
+    "stop": "580.10",
+    "target1": "567.98",
+    "target2": "562.40",
+    "rr": "2.9R",
+    "liqMagnet": "4h equalLows 567.9775 and 1D equalLows 562.395",
+    "rationale": [
+      "1D: full bearish alignment — trend down, BOS bearish at 562.71, EMA stack bearish, price below E200, and multiple unfilled bearish FVGs overhead (612–703); price is inside the 1D bearish OB 567.81–593.30, confirming macro supply pressure.",
+      "4h: trend down with bearish BOS at 563.31; price is currently trading directly inside the 4h bearish OB 569.19–574.60 upper edge and approaching the 574.60–579.68 supply block — a textbook distribution zone with equal highs at 572.19 acting as liquidity already swept, next draw is equal lows at 567.98 and 562.40.",
+      "1h: bearish CHoCH confirmed at 572.13; price is sandwiched between the 1h bearish OBs (573.75–576.43) above and a stack of unfilled bullish FVGs (562–574) below acting as draw targets; funding at +10.95%/yr is mildly elevated (longs paying) which slightly supports the short but is near-neutral — no conviction override needed."
+    ],
+    "invalidation": "4h candle close above 580.10 (through the top of the 4h bearish OB 579.68 + buffer), which would negate the supply zone and signal a structural shift toward the 4h equal highs at 584.87.",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785134779647
+  },
+  {
+    "id": 1785134602902,
+    "ts": "2026-07-27T06:43:22.902Z",
+    "pair": "XRP/USDT",
+    "symbol": "XRP",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "1.1107",
+    "nearSupport": "1h bullish OB top 1.1096 / 4h bullish OB top 1.1039",
+    "nearResistance": "4h bearish OB top 1.1209 / 1h equal highs 1.1207",
+    "location": "mid-range",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy on pullback into 1h bullish FVG 1.1091–1.1096 / bullish OB cluster 1.1018–1.1096, confirming price holds above 1.1063 BOS level",
+    "entry": "1.1093",
+    "stop": "1.0980",
+    "target1": "1.1207",
+    "target2": "1.1309",
+    "rr": "2.5R",
+    "liqMagnet": "1h equal highs 1.1207 (3-touch pool) and 4h equal highs 1.1207",
+    "rationale": [
+      "1D and 4h both show bullish BOS (1D broke 1.1297, 4h broke 1.1074) confirming higher-timeframe directional bias long; 1h also printed bullish BOS at 1.1063, all three timeframes aligned up in trend direction",
+      "Entry targets the 1h bullish FVG (1.1091–1.1096) nested inside the 1h bullish OB (1.1018–1.1096), a confluence demand zone sitting just above the 1h BOS invalidation at 1.1063; stop placed below the 4h bullish OB bottom at 1.0980 (distance ~1.13%, within 1h ATR 0.39% × 3 buffer)",
+      "Funding at +10.95%/yr annualized is mild-positive (within neutral band), OI $88M with +1.17% 24h change shows modest positioning growth — not a crowded extreme; liquidity magnet at 1h/4h equal highs cluster 1.1207 provides a clean T1, with unfilled 4h bearish FVG 1.1124–1.1309 as T2 draw"
+    ],
+    "invalidation": "1h candle close below 1.0980 (below 4h bullish OB bottom and 1h BOS origin) negates the demand structure and bullish BOS sequence",
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785134602902
+  },
+  {
     "id": 1785133411358,
     "ts": "2026-07-27T06:23:31.358Z",
     "pair": "AVAX/USDT",
@@ -32,7 +102,19 @@
     "invalidation": "1h candle close above 6.8145 (top of bearish OB cluster) without a prior pullback to the demand zone would invalidate the limit entry thesis; alternatively, a 4h close below 6.595 breaks the bullish OB and negates the long setup entirely.",
     "status": "watch",
     "filledAt": null,
-    "mod": 1785133411358
+    "mod": 1785134577608,
+    "updates": [
+      {
+        "action": "WAIT",
+        "bias": "more upside",
+        "note": "Price at 6.7105 is trading above the 6.648–6.674 confluent OB zone, not inside it — no pullback has occurred and no 15m bullish engulf/CHoCH confirmation from within the zone has fired; trigger condition unmet, original setup still valid but patience required.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "Watch for pullback into 6.648–6.674 with 15m reaction confirmation before entry",
+        "ts": "2026-07-27T06:42:57.607Z"
+      }
+    ]
   },
   {
     "id": 1785092107934,
