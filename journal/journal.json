@@ -30,9 +30,31 @@
       "1h: bearish CHoCH confirmed at 572.13; price is sandwiched between the 1h bearish OBs (573.75–576.43) above and a stack of unfilled bullish FVGs (562–574) below acting as draw targets; funding at +10.95%/yr is mildly elevated (longs paying) which slightly supports the short but is near-neutral — no conviction override needed."
     ],
     "invalidation": "4h candle close above 580.10 (through the top of the 4h bearish OB 579.68 + buffer), which would negate the supply zone and signal a structural shift toward the 4h equal highs at 584.87.",
-    "status": "pending",
-    "filledAt": null,
-    "mod": 1785134779647
+    "status": "filled",
+    "filledAt": "2026-07-27T07:39:46.036Z",
+    "mod": 1785138138627,
+    "updates": [
+      {
+        "action": "KEEP WAITING",
+        "bias": "more downside",
+        "note": "Price is sitting at 574.75, just below the original entry of 575.80 and still inside the 4h bearish OB (576.15–579.68); the limit sell at 575.80 remains reachable on any minor bounce, structure is intact (4h BOS bearish, 1D bearish, no close above 580.10), and the 1h bearish OB cluster 573.75–576.43 is actively capping price — order is still live and valid.",
+        "entry": "",
+        "newStop": "",
+        "newTarget": "",
+        "addZone": "",
+        "ts": "2026-07-27T07:39:33.225Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "4H BOS bearish confirmed, daily EMA stack bearish, price sitting inside 4H bearish OB (574.6–569.19) with T1 at 567.98 still viable — tighten stop to just above 4H bearish OB top and 1H bearish FVG bottom at 580.00",
+        "entry": "575.80",
+        "newStop": "578.30",
+        "newTarget": "562.40",
+        "addZone": "",
+        "ts": "2026-07-27T07:42:18.626Z"
+      }
+    ]
   },
   {
     "id": 1785134602902,
@@ -65,9 +87,21 @@
       "Funding at +10.95%/yr annualized is mild-positive (within neutral band), OI $88M with +1.17% 24h change shows modest positioning growth — not a crowded extreme; liquidity magnet at 1h/4h equal highs cluster 1.1207 provides a clean T1, with unfilled 4h bearish FVG 1.1124–1.1309 as T2 draw"
     ],
     "invalidation": "1h candle close below 1.0980 (below 4h bullish OB bottom and 1h BOS origin) negates the demand structure and bullish BOS sequence",
-    "status": "pending",
-    "filledAt": null,
-    "mod": 1785134602902
+    "status": "filled",
+    "filledAt": "2026-07-27T07:39:53.436Z",
+    "mod": 1785138001416,
+    "updates": [
+      {
+        "action": "TRAIL STOP",
+        "bias": "more upside",
+        "note": "1H BOS confirmed bullish above 1.1063 and price holding above entry; 4H bearish OB cluster 1.1057–1.1209 and daily bearish FVG 1.1209–1.1282 cap upside near T1-T2, so lock in partial protection by trailing stop up to just below the 1H bullish OB top at 1.1018 — preserves profit if price fades back into the OB cluster while keeping room to run toward T1 1.1207 where equal highs liquidity sits.",
+        "entry": "1.1093",
+        "newStop": "1.1018",
+        "newTarget": "1.1207",
+        "addZone": "",
+        "ts": "2026-07-27T07:40:01.416Z"
+      }
+    ]
   },
   {
     "id": 1785133411358,
@@ -608,7 +642,7 @@
     "invalidation": "1h bullish CHoCH or clean close above 0.15620 (above 4h bearish OB top and 1D bearish OB mid), which would signal demand absorption and negate the supply zone thesis.",
     "status": "filled",
     "filledAt": "2026-07-26T03:44:21.583Z",
-    "mod": 1785037463288,
+    "mod": 1785138417204,
     "outcome": "SL",
     "r": -1
   },
