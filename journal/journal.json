@@ -1,5 +1,121 @@
 [
   {
+    "id": 1785177589993,
+    "ts": "2026-07-27T18:39:49.993Z",
+    "pair": "ENA/USDT",
+    "symbol": "ENA",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.087533",
+    "nearSupport": "4h bullish OB top 0.08714 / bottom 0.085531",
+    "nearResistance": "1D bearish OB top 0.092939 / bottom 0.08609 (upper bound 0.092939); 1h equal highs liquidity at 0.091078",
+    "location": "mid-range",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy on pullback into 4h bullish OB / confluence with 4h unfilled bullish FVG (0.08645–0.088496 bottom at 0.08645), targeting a touch of 0.08650–0.08714 zone",
+    "entry": "0.08680",
+    "stop": "0.08490",
+    "target1": "0.09080",
+    "target2": "0.09270",
+    "rr": "2.6R",
+    "liqMagnet": "1h equal highs at 0.091078 (4 touches)",
+    "rationale": [
+      "1D and 4h both show bullish CHoCH (1D broke 0.086355, 4h broke 0.086414) with uptrend structure intact; 4h and 1h EMA stacks bullish and price above E200 on both — directional bias is long.",
+      "Entry at 0.08680 sits inside the 4h bullish OB (0.085531–0.08714) and overlaps the bottom of the 4h unfilled bullish FVG (0.08645–0.088496), providing a high-confluence demand zone; stop at 0.08490 is below the OB bottom and the 1h CHoCH bearish break level, beyond structural invalidation.",
+      "1h bearish CHoCH at 0.089102 is a short-term headwind but 4h/1D structure dominates; funding at +10.95%/yr annualised is mild/neutral (within ±15% band) and does not materially crowd the long; liquidity magnet of 4x equal highs at 0.091078 provides a clear T1 draw, with 1D bearish OB bottom at 0.08609 already broken upward leaving 0.09270 as T2."
+    ],
+    "invalidation": "4h candle close below 0.08490 (below the 4h bullish OB and 1h CHoCH origin) negates the demand thesis and signals resumption of downside toward 0.08209 FVG.",
+    "horizon": {
+      "label": "multi-session",
+      "t1Atr1": 2.8,
+      "t2Atr4": 2.8,
+      "t2Pct": 6.8
+    },
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 67,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bullish OB",
+        "target liq above"
+      ],
+      "tf": "4h",
+      "rank": 2,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785177589994
+  },
+  {
+    "id": 1785177433934,
+    "ts": "2026-07-27T18:37:13.934Z",
+    "pair": "FARTCOIN/USDT",
+    "symbol": "FARTCOIN",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.12854",
+    "nearSupport": "4h bullish OB 0.12735–0.12970 / 1D bullish FVG 0.12595–0.12679",
+    "nearResistance": "1h bearish OB 0.12904–0.13223 / 4h bearish FVG 0.13024–0.13119",
+    "location": "mid-range",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell at 0.13050 on a pullback into the 4h bearish FVG (0.13024–0.13119) and 1h bearish OB (0.12904–0.13223) confluence, which aligns with the 1h CHoCH bearish break level at 0.13119",
+    "entry": "0.13050",
+    "stop": "0.13230",
+    "target1": "0.12717",
+    "target2": "0.12595",
+    "rr": "2.4R",
+    "liqMagnet": "1h/4h equal lows at 0.12717",
+    "rationale": [
+      "1D structure is bearish (BOS bearish at 0.12711, EMA stack bearish, price below E200) and 1h confirmed a bearish CHoCH at 0.13119 — both higher timeframes align short; the 4h bullish CHoCH is a counter-trend noise signal against the dominant daily BOS.",
+      "Entry at 0.13050 sits inside the 4h bearish FVG (0.13024–0.13119) and 1h bearish OB (0.12904–0.13223) supply confluence, providing a high-probability distribution zone; stop at 0.13230 clears the 1h bearish OB top and the 1h bullish OB top at 0.13229, invalidating the short structure.",
+      "Funding at +10.95%/yr is mildly positive (within neutral band) and does not materially contradict the short bias; equal lows at 0.12717 (1h/4h) act as the primary liquidity magnet and T1, with the 1D bullish FVG bottom at 0.12595 as T2, giving ~2.4R on a 180-pip risk."
+    ],
+    "invalidation": "Price closes a 1h candle above 0.13230 (above the 1h bearish OB top and 1h bullish OB at 0.13229), signalling demand absorption and structural flip back to bullish.",
+    "horizon": {
+      "label": "intraday",
+      "t1Atr1": 1.8,
+      "t2Atr4": 1.4,
+      "t2Pct": 3.49
+    },
+    "regime": {
+      "regime": "transitional",
+      "confidence": 0,
+      "why": []
+    },
+    "setup": {
+      "score": 70,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 2,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785177433934
+  },
+  {
     "id": 1785163810097,
     "ts": "2026-07-27T14:50:10.097Z",
     "pair": "FARTCOIN/USDT",
