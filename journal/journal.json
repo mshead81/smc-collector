@@ -46,7 +46,7 @@
     },
     "status": "filled",
     "filledAt": "2026-07-27T10:40:30.086Z",
-    "mod": 1785149430068,
+    "mod": 1785149816887,
     "updates": [
       {
         "action": "SCALE OUT",
@@ -56,7 +56,9 @@
         "newStop": "6.6200",
         "newTarget": "6.8118",
         "addZone": "",
-        "ts": "2026-07-27T10:50:30.066Z"
+        "ts": "2026-07-27T10:50:30.066Z",
+        "moved": false,
+        "stopUsed": null
       }
     ]
   },
@@ -166,7 +168,7 @@
     "invalidation": "1h candle close below 1.0980 (below 4h bullish OB bottom and 1h BOS origin) negates the demand structure and bullish BOS sequence",
     "status": "filled",
     "filledAt": "2026-07-27T07:39:53.436Z",
-    "mod": 1785143307427,
+    "mod": 1785149828864,
     "updates": [
       {
         "action": "TRAIL STOP",
@@ -191,6 +193,18 @@
         "ts": "2026-07-27T09:08:16.838Z",
         "moved": true,
         "stopUsed": "1.1020"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more upside",
+        "note": "1H BOS confirmed bullish above 1.1063 and price holding above entry, but sitting inside a bearish OB/FVG cluster (1.1077–1.1096) with 4H/Daily EMA stacks bearish and price below E200 on both — trail stop to just below the 1H bullish OB base at 1.1018 to lock in near breakeven while giving room for a push toward T1 1.1207 where equal highs and bearish FVG confluence sit.",
+        "entry": "1.1093",
+        "newStop": "1.1018",
+        "newTarget": "1.1207",
+        "addZone": "",
+        "ts": "2026-07-27T10:56:45.319Z",
+        "moved": false,
+        "stopUsed": null
       }
     ]
   },
