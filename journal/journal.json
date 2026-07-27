@@ -1,5 +1,64 @@
 [
   {
+    "id": 1785180974671,
+    "ts": "2026-07-27T19:36:14.671Z",
+    "pair": "SUI/USDT",
+    "symbol": "SUI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.70404",
+    "nearSupport": "4h bullish OB top 0.71477 / bottom 0.70300 — price currently inside this zone",
+    "nearResistance": "4h bearish FVG 0.71233–0.70612 overhead, then 1h bearish OB cluster 0.71949–0.71092",
+    "location": "at support",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "market",
+    "trigger": "Price is already trading inside the 4h bullish OB (0.70300–0.71477); enter at market now that price is within the demand zone",
+    "entry": "0.70404",
+    "stop": "0.69250",
+    "target1": "0.71762",
+    "target2": "0.72926",
+    "rr": "2.4R",
+    "liqMagnet": "4h equal highs at 0.72577 (resting buy-side liquidity above)",
+    "rationale": [
+      "1D and 4h structure both trend UP with a 1D bullish BOS at 0.76794 and a 4h bullish CHoCH at 0.71477, giving the dominant directional bias; price has pulled back into the 4h bullish OB (0.70300–0.71477) which is the logical retracement demand zone.",
+      "Current price 0.70404 sits inside the 4h bullish OB bottom half; the 1D bullish OB also spans 0.70765–0.74694, providing confluent daily demand — stop placed below both at 0.69250 (just under 4h OB bottom 0.70300, ~1.6% away vs 4h ATR of 1.46%, reasonable).",
+      "Funding at +8.6%/yr is mild/neutral (well within ±15% neutral band), OI at $24M with -1.11% 24h change suggests longs are being shaken out into this demand zone rather than crowded — not a squeeze-risk setup; targets at 4h bearish FVG top 0.71762 (T1) and 4h equal highs / bearish FVG 0.72926 (T2) align with resting liquidity magnets."
+    ],
+    "invalidation": "Daily close below 0.69250 (below the 4h bullish OB and 1D bullish OB base), which would negate the demand zone and flip the 4h structure bearish",
+    "horizon": {
+      "label": "multi-session",
+      "t1Atr1": 2.4,
+      "t2Atr4": 2.5,
+      "t2Pct": 3.58
+    },
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 60,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bullish OB",
+        "target liq above"
+      ],
+      "tf": "4h",
+      "rank": 10,
+      "outOf": 19
+    },
+    "status": "filled",
+    "filledAt": "2026-07-27T19:36:14.671Z",
+    "mod": 1785180974671
+  },
+  {
     "id": 1785177589993,
     "ts": "2026-07-27T18:39:49.993Z",
     "pair": "ENA/USDT",
@@ -124,9 +183,9 @@
       "rank": 2,
       "outOf": 19
     },
-    "status": "cancelled",
-    "filledAt": null,
-    "mod": 1785180412307,
+    "status": "filled",
+    "filledAt": "2026-07-27T19:39:46.061Z",
+    "mod": 1785181300267,
     "updates": [
       {
         "action": "CANCEL",
@@ -137,6 +196,16 @@
         "newTarget": "",
         "addZone": "",
         "ts": "2026-07-27T19:26:47.767Z"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "Daily BOS bearish confirmed, 1H CHoCH bearish, price below E200 on all TFs; 4H bullish CHoCH and bearish OB cluster 0.13052–0.13119 overhead create rejection risk — tighten stop just above 1H bearish FVG top and OB resistance at 0.13159 to lock partial gains while targeting equal lows at 0.12717 then 0.12595",
+        "entry": "0.13050",
+        "newStop": "0.13165",
+        "newTarget": "0.12595",
+        "addZone": "",
+        "ts": "2026-07-27T19:41:40.265Z"
       }
     ],
     "outcome": null,
