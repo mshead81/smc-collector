@@ -32,7 +32,7 @@
     "invalidation": "4h candle close above 580.10 (through the top of the 4h bearish OB 579.68 + buffer), which would negate the supply zone and signal a structural shift toward the 4h equal highs at 584.87.",
     "status": "filled",
     "filledAt": "2026-07-27T07:39:46.036Z",
-    "mod": 1785138138627,
+    "mod": 1785143254855,
     "updates": [
       {
         "action": "KEEP WAITING",
@@ -52,7 +52,19 @@
         "newStop": "578.30",
         "newTarget": "562.40",
         "addZone": "",
-        "ts": "2026-07-27T07:42:18.626Z"
+        "ts": "2026-07-27T07:42:18.626Z",
+        "moved": true,
+        "stopUsed": "578.30"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more downside",
+        "note": "4H/1D structure remains bearish (BOS confirmed, EMA bearish, price below E200) but 1H flipped bullish via CHoCH at 576.43 and price is now trading inside a dense cluster of 4H bearish OBs (569.19–574.60) — short thesis still valid but 1H counter-trend pressure warrants tightening stop to just above the 1H CHoCH level and the 4H bearish OB top to protect ~3.7pt of open profit while giving trade room to resume toward T2.",
+        "entry": "575.80",
+        "newStop": "574.40",
+        "newTarget": "562.40",
+        "addZone": "",
+        "ts": "2026-07-27T09:07:34.854Z"
       }
     ]
   },
@@ -89,7 +101,7 @@
     "invalidation": "1h candle close below 1.0980 (below 4h bullish OB bottom and 1h BOS origin) negates the demand structure and bullish BOS sequence",
     "status": "filled",
     "filledAt": "2026-07-27T07:39:53.436Z",
-    "mod": 1785138001416,
+    "mod": 1785143307427,
     "updates": [
       {
         "action": "TRAIL STOP",
@@ -99,7 +111,21 @@
         "newStop": "1.1018",
         "newTarget": "1.1207",
         "addZone": "",
-        "ts": "2026-07-27T07:40:01.416Z"
+        "ts": "2026-07-27T07:40:01.416Z",
+        "moved": true,
+        "stopUsed": "1.1018"
+      },
+      {
+        "action": "TRAIL STOP",
+        "bias": "more upside",
+        "note": "1H BOS confirmed bullish above 1.1063 and price holds above entry; however dense bearish OB/FVG cluster 1.1056–1.1096 is immediate overhead resistance and 4H/1D EMA stacks remain bearish with price below E200, so trail stop up to protect gains while letting T1/T2 play out",
+        "entry": "1.1093",
+        "newStop": "1.1020",
+        "newTarget": "1.1207",
+        "addZone": "",
+        "ts": "2026-07-27T09:08:16.838Z",
+        "moved": true,
+        "stopUsed": "1.1020"
       }
     ]
   },
