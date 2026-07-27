@@ -1,5 +1,54 @@
 [
   {
+    "id": 1785151971382,
+    "ts": "2026-07-27T11:32:51.382Z",
+    "pair": "HYPE/USDT",
+    "symbol": "HYPE",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "59.954",
+    "nearSupport": "4h bullish OB top 58.244 / 1D bullish OB top 59.194",
+    "nearResistance": "4h bearish OB 60.001–60.06 / 1h equal highs 60.0305",
+    "location": "at resistance",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell at 60.001 (bottom of 4h bearish OB 60.001–60.06), confluent with 1h equal highs liquidity at 60.0305 and 1h bearish OB 59.75–59.537 overhead; fill confirmed if price taps zone without a 4h close above 60.06",
+    "entry": "60.001",
+    "stop": "60.42",
+    "target1": "58.73",
+    "target2": "57.85",
+    "rr": "2.9R",
+    "liqMagnet": "58.298 (4h equal lows) / 57.85 (4h bearish OB bottom)",
+    "rationale": [
+      "Top-down bias is bearish: 4h trend is DOWN with a bearish BOS at 57.10, EMA stack bearish, price below 4h E200; 1D trend is DOWN with a bearish BOS at 58.227 — both higher timeframes confirm distribution.",
+      "Price is rallying into a dense supply cluster: 4h bearish OBs at 60.001–60.06 and 59.194–57.85 overlap with 1h equal highs liquidity at 60.0305 and unfilled 4h bearish FVG at 61.521–60.948 above — this is a textbook HTF supply raid, not a breakout.",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly elevated but within neutral band; it does not contradict the short bias but confirms longs are paying, adding marginal squeeze risk to any long — reinforces fading this rally into resistance rather than chasing it."
+    ],
+    "invalidation": "4h candle close above 60.42 (above the 4h bearish OB top at 60.06 plus one 1h ATR of ~0.41), which would signal demand absorption of the supply zone and potential CHoCH.",
+    "horizon": {
+      "label": "multi-session",
+      "t1Atr1": 3.1,
+      "t2Atr4": 2.4,
+      "t2Pct": 3.58
+    },
+    "regime": {
+      "regime": "trending",
+      "confidence": 20,
+      "why": [
+        "swings progressing",
+        "volatility compressing"
+      ]
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785151971382
+  },
+  {
     "id": 1785150245418,
     "ts": "2026-07-27T11:04:05.418Z",
     "pair": "AAVE/USDT",
@@ -89,9 +138,9 @@
         "swings progressing"
       ]
     },
-    "status": "pending",
-    "filledAt": null,
-    "mod": 1785150178567
+    "status": "filled",
+    "filledAt": "2026-07-27T11:31:51.753Z",
+    "mod": 1785151911753
   },
   {
     "id": 1785150066748,
