@@ -1,5 +1,121 @@
 [
   {
+    "id": 1785233806176,
+    "ts": "2026-07-28T10:16:46.176Z",
+    "pair": "ETH/USDT",
+    "symbol": "ETH",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "1875.3",
+    "nearSupport": "4h bullish OB 1865.2–1861.9",
+    "nearResistance": "1h bearish OB 1877.6–1888.6",
+    "location": "at resistance",
+    "verdict": "LONG",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit buy into 4h bullish OB top at 1865.2, confluent with 4h unfilled bullish FVG 1859.4–1864 and 1h equal-lows liquidity cluster at 1856.08, on a pullback from current price",
+    "entry": "1864",
+    "stop": "1851",
+    "target1": "1909",
+    "target2": "1942",
+    "rr": "2.9R",
+    "liqMagnet": "1h equal-highs liquidity at 1942.4 (3x touches)",
+    "rationale": [
+      "Top-down bias is bullish: 4h trend is UP with a confirmed bullish CHoCH at 1909.3, EMA stack bullish, price above 4h E200; 1D trend is UP with a bullish BOS at 1946.5 — directional bias favors longs on pullbacks.",
+      "Entry at 1864 sits inside the 4h demand OB (1861.9–1865.2) and overlaps the 4h unfilled bullish FVG (1859.4–1864), providing a high-confluence institutional demand zone; stop at 1851 is below the OB low and the 1h equal-lows cluster at 1853.25, beyond structural invalidation (~0.7× 4h ATR of 1.37% ≈ 26pts, stop is 13pts below entry — tight but structurally justified by OB boundary).",
+      "Funding at -0.00005%/hr (-0.42%/yr) is effectively neutral (well within ±15%/yr threshold), OI at $2.0B with -4.52% 24h change signals recent long liquidation/deleveraging — shorts are not crowded, no squeeze risk on longs; targets T1 1909 (4h bearish OB base / CHoCH level) and T2 1942 (1h equal-highs liquidity pool, 3 touches) align with resting sell-side liquidity magnets above."
+    ],
+    "invalidation": "4h candle close below 1851 (below the 4h bullish OB and 1h equal-lows at 1853.25) negates the demand zone and re-opens downside toward 1836.",
+    "horizon": {
+      "label": "swing",
+      "t1Atr1": 3.6,
+      "t2Atr4": 3.1,
+      "t2Pct": 4.18
+    },
+    "regime": {
+      "regime": "transitional",
+      "confidence": 0,
+      "why": []
+    },
+    "setup": {
+      "score": 70,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bullish OB",
+        "target liq above"
+      ],
+      "tf": "4h",
+      "rank": 4,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785233806176
+  },
+  {
+    "id": 1785233696303,
+    "ts": "2026-07-28T10:14:56.303Z",
+    "pair": "FARTCOIN/USDT",
+    "symbol": "FARTCOIN",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.1243",
+    "nearSupport": "4h bullish OB top 0.1297 / bottom 0.12735; 1h equal lows 0.12717",
+    "nearResistance": "4h bearish FVG 0.12779–0.12264 top at 0.12779; 1h bearish OB 0.12957–0.12779",
+    "location": "mid-range",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Price retraces into the 1h bearish OB / 4h bearish FVG overlap zone at 0.12779–0.12928; enter short on a limit at 0.1278 with no bullish CHoCH on 1h",
+    "entry": "0.1278",
+    "stop": "0.1310",
+    "target1": "0.1219",
+    "target2": "0.1145",
+    "rr": "2.8R",
+    "liqMagnet": "4h equal lows 0.12690–0.12717 then 0.11438",
+    "rationale": [
+      "1D/4h top-down: both timeframes show bearish CHoCH (1D broke 0.136, 4h broke 0.12723), full bearish EMA stack, price below EMA200 on all three timeframes — structural bias is unambiguously short.",
+      "Entry zone is the confluence of the 1h bearish OB (0.12779–0.12957) and the 4h unfilled bearish FVG (0.12264–0.12779 top), a classic mitigation zone for continuation shorts; stop placed above the 1h OB high at 0.1310 (≈2.1× 1h ATR of 1.38% above entry, consistent with volatility).",
+      "Funding at +10.95%/yr is mildly positive (longs paying shorts) — not crowded enough to override structure but marginally supportive of the short; OI at $17M with -5.33% 24h price change suggests longs are being squeezed, and the 4h equal lows at 0.12690/0.12717 are the nearest liquidity magnet below current price."
+    ],
+    "invalidation": "1h bullish CHoCH above 0.12928 (breaks the bearish OB high) or a clean close above the 4h bearish FVG top at 0.12779 with momentum — structure has flipped and the short thesis is void.",
+    "horizon": {
+      "label": "swing",
+      "t1Atr1": 3.3,
+      "t2Atr4": 3.7,
+      "t2Pct": 10.41
+    },
+    "regime": {
+      "regime": "transitional",
+      "confidence": 100,
+      "why": [
+        "all TFs agree"
+      ]
+    },
+    "setup": {
+      "score": 81,
+      "reasons": [
+        "bear all 3 TFs",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 2,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785233696303
+  },
+  {
     "id": 1785217379222,
     "ts": "2026-07-28T05:42:59.222Z",
     "pair": "LINK/USDT",
