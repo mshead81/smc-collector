@@ -1,5 +1,64 @@
 [
   {
+    "id": 1785246321736,
+    "ts": "2026-07-28T13:45:21.736Z",
+    "pair": "ENA/USDT",
+    "symbol": "ENA",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "price": "0.082674",
+    "nearSupport": "1D bullish OB top 0.083115 / bottom 0.078626; 1D bullish FVG 0.08125–0.08269",
+    "nearResistance": "4h bearish FVG 0.08337–0.087173; 1h bearish OB 0.0836–0.084221",
+    "location": "at support",
+    "verdict": "SHORT",
+    "conviction": "medium",
+    "entryType": "limit",
+    "trigger": "Limit sell into the 1h bearish OB / 4h bearish FVG overlap zone 0.0836–0.08421 on a pullback; confirm no 1h close above 0.08421",
+    "entry": "0.08390",
+    "stop": "0.08530",
+    "target1": "0.08117",
+    "target2": "0.07986",
+    "rr": "2.5R",
+    "liqMagnet": "4h equal highs cluster 0.07979 (3 touches); 4h equal lows 0.07861",
+    "rationale": [
+      "Top-down bias bearish: 4h confirmed CHoCH bearish at 0.084342 (brokenAt 1785196800000), 1h BOS bearish at 0.088202; both timeframes trend=down and price below EMA200 — only 1D shows a nominal CHoCH bullish but EMA stack is bearish and price is below E200, so daily structure is noise against the lower-TF momentum.",
+      "Entry zone is the 1h bearish OB (0.0836–0.084221) confluent with the lower edge of the 4h bearish FVG (0.08337–0.087173); a pullback to 0.08390 fills into supply without breaking the 4h CHoCH level at 0.084342 — stop at 0.08530 clears the 1h bearish OB top and the 4h bullish OB top at 0.085514, well within 1h ATR of 1.37% (~0.00113) and 4h ATR of 2.72% (~0.00225).",
+      "Funding at +0.00125%/hr (+10.95%/yr) is mildly positive — longs are paying but not at extreme crowding levels (within the ±15%/yr neutral band), so it does not contradict the short bias; OI dropped -10.88% in 24h suggesting long liquidations already underway, supporting continued downside toward 4h equal-highs liquidity pool at 0.07979 and equal-lows at 0.07861."
+    ],
+    "invalidation": "1h candle closes above 0.08530 (above 1h bearish OB and 4h bullish OB top at 0.085514), negating the bearish CHoCH structure.",
+    "horizon": {
+      "label": "intraday",
+      "t1Atr1": 2.4,
+      "t2Atr4": 1.8,
+      "t2Pct": 4.82
+    },
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 48,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 15,
+      "outOf": 19
+    },
+    "status": "pending",
+    "filledAt": null,
+    "mod": 1785246321736
+  },
+  {
     "id": 1785240408974,
     "ts": "2026-07-28T12:06:48.974Z",
     "pair": "FARTCOIN/USDT",
@@ -114,9 +173,14 @@
       "rank": 1,
       "outOf": 19
     },
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1785240393502
+    "mod": 1785246292760,
+    "outcome": null,
+    "r": null,
+    "cancelPrice": 0.12152,
+    "cancelProgress": 1.2,
+    "cancelledAt": "2026-07-28T13:44:52.760Z"
   },
   {
     "id": 1785236156455,
