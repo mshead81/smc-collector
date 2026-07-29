@@ -1,5 +1,423 @@
 [
   {
+    "id": 1785316192005,
+    "ts": "2026-07-29T09:09:52.005Z",
+    "pair": "UNI/USDT",
+    "symbol": "UNI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "verdict": "WAIT FOR CONFIRMATION",
+    "bias": "bullish",
+    "conviction": "medium",
+    "actionNow": "Do nothing yet — wait for price to either pull back into the 3.81–3.83 support zone or close a 1h candle above 3.9241 before acting.",
+    "reason": "The overall trend is bullish across all three timeframes, but price is currently sitting right inside a cluster of resistance levels it has repeatedly failed to break through, leaving no safe room to buy right now.",
+    "problem": "Price at 3.8868 is wedged between multiple overhead resistance zones (the highest bearish supply zone starts at 3.8887 and extends to 3.9241 on the 1h), meaning a long entered here has almost no room before hitting a wall. Buying under resistance with no confirmed breakout is a low-quality setup.",
+    "price": "3.8868",
+    "nearSupport": "3.8127–3.8313 (1h bullish FVG + bullish order block top at 3.8205)",
+    "nearResistance": "3.8887–3.9241 (1h bearish order block cluster)",
+    "location": "at resistance",
+    "entryType": "limit",
+    "trigger": "Price pulls back and holds the 3.8127–3.8313 zone on a 1h close, OR price closes a 1h candle above 3.9241 and retests that level from above",
+    "entry": "3.8313",
+    "stop": "3.7951",
+    "target1": "3.9225",
+    "target2": "3.9441",
+    "rr": "2.6R",
+    "confirmLevel": "3.9241",
+    "confirmTimeframe": "1h",
+    "retestZone": "3.8887–3.9022 (former bearish order block flips to support after breakout)",
+    "validUntil": "Next 4h close — if price has not pulled back to 3.8313 or broken above 3.9241 by then, reassess",
+    "cancelIf": "1h candle closes below 3.7951 (bottom of the 3.8127 FVG), which would mean the support zone failed and structure is weakening",
+    "liqMagnet": "3.9225 (equal highs cluster, 4 touches — the most contested resting liquidity level overhead)",
+    "rationale": [
+      "1D BOS confirmed bullish at 3.8894 and 4h CHoCH flipped bullish at 3.9393 — both higher timeframes agree on upward structure. However, 1D EMA stack is mixed and price is below the daily 200 EMA, capping conviction.",
+      "Price is currently inside the 1h bearish order block 3.8887–3.9241 and the overlapping 4h bearish order block 3.8768–3.9247, with equal highs liquidity sitting at 3.9225 (4 touches) and 3.9441 (3 touches) — these are the natural magnets but also the first walls price must clear.",
+      "Funding at +7.69%/yr annualised is mild-positive and within the neutral band, so longs are not dangerously crowded. OI rose 4.6% in 24h alongside price, consistent with fresh buying rather than short covering — supportive but not a standalone trigger. The pullback plan to the 3.8127–3.8313 FVG offers a defined risk entry with stop below 3.7951 and targets at the liquidity pools above."
+    ],
+    "invalidation": "1h close below 3.7951 cancels the bullish setup; a 4h close below 3.7691 (4h bearish OB bottom) would signal broader structure failure.",
+    "horizon": null,
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 75,
+      "reasons": [
+        "bull all 3 TFs",
+        "on bullish OB",
+        "CHoCH flip"
+      ],
+      "tf": "4h",
+      "rank": 7,
+      "outOf": 19
+    },
+    "strategyVersion": "v2-df1fa5f3",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "v2-df1fa5f3",
+    "inputSnapshot": {
+      "bias": "bullish",
+      "liquidity": {
+        "turnover24h": 8199936.381209997,
+        "oiValue": 19128482.97408,
+        "tier": "low"
+      },
+      "derivs": {
+        "fundingHourlyPct": 0.00088,
+        "fundingAnnualPct": 7.69,
+        "openInterestUsd": 19128482.97408,
+        "markPrice": 3.8884,
+        "change24hPct": 4.6
+      },
+      "regime": {
+        "regime": "ranging",
+        "confidence": 100,
+        "why": [
+          "swings oscillating"
+        ]
+      },
+      "timeframes": {
+        "1h": {
+          "price": 3.8868,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bullish",
+            "price": 3.75,
+            "brokenAt": 1785243600000
+          },
+          "emaStack": "bullish",
+          "priceVsE200": "above",
+          "atrPct": 1.21,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 3.5807,
+              "bottom": 3.5474
+            },
+            {
+              "dir": "bullish",
+              "top": 3.5892,
+              "bottom": 3.589
+            },
+            {
+              "dir": "bullish",
+              "top": 3.7393,
+              "bottom": 3.7086
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8127,
+              "bottom": 3.7951
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8752,
+              "bottom": 3.8313
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.7086,
+              "bottom": 3.6869
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8205,
+              "bottom": 3.77
+            },
+            {
+              "dir": "bearish",
+              "top": 3.8696,
+              "bottom": 3.8096
+            },
+            {
+              "dir": "bearish",
+              "top": 3.75,
+              "bottom": 3.7199
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9022,
+              "bottom": 3.8214
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9241,
+              "bottom": 3.8887
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 3.8788,
+                "count": 2
+              },
+              {
+                "price": 3.69165,
+                "count": 2
+              },
+              {
+                "price": 3.92255,
+                "count": 4
+              },
+              {
+                "price": 3.944125,
+                "count": 3
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 3.65009375,
+                "count": 5
+              },
+              {
+                "price": 3.7380125,
+                "count": 4
+              },
+              {
+                "price": 3.7693,
+                "count": 2
+              },
+              {
+                "price": 3.7535,
+                "count": 3
+              }
+            ]
+          }
+        },
+        "4h": {
+          "price": 3.8868,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bullish",
+            "price": 3.9393,
+            "brokenAt": 1785240000000
+          },
+          "emaStack": "bullish",
+          "priceVsE200": "above",
+          "atrPct": 2.4,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 2.6754,
+              "bottom": 2.6159
+            },
+            {
+              "dir": "bullish",
+              "top": 3.0357,
+              "bottom": 2.8551
+            },
+            {
+              "dir": "bullish",
+              "top": 3.1496,
+              "bottom": 3.0537
+            },
+            {
+              "dir": "bullish",
+              "top": 3.5392,
+              "bottom": 3.5277
+            },
+            {
+              "dir": "bullish",
+              "top": 3.5974,
+              "bottom": 3.5474
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.9621,
+              "bottom": 3.8622
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8422,
+              "bottom": 3.6686
+            },
+            {
+              "dir": "bearish",
+              "top": 3.877,
+              "bottom": 3.7691
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9576,
+              "bottom": 3.8345
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9247,
+              "bottom": 3.8768
+            },
+            {
+              "dir": "bearish",
+              "top": 3.947,
+              "bottom": 3.81
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 3.0633999999999997,
+                "count": 2
+              },
+              {
+                "price": 3.2856,
+                "count": 2
+              },
+              {
+                "price": 3.75535,
+                "count": 2
+              },
+              {
+                "price": 3.7399,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 2.47845,
+                "count": 2
+              },
+              {
+                "price": 3.4621,
+                "count": 2
+              },
+              {
+                "price": 3.57245,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "1D": {
+          "price": 3.8868,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bullish",
+            "price": 3.8894,
+            "brokenAt": 1785024000000
+          },
+          "emaStack": "mixed",
+          "priceVsE200": "below",
+          "atrPct": 5.43,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 5.088,
+              "bottom": 5.0258
+            },
+            {
+              "dir": "bearish",
+              "top": 4.753,
+              "bottom": 4.4158
+            },
+            {
+              "dir": "bullish",
+              "top": 2.7777,
+              "bottom": 2.5979
+            },
+            {
+              "dir": "bullish",
+              "top": 3.1517,
+              "bottom": 2.8813
+            },
+            {
+              "dir": "bullish",
+              "top": 3.6218,
+              "bottom": 3.5734
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.5734,
+              "bottom": 3.4615
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8258,
+              "bottom": 3.6099
+            },
+            {
+              "dir": "bearish",
+              "top": 3.8471,
+              "bottom": 3.4627
+            },
+            {
+              "dir": "bearish",
+              "top": 3.7576,
+              "bottom": 3.5427
+            },
+            {
+              "dir": "bearish",
+              "top": 3.8647,
+              "bottom": 3.6519
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9621,
+              "bottom": 3.65
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 6.43305,
+                "count": 2
+              },
+              {
+                "price": 3.7309,
+                "count": 2
+              },
+              {
+                "price": 3.6719,
+                "count": 2
+              },
+              {
+                "price": 3.7582500000000003,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 5.3244,
+                "count": 2
+              },
+              {
+                "price": 3.6103750000000003,
+                "count": 3
+              },
+              {
+                "price": 3.257975,
+                "count": 3
+              },
+              {
+                "price": 3.4093999999999998,
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawResponse": "```json\n{\n  \"verdict\": \"WAIT FOR CONFIRMATION\",\n  \"bias\": \"bullish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Do nothing yet — wait for price to either pull back into the 3.81–3.83 support zone or close a 1h candle above 3.9241 before acting.\",\n  \"reason\": \"The overall trend is bullish across all three timeframes, but price is currently sitting right inside a cluster of resistance levels it has repeatedly failed to break through, leaving no safe room to buy right now.\",\n  \"problem\": \"Price at 3.8868 is wedged between multiple overhead resistance zones (the highest bearish supply zone starts at 3.8887 and extends to 3.9241 on the 1h), meaning a long entered here has almost no room before hitting a wall. Buying under resistance with no confirmed breakout is a low-quality setup.\",\n  \"price\": \"3.8868\",\n  \"nearSupport\": \"3.8127–3.8313 (1h bullish FVG + bullish order block top at 3.8205)\",\n  \"nearResistance\": \"3.8887–3.9241 (1h bearish order block cluster)\",\n  \"location\": \"at resistance\",\n  \"entryType\": \"limit\",\n  \"trigger\": \"Price pulls back and holds the 3.8127–3.8313 zone on a 1h close, OR price closes a 1h candle above 3.9241 and retests that level from above\",\n  \"entry\": \"3.8313\",\n  \"stop\": \"3.7951\",\n  \"target1\": \"3.9225\",\n  \"target2\": \"3.9441\",\n  \"rr\": \"2.6R\",\n  \"confirmLevel\": \"3.9241\",\n  \"confirmTimeframe\": \"1h\",\n  \"retestZone\": \"3.8887–3.9022 (former bearish order block flips to support after breakout)\",\n  \"validUntil\": \"Next 4h close — if price has not pulled back to 3.8313 or broken above 3.9241 by then, reassess\",\n  \"cancelIf\": \"1h candle closes below 3.7951 (bottom of the 3.8127 FVG), which would mean the support zone failed and structure is weakening\",\n  \"liqMagnet\": \"3.9225 (equal highs cluster, 4 touches — the most contested resting liquidity level overhead)\",\n  \"rationale\": [\n    \"1D BOS confirmed bullish at 3.8894 and 4h CHoCH flipped bullish at 3.9393 — both higher timeframes agree on upward structure. However, 1D EMA stack is mixed and price is below the daily 200 EMA, capping conviction.\",\n    \"Price is currently inside the 1h bearish order block 3.8887–3.9241 and the overlapping 4h bearish order block 3.8768–3.9247, with equal highs liquidity sitting at 3.9225 (4 touches) and 3.9441 (3 touches) — these are the natural magnets but also the first walls price must clear.\",\n    \"Funding at +7.69%/yr annualised is mild-positive and within the neutral band, so longs are not dangerously crowded. OI rose 4.6% in 24h alongside price, consistent with fresh buying rather than short covering — supportive but not a standalone trigger. The pullback plan to the 3.8127–3.8313 FVG offers a defined risk entry with stop below 3.7951 and targets at the liquidity pools above.\"\n  ],\n  \"invalidation\": \"1h close below 3.7951 cancels the bullish setup; a 4h close below 3.7691 (4h bearish OB bottom) would signal broader structure failure.\"\n}\n```",
+    "validationWarnings": [],
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1785316192006
+  },
+  {
     "id": 1785313118441,
     "ts": "2026-07-29T08:18:38.441Z",
     "pair": "HYPE/USDT",
