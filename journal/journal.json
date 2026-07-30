@@ -1,5 +1,430 @@
 [
   {
+    "id": 1785423080176,
+    "ts": "2026-07-30T14:51:20.176Z",
+    "pair": "SOL/USDT",
+    "symbol": "SOL",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "verdict": "WAIT FOR CONFIRMATION",
+    "bias": "bearish",
+    "conviction": "medium",
+    "actionNow": "Do nothing for now — wait for price to clear that level or pull back away from it.",
+    "reason": "Price is sitting inside a supply zone it has repeatedly failed to break above, all three timeframes show a downtrend, and the most recent structure break was bearish — the path of least resistance is lower.",
+    "problem": "Support at 74.51 (4h demand zone) sits only 0.38 ATR from the entry — not enough room.",
+    "price": "74.712",
+    "nearSupport": "73.832 (4h bullish FVG bottom)",
+    "nearResistance": "75.109 (4h bearish FVG top)",
+    "location": "at resistance",
+    "entryType": "market",
+    "trigger": "Price is already trading inside the 4h bearish FVG (74.246–75.109) and the overlapping 1D bearish OB (74.459–77.101) — the zone is live now.",
+    "entry": "74.712",
+    "stop": "75.20",
+    "target1": "73.13",
+    "target2": "72.31",
+    "rr": "2.6R",
+    "confirmLevel": "",
+    "confirmTimeframe": "",
+    "retestZone": "",
+    "validUntil": "next 4h close above 75.11",
+    "cancelIf": "Any 4h candle closes above 75.20, reclaiming the bearish FVG top and invalidating the supply zone",
+    "liqMagnet": "72.293 (4h equal lows cluster, 5 touches)",
+    "rationale": [
+      "All three timeframes (1D, 4h, 1h) show trend=down with bearish EMA stacks and price below the 200 EMA; the 1D last broke structure bearishly at 74.059, the 4h BOS confirmed at 72.677, and the 1h CHoCH confirmed at 72.883 — top-down alignment is fully bearish.",
+      "Current price 74.712 sits inside the 4h bearish FVG (74.246–75.109) AND the 1D bearish OB (74.459–77.101), both acting as supply; the 1h has four stacked bearish FVGs overhead (75.48–77.57) adding further resistance, making this a high-density supply cluster.",
+      "The primary liquidity magnet below is the 4h equal-lows cluster at 72.293 (5 touches), with the 1h equal lows at 72.312 and 72.727 as interim targets; funding at +10.95%/yr is mildly positive (longs paying) but within the neutral band, so it does not contradict the short bias — if anything a modest long squeeze risk supports downside."
+    ],
+    "invalidation": "4h close above 75.20 (above the bearish FVG top at 75.109 plus buffer) negates the supply zone and cancels the trade.",
+    "blockedFrom": "SHORT NOW",
+    "blockDetail": {
+      "blocked": true,
+      "level": {
+        "price": 74.51,
+        "tf": "4h",
+        "kind": "demand zone"
+      },
+      "gapAtr": 0.38,
+      "why": "Support at 74.51 (4h demand zone) sits only 0.38 ATR from the entry — not enough room."
+    },
+    "horizon": null,
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 87,
+      "reasons": [
+        "bear all 3 TFs",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 2,
+      "outOf": 10
+    },
+    "strategyVersion": "v3-9f751e33",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "v3-9f751e33",
+    "inputSnapshot": {
+      "bias": "bearish",
+      "liquidity": {
+        "turnover24h": 178785393.8997299,
+        "oiValue": 330896729.95442003,
+        "tier": "mid"
+      },
+      "derivs": {
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 330896729.95442003,
+        "markPrice": 74.713,
+        "change24hPct": 2.03
+      },
+      "regime": {
+        "regime": "ranging",
+        "confidence": 100,
+        "why": [
+          "swings oscillating"
+        ]
+      },
+      "timeframes": {
+        "1h": {
+          "price": 74.712,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bearish",
+            "price": 72.883,
+            "brokenAt": 1785358800000
+          },
+          "emaStack": "mixed",
+          "priceVsE200": "below",
+          "atrPct": 0.71,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 77.566,
+              "bottom": 76.981
+            },
+            {
+              "dir": "bearish",
+              "top": 76.443,
+              "bottom": 75.565
+            },
+            {
+              "dir": "bearish",
+              "top": 75.765,
+              "bottom": 75.582
+            },
+            {
+              "dir": "bearish",
+              "top": 75.48,
+              "bottom": 74.362
+            },
+            {
+              "dir": "bullish",
+              "top": 73.77,
+              "bottom": 73.762
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 73.85,
+              "bottom": 73.106
+            },
+            {
+              "dir": "bullish",
+              "top": 73.762,
+              "bottom": 73.378
+            },
+            {
+              "dir": "bearish",
+              "top": 74.544,
+              "bottom": 73.268
+            },
+            {
+              "dir": "bearish",
+              "top": 74.264,
+              "bottom": 73.96
+            },
+            {
+              "dir": "bearish",
+              "top": 74.51,
+              "bottom": 73.414
+            },
+            {
+              "dir": "bearish",
+              "top": 74.18,
+              "bottom": 73.238
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 76.19999999999999,
+                "count": 2
+              },
+              {
+                "price": 74.3035,
+                "count": 2
+              },
+              {
+                "price": 73.475,
+                "count": 2
+              },
+              {
+                "price": 74.527,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 72.727,
+                "count": 2
+              },
+              {
+                "price": 72.9165,
+                "count": 2
+              },
+              {
+                "price": 72.312,
+                "count": 2
+              },
+              {
+                "price": 73.1265,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "4h": {
+          "price": 74.712,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bearish",
+            "price": 72.677,
+            "brokenAt": 1785355200000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 1.43,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 64.753,
+              "bottom": 63.609
+            },
+            {
+              "dir": "bearish",
+              "top": 80.744,
+              "bottom": 80.729
+            },
+            {
+              "dir": "bearish",
+              "top": 80.3,
+              "bottom": 78.888
+            },
+            {
+              "dir": "bearish",
+              "top": 75.109,
+              "bottom": 74.246
+            },
+            {
+              "dir": "bullish",
+              "top": 74.055,
+              "bottom": 73.832
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 74.12,
+              "bottom": 72.98
+            },
+            {
+              "dir": "bullish",
+              "top": 74.51,
+              "bottom": 72.709
+            },
+            {
+              "dir": "bearish",
+              "top": 77.101,
+              "bottom": 75.286
+            },
+            {
+              "dir": "bearish",
+              "top": 76.652,
+              "bottom": 76.109
+            },
+            {
+              "dir": "bearish",
+              "top": 74.544,
+              "bottom": 72.329
+            },
+            {
+              "dir": "bearish",
+              "top": 74.264,
+              "bottom": 72.677
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 82.79525,
+                "count": 3
+              },
+              {
+                "price": 78.839,
+                "count": 3
+              },
+              {
+                "price": 78.988,
+                "count": 2
+              },
+              {
+                "price": 74.527,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 72.29306249999999,
+                "count": 5
+              },
+              {
+                "price": 75.544,
+                "count": 2
+              },
+              {
+                "price": 75.372,
+                "count": 2
+              },
+              {
+                "price": 73.3655,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "1D": {
+          "price": 74.712,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bearish",
+            "price": 74.059,
+            "brokenAt": 1784246400000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 3.6,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 124.71,
+              "bottom": 119.14
+            },
+            {
+              "dir": "bearish",
+              "top": 112.07,
+              "bottom": 106.56
+            },
+            {
+              "dir": "bearish",
+              "top": 89.774,
+              "bottom": 89.379
+            },
+            {
+              "dir": "bearish",
+              "top": 88.457,
+              "bottom": 87.257
+            },
+            {
+              "dir": "bearish",
+              "top": 80.3,
+              "bottom": 78.812
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 75.696,
+              "bottom": 73.329
+            },
+            {
+              "dir": "bullish",
+              "top": 76.417,
+              "bottom": 73.402
+            },
+            {
+              "dir": "bearish",
+              "top": 83.286,
+              "bottom": 80.35
+            },
+            {
+              "dir": "bearish",
+              "top": 77.92,
+              "bottom": 74.524
+            },
+            {
+              "dir": "bearish",
+              "top": 78.86,
+              "bottom": 77.4
+            },
+            {
+              "dir": "bearish",
+              "top": 77.101,
+              "bottom": 74.459
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 144.7775,
+                "count": 3
+              },
+              {
+                "price": 86.6315,
+                "count": 2
+              },
+              {
+                "price": 88.0275,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 81.3065,
+                "count": 2
+              },
+              {
+                "price": 83.262,
+                "count": 2
+              },
+              {
+                "price": 73.3655,
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawResponse": "```json\n{\n  \"verdict\": \"SHORT NOW\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Sell SOL at market now, with a stop above 75.11 and a first target near 73.13.\",\n  \"reason\": \"Price is sitting inside a supply zone it has repeatedly failed to break above, all three timeframes show a downtrend, and the most recent structure break was bearish — the path of least resistance is lower.\",\n  \"problem\": \"\",\n  \"price\": \"74.712\",\n  \"nearSupport\": \"73.832 (4h bullish FVG bottom)\",\n  \"nearResistance\": \"75.109 (4h bearish FVG top)\",\n  \"location\": \"at resistance\",\n  \"entryType\": \"market\",\n  \"trigger\": \"Price is already trading inside the 4h bearish FVG (74.246–75.109) and the overlapping 1D bearish OB (74.459–77.101) — the zone is live now.\",\n  \"entry\": \"74.712\",\n  \"stop\": \"75.20\",\n  \"target1\": \"73.13\",\n  \"target2\": \"72.31\",\n  \"rr\": \"2.6R\",\n  \"confirmLevel\": \"\",\n  \"confirmTimeframe\": \"\",\n  \"retestZone\": \"\",\n  \"validUntil\": \"next 4h close above 75.11\",\n  \"cancelIf\": \"Any 4h candle closes above 75.20, reclaiming the bearish FVG top and invalidating the supply zone\",\n  \"liqMagnet\": \"72.293 (4h equal lows cluster, 5 touches)\",\n  \"rationale\": [\n    \"All three timeframes (1D, 4h, 1h) show trend=down with bearish EMA stacks and price below the 200 EMA; the 1D last broke structure bearishly at 74.059, the 4h BOS confirmed at 72.677, and the 1h CHoCH confirmed at 72.883 — top-down alignment is fully bearish.\",\n    \"Current price 74.712 sits inside the 4h bearish FVG (74.246–75.109) AND the 1D bearish OB (74.459–77.101), both acting as supply; the 1h has four stacked bearish FVGs overhead (75.48–77.57) adding further resistance, making this a high-density supply cluster.\",\n    \"The primary liquidity magnet below is the 4h equal-lows cluster at 72.293 (5 touches), with the 1h equal lows at 72.312 and 72.727 as interim targets; funding at +10.95%/yr is mildly positive (longs paying) but within the neutral band, so it does not contradict the short bias — if anything a modest long squeeze risk supports downside.\"\n  ],\n  \"invalidation\": \"4h close above 75.20 (above the bearish FVG top at 75.109 plus buffer) negates the supply zone and cancels the trade.\"\n}\n```",
+    "validationWarnings": [],
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1785423080176
+  },
+  {
     "id": 1785416332182,
     "ts": "2026-07-30T12:58:52.182Z",
     "pair": "SUI/USDT",
