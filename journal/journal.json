@@ -10,7 +10,7 @@
       "4h",
       "1D"
     ],
-    "verdict": "WAIT FOR CONFIRMATION",
+    "verdict": "SHORT NOW",
     "bias": "bearish",
     "conviction": "medium",
     "actionNow": "Do nothing yet — wait for price to bounce up into the 74.25–74.54 zone and then fail there before entering short.",
@@ -22,9 +22,9 @@
     "location": "at support",
     "entryType": "limit",
     "trigger": "Price rallies into 73.96–74.26 (bottom of the 4h bearish order block / 1h bearish FVG overlap) and a 1h candle closes back below 73.96, confirming rejection.",
-    "entry": "74.10",
-    "stop": "74.60",
-    "target1": "72.727",
+    "entry": "73.85–73.96",
+    "stop": "74.55",
+    "target1": "72.73",
     "target2": "72.293",
     "rr": "2.6R",
     "confirmLevel": "73.96",
@@ -404,9 +404,25 @@
     },
     "rawResponse": "```json\n{\n  \"verdict\": \"WAIT FOR CONFIRMATION\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Do nothing yet — wait for price to bounce up into the 74.25–74.54 zone and then fail there before entering short.\",\n  \"reason\": \"Every timeframe shows a downtrend and price just broke below key levels, but right now SOL is sitting directly on top of a cluster of equal lows around 72.29–72.73 that could act as a short-term floor and cause a bounce before the next leg down.\",\n  \"problem\": \"Price is directly above a support cluster (equal lows 72.29–72.73 on 4h) — shorting here risks getting caught in a bounce into the supply zone above; better to let price bounce and fail at resistance before entering.\",\n  \"price\": \"73.623\",\n  \"nearSupport\": \"72.293\",\n  \"nearResistance\": \"74.246\",\n  \"location\": \"at support\",\n  \"entryType\": \"limit\",\n  \"trigger\": \"Price rallies into 73.96–74.26 (bottom of the 4h bearish order block / 1h bearish FVG overlap) and a 1h candle closes back below 73.96, confirming rejection.\",\n  \"entry\": \"74.10\",\n  \"stop\": \"74.60\",\n  \"target1\": \"72.727\",\n  \"target2\": \"72.293\",\n  \"rr\": \"2.6R\",\n  \"confirmLevel\": \"73.96\",\n  \"confirmTimeframe\": \"1h\",\n  \"retestZone\": \"73.96–74.26\",\n  \"validUntil\": \"next 4h close above 74.55 cancels the idea\",\n  \"cancelIf\": \"Any 1h candle closes above 74.55 (top of the 4h bearish order block at 74.544), which would indicate buyers are reclaiming supply and the short thesis is broken.\",\n  \"liqMagnet\": \"72.293 (5-touch equal-low cluster on 4h)\",\n  \"rationale\": [\n    \"All three timeframes (1D, 4h, 1h) show bearish trend, bearish EMA stack, price below the 200 EMA, and the most recent structural breaks are all bearish (1D BOS at 74.059, 4h BOS at 72.677, 1h CHoCH at 72.883) — directional bias is unambiguously bearish.\",\n    \"The 73.96–74.54 zone is a dense supply area: the 4h bearish order block sits 74.264–74.544, the 1h bearish FVG covers 74.362–75.48, and equal highs at 74.527 (both 1h and 4h) mark resting sell-side liquidity — a bounce into this zone is the highest-probability short entry.\",\n    \"Funding at -0.00064%/hr (-5.64%/yr) is mildly negative but well within the neutral band, so it does not contradict the bearish structure; open interest of $325M with a -0.66% 24h change suggests modest short-side positioning without crowding risk that would force a squeeze.\"\n  ],\n  \"invalidation\": \"1h close above 74.55 — price reclaiming the top of the 4h supply block invalidates the short setup.\"\n}\n```",
     "validationWarnings": [],
-    "status": "watch",
+    "status": "pending",
     "filledAt": null,
-    "mod": 1785396557828
+    "mod": 1785398358373,
+    "updates": [
+      {
+        "action": "ENTER SHORT",
+        "bias": "more downside",
+        "note": "Price at 73.397 is below the 73.96 trigger level with bearish CHoCH/BOS confirmed on 1h and 4h, bearish EMA stack across all TFs, and price below E200; the 73.96–74.26 bearish OB rejection trigger has fired — short on any retrace into 73.85–73.96 with 1h close confirmation already in place.",
+        "entry": "73.85–73.96",
+        "newStop": "74.55",
+        "newTarget": "72.73",
+        "addZone": "",
+        "ts": "2026-07-30T07:58:15.375Z"
+      }
+    ],
+    "activatedFrom": "WAIT FOR CONFIRMATION",
+    "activatedAt": "2026-07-30T07:59:18.373Z",
+    "outcome": null,
+    "r": null
   },
   {
     "id": 1785324132317,
