@@ -1,5 +1,432 @@
 [
   {
+    "id": 1785432265614,
+    "ts": "2026-07-30T17:24:25.614Z",
+    "pair": "UNI/USDT",
+    "symbol": "UNI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "verdict": "LONG NOW",
+    "bias": "bullish",
+    "conviction": "medium",
+    "actionNow": "Buy UNI/USDT now at market, with a stop below 4.336 and a first target at 4.753.",
+    "reason": "Price has broken structure upward on all three timeframes, is holding above its 200-period average on every timeframe, and just pulled back into the top of a demand zone between 4.336 and 4.3715 — a logical place for buyers to step in.",
+    "problem": "",
+    "price": "4.4126",
+    "nearSupport": "4.336 (bottom of 1h unfilled demand gap 4.336–4.3715)",
+    "nearResistance": "4.4158–4.753 (daily bearish gap / supply zone)",
+    "location": "at support",
+    "entryType": "market",
+    "trigger": "Price is already trading inside the 1h bullish FVG 4.336–4.3715; zone is active now",
+    "entry": "4.4126",
+    "stop": "4.3290",
+    "target1": "4.753",
+    "target2": "4.9500",
+    "rr": "2.9R",
+    "confirmLevel": "",
+    "confirmTimeframe": "",
+    "retestZone": "",
+    "validUntil": "next 1h close below 4.336",
+    "cancelIf": "1h candle closes below 4.336, invalidating the demand zone and the bullish structure",
+    "liqMagnet": "4.753 (bottom of daily bearish FVG / equal-high cluster at 4.0724 already swept)",
+    "rationale": [
+      "Top-down structure is uniformly bullish: 1D printed a BOS at 3.8894, 4h BOS at 3.947, 1h BOS at 4.0571 — all three timeframes confirm higher-high/higher-low progression with price above the 200 EMA on every frame.",
+      "Price has retraced into the highest 1h bullish FVG (4.336–4.3715), which sits directly above the next FVG cluster (4.2267–4.2686); this is the first meaningful demand imbalance below current price and represents the natural pullback target after the BOS impulse.",
+      "Funding at +10.95%/yr annualised is mild-positive and within the neutral band (-15% to +15%/yr), so crowding risk is not a concern; the daily bearish FVG top at 4.753 is the nearest unfilled supply and acts as a clean first target, giving roughly 2.9R against a stop just below the FVG low at 4.329 (≈1.9× the 1h ATR of 1.65%)."
+    ],
+    "invalidation": "1h close below 4.336 — the demand zone is negated and the long thesis is off.",
+    "horizon": {
+      "label": "swing",
+      "t1Atr1": 4.7,
+      "t2Atr4": 4.4,
+      "t2Pct": 12.18
+    },
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 55,
+      "reasons": [
+        "bull all 3 TFs",
+        "fresh BOS",
+        "EMA stacked"
+      ],
+      "tf": "4h",
+      "rank": 8,
+      "outOf": 10
+    },
+    "strategyVersion": "v3-9f751e33",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "v3-9f751e33",
+    "inputSnapshot": {
+      "bias": "bullish",
+      "liquidity": {
+        "turnover24h": 19133383.04761,
+        "oiValue": 22958758.954800013,
+        "tier": "low"
+      },
+      "derivs": {
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 22958758.954800013,
+        "markPrice": 4.4105,
+        "change24hPct": 11.28
+      },
+      "regime": {
+        "regime": "ranging",
+        "confidence": 100,
+        "why": [
+          "swings oscillating"
+        ]
+      },
+      "timeframes": {
+        "1h": {
+          "price": 4.4126,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bullish",
+            "price": 4.0571,
+            "brokenAt": 1785398400000
+          },
+          "emaStack": "bullish",
+          "priceVsE200": "above",
+          "atrPct": 1.65,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 4.0627,
+              "bottom": 4.0377
+            },
+            {
+              "dir": "bullish",
+              "top": 4.1231,
+              "bottom": 4.0677
+            },
+            {
+              "dir": "bullish",
+              "top": 4.1824,
+              "bottom": 4.1294
+            },
+            {
+              "dir": "bullish",
+              "top": 4.2686,
+              "bottom": 4.2267
+            },
+            {
+              "dir": "bullish",
+              "top": 4.3715,
+              "bottom": 4.336
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.9119,
+              "bottom": 3.8721
+            },
+            {
+              "dir": "bullish",
+              "top": 3.9976,
+              "bottom": 3.961
+            },
+            {
+              "dir": "bearish",
+              "top": 4.0433,
+              "bottom": 3.934
+            },
+            {
+              "dir": "bearish",
+              "top": 4.0197,
+              "bottom": 3.9395
+            },
+            {
+              "dir": "bearish",
+              "top": 4.0571,
+              "bottom": 3.9693
+            },
+            {
+              "dir": "bearish",
+              "top": 4.0709,
+              "bottom": 3.9809
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 3.69165,
+                "count": 2
+              },
+              {
+                "price": 3.92255,
+                "count": 4
+              },
+              {
+                "price": 3.944125,
+                "count": 3
+              },
+              {
+                "price": 4.0724,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 3.65009375,
+                "count": 5
+              },
+              {
+                "price": 3.7380125,
+                "count": 4
+              },
+              {
+                "price": 3.7693,
+                "count": 2
+              },
+              {
+                "price": 3.7535,
+                "count": 3
+              }
+            ]
+          }
+        },
+        "4h": {
+          "price": 4.4126,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bullish",
+            "price": 3.947,
+            "brokenAt": 1785326400000
+          },
+          "emaStack": "bullish",
+          "priceVsE200": "above",
+          "atrPct": 2.74,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 3.5392,
+              "bottom": 3.5277
+            },
+            {
+              "dir": "bullish",
+              "top": 3.5974,
+              "bottom": 3.5474
+            },
+            {
+              "dir": "bullish",
+              "top": 3.9431,
+              "bottom": 3.8531
+            },
+            {
+              "dir": "bullish",
+              "top": 4.1231,
+              "bottom": 4.0219
+            },
+            {
+              "dir": "bullish",
+              "top": 4.3218,
+              "bottom": 4.1294
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.9058,
+              "bottom": 3.77
+            },
+            {
+              "dir": "bullish",
+              "top": 4.0433,
+              "bottom": 3.9049
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9576,
+              "bottom": 3.8345
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9247,
+              "bottom": 3.8768
+            },
+            {
+              "dir": "bearish",
+              "top": 3.947,
+              "bottom": 3.81
+            },
+            {
+              "dir": "bearish",
+              "top": 4.061,
+              "bottom": 3.81
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 3.0633999999999997,
+                "count": 2
+              },
+              {
+                "price": 3.2856,
+                "count": 2
+              },
+              {
+                "price": 3.75535,
+                "count": 2
+              },
+              {
+                "price": 3.7399,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 2.47845,
+                "count": 2
+              },
+              {
+                "price": 3.4621,
+                "count": 2
+              },
+              {
+                "price": 3.57245,
+                "count": 2
+              },
+              {
+                "price": 3.7398499999999997,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "1D": {
+          "price": 4.4126,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bullish",
+            "price": 3.8894,
+            "brokenAt": 1785024000000
+          },
+          "emaStack": "mixed",
+          "priceVsE200": "above",
+          "atrPct": 5.53,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 4.753,
+              "bottom": 4.4158
+            },
+            {
+              "dir": "bullish",
+              "top": 2.7777,
+              "bottom": 2.5979
+            },
+            {
+              "dir": "bullish",
+              "top": 3.1517,
+              "bottom": 2.8813
+            },
+            {
+              "dir": "bullish",
+              "top": 3.6218,
+              "bottom": 3.5734
+            },
+            {
+              "dir": "bullish",
+              "top": 3.9549,
+              "bottom": 3.947
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 3.5734,
+              "bottom": 3.4615
+            },
+            {
+              "dir": "bullish",
+              "top": 3.8258,
+              "bottom": 3.6099
+            },
+            {
+              "dir": "bearish",
+              "top": 3.8471,
+              "bottom": 3.4627
+            },
+            {
+              "dir": "bearish",
+              "top": 3.7576,
+              "bottom": 3.5427
+            },
+            {
+              "dir": "bearish",
+              "top": 3.8647,
+              "bottom": 3.6519
+            },
+            {
+              "dir": "bearish",
+              "top": 3.9621,
+              "bottom": 3.65
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 6.43305,
+                "count": 2
+              },
+              {
+                "price": 3.7309,
+                "count": 2
+              },
+              {
+                "price": 3.6719,
+                "count": 2
+              },
+              {
+                "price": 3.7582500000000003,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 5.3244,
+                "count": 2
+              },
+              {
+                "price": 3.6103750000000003,
+                "count": 3
+              },
+              {
+                "price": 3.257975,
+                "count": 3
+              },
+              {
+                "price": 3.4093999999999998,
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawResponse": "```json\n{\n  \"verdict\": \"LONG NOW\",\n  \"bias\": \"bullish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Buy UNI/USDT now at market, with a stop below 4.336 and a first target at 4.753.\",\n  \"reason\": \"Price has broken structure upward on all three timeframes, is holding above its 200-period average on every timeframe, and just pulled back into the top of a demand zone between 4.336 and 4.3715 — a logical place for buyers to step in.\",\n  \"problem\": \"\",\n  \"price\": \"4.4126\",\n  \"nearSupport\": \"4.336 (bottom of 1h unfilled demand gap 4.336–4.3715)\",\n  \"nearResistance\": \"4.4158–4.753 (daily bearish gap / supply zone)\",\n  \"location\": \"at support\",\n  \"entryType\": \"market\",\n  \"trigger\": \"Price is already trading inside the 1h bullish FVG 4.336–4.3715; zone is active now\",\n  \"entry\": \"4.4126\",\n  \"stop\": \"4.3290\",\n  \"target1\": \"4.753\",\n  \"target2\": \"4.9500\",\n  \"rr\": \"2.9R\",\n  \"confirmLevel\": \"\",\n  \"confirmTimeframe\": \"\",\n  \"retestZone\": \"\",\n  \"validUntil\": \"next 1h close below 4.336\",\n  \"cancelIf\": \"1h candle closes below 4.336, invalidating the demand zone and the bullish structure\",\n  \"liqMagnet\": \"4.753 (bottom of daily bearish FVG / equal-high cluster at 4.0724 already swept)\",\n  \"rationale\": [\n    \"Top-down structure is uniformly bullish: 1D printed a BOS at 3.8894, 4h BOS at 3.947, 1h BOS at 4.0571 — all three timeframes confirm higher-high/higher-low progression with price above the 200 EMA on every frame.\",\n    \"Price has retraced into the highest 1h bullish FVG (4.336–4.3715), which sits directly above the next FVG cluster (4.2267–4.2686); this is the first meaningful demand imbalance below current price and represents the natural pullback target after the BOS impulse.\",\n    \"Funding at +10.95%/yr annualised is mild-positive and within the neutral band (-15% to +15%/yr), so crowding risk is not a concern; the daily bearish FVG top at 4.753 is the nearest unfilled supply and acts as a clean first target, giving roughly 2.9R against a stop just below the FVG low at 4.329 (≈1.9× the 1h ATR of 1.65%).\"\n  ],\n  \"invalidation\": \"1h close below 4.336 — the demand zone is negated and the long thesis is off.\"\n}\n```",
+    "validationWarnings": [],
+    "status": "filled",
+    "filledAt": "2026-07-30T17:24:25.614Z",
+    "mod": 1785432265614
+  },
+  {
     "id": 1785423080176,
     "ts": "2026-07-30T14:51:20.176Z",
     "pair": "SOL/USDT",
