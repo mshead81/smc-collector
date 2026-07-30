@@ -426,6 +426,421 @@
     "deleted": true
   },
   {
+    "id": 1785421158497,
+    "ts": "2026-07-30T14:19:18.497Z",
+    "pair": "SUI/USDT",
+    "symbol": "SUI",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "verdict": "SHORT NOW",
+    "bias": "bearish",
+    "conviction": "medium",
+    "actionNow": "Sell SUI/USDT at market now, with a stop above 0.6972 and a first target near 0.6780.",
+    "reason": "Price is sitting inside a cluster of sell zones on all three timeframes, the trend is down on every timeframe, and the most recent structure breaks on the 1h and 4h both confirmed a bearish shift at the same timestamp — price is currently mid-range between those sell zones above and a resting liquidity pool below near 0.6781.",
+    "problem": "",
+    "price": "0.69335",
+    "nearSupport": "0.6831 (base of nearest 1h sell zone / equal lows cluster near 0.6737–0.6787)",
+    "nearResistance": "0.6972 (top of 1h bearish order block 0.69721–0.68556)",
+    "location": "at resistance",
+    "entryType": "market",
+    "trigger": "Price is already trading inside the 1h bearish order block (0.69721–0.68556) and the 4h bearish order block (0.69334–0.68597); no further confirmation needed — the zone is live.",
+    "entry": "0.69335",
+    "stop": "0.69850",
+    "target1": "0.67866",
+    "target2": "0.67366",
+    "rr": "2.8R",
+    "confirmLevel": "",
+    "confirmTimeframe": "",
+    "retestZone": "",
+    "validUntil": "Next 1h close above 0.69850 cancels the trade",
+    "cancelIf": "Any 1h candle closes above 0.69850, which would put price back above all nearby sell zones and invalidate the bearish structure",
+    "liqMagnet": "0.67806 (4h equal lows cluster, 4 touches — highest resting liquidity below)",
+    "rationale": [
+      "All three timeframes (1D, 4h, 1h) show trend=down, emaStack=bearish, priceVsE200=below, and the most recent structure event on both 1h and 4h is a bearish CHoCH confirmed at the same timestamp (1785355200000), giving full top-down alignment with no contradicting timeframe.",
+      "Current price 0.69335 sits inside overlapping bearish order blocks on 1h (0.69721–0.68556, 0.69557–0.69233, 0.69116–0.68764) and 4h (0.69334–0.68597, 0.69116–0.68474), and directly beneath the 1h unfilled bearish FVG (0.69916–0.68290) — this is a stacked supply confluence with no bullish structure to lean on.",
+      "The primary downside magnet is the 4h equal-lows cluster at 0.67806 (4 touches = heavy resting liquidity), with a secondary target at the 1h equal lows at 0.67366; funding at +10.95%/yr is mildly positive (longs paying) which is consistent with — not contradictory to — the bearish bias, and 24h OI change of +1.12% suggests fresh positioning rather than a squeeze unwind, keeping conviction at medium rather than high given the low turnover ($3.6M) which limits follow-through risk."
+    ],
+    "invalidation": "1h candle close above 0.69850 (above all overlapping sell zones and the 1h CHoCH level), which would signal buyers have absorbed supply and the bearish thesis is wrong.",
+    "horizon": {
+      "label": "multi-session",
+      "t1Atr1": 3,
+      "t2Atr4": 1.9,
+      "t2Pct": 2.84
+    },
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 95,
+      "reasons": [
+        "bear all 3 TFs",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 2,
+      "outOf": 10
+    },
+    "strategyVersion": "v3-9f751e33",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "v3-9f751e33",
+    "inputSnapshot": {
+      "bias": "bearish",
+      "liquidity": {
+        "turnover24h": 3576744.442227,
+        "oiValue": 21647905.05015,
+        "tier": "low"
+      },
+      "derivs": {
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 21647905.05015,
+        "markPrice": 0.69345,
+        "change24hPct": 1.12
+      },
+      "regime": {
+        "regime": "ranging",
+        "confidence": 100,
+        "why": [
+          "swings oscillating"
+        ]
+      },
+      "timeframes": {
+        "1h": {
+          "price": 0.69335,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bearish",
+            "price": 0.68011,
+            "brokenAt": 1785355200000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 0.7,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 0.75372,
+              "bottom": 0.74977
+            },
+            {
+              "dir": "bearish",
+              "top": 0.74152,
+              "bottom": 0.73645
+            },
+            {
+              "dir": "bearish",
+              "top": 0.72926,
+              "bottom": 0.72719
+            },
+            {
+              "dir": "bearish",
+              "top": 0.71092,
+              "bottom": 0.70378
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69916,
+              "bottom": 0.6829
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 0.68869,
+              "bottom": 0.68133
+            },
+            {
+              "dir": "bullish",
+              "top": 0.68787,
+              "bottom": 0.68452
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69557,
+              "bottom": 0.69233
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69116,
+              "bottom": 0.68764
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69721,
+              "bottom": 0.68556
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69049,
+              "bottom": 0.6831
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 0.72577,
+                "count": 2
+              },
+              {
+                "price": 0.7197125,
+                "count": 3
+              },
+              {
+                "price": 0.69191,
+                "count": 2
+              },
+              {
+                "price": 0.696805,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 0.71625,
+                "count": 2
+              },
+              {
+                "price": 0.7127950000000001,
+                "count": 2
+              },
+              {
+                "price": 0.6736599999999999,
+                "count": 2
+              },
+              {
+                "price": 0.678715,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "4h": {
+          "price": 0.69335,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bearish",
+            "price": 0.67844,
+            "brokenAt": 1785355200000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 1.51,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 0.76626,
+              "bottom": 0.7487
+            },
+            {
+              "dir": "bearish",
+              "top": 0.74106,
+              "bottom": 0.73199
+            },
+            {
+              "dir": "bearish",
+              "top": 0.72926,
+              "bottom": 0.71762
+            },
+            {
+              "dir": "bearish",
+              "top": 0.71233,
+              "bottom": 0.70612
+            },
+            {
+              "dir": "bullish",
+              "top": 0.68998,
+              "bottom": 0.68903
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 0.69637,
+              "bottom": 0.68117
+            },
+            {
+              "dir": "bullish",
+              "top": 0.69721,
+              "bottom": 0.68029
+            },
+            {
+              "dir": "bearish",
+              "top": 0.72599,
+              "bottom": 0.71555
+            },
+            {
+              "dir": "bearish",
+              "top": 0.72555,
+              "bottom": 0.71087
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69334,
+              "bottom": 0.68597
+            },
+            {
+              "dir": "bearish",
+              "top": 0.69116,
+              "bottom": 0.68474
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 0.750975,
+                "count": 3
+              },
+              {
+                "price": 0.7747975,
+                "count": 3
+              },
+              {
+                "price": 0.72577,
+                "count": 2
+              },
+              {
+                "price": 0.696805,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 0.6780575,
+                "count": 4
+              },
+              {
+                "price": 0.7291350000000001,
+                "count": 2
+              },
+              {
+                "price": 0.72083,
+                "count": 2
+              },
+              {
+                "price": 0.7218899999999999,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "1D": {
+          "price": 0.69335,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bearish",
+            "price": 0.72132,
+            "brokenAt": 1785196800000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 4.35,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 0.95381,
+              "bottom": 0.93719
+            },
+            {
+              "dir": "bearish",
+              "top": 0.85752,
+              "bottom": 0.84316
+            },
+            {
+              "dir": "bearish",
+              "top": 0.75292,
+              "bottom": 0.74842
+            },
+            {
+              "dir": "bearish",
+              "top": 0.73986,
+              "bottom": 0.71716
+            },
+            {
+              "dir": "bearish",
+              "top": 0.71028,
+              "bottom": 0.6964
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 0.76563,
+              "bottom": 0.73369
+            },
+            {
+              "dir": "bullish",
+              "top": 0.72412,
+              "bottom": 0.67375
+            },
+            {
+              "dir": "bearish",
+              "top": 0.7802,
+              "bottom": 0.72931
+            },
+            {
+              "dir": "bearish",
+              "top": 0.75115,
+              "bottom": 0.71196
+            },
+            {
+              "dir": "bearish",
+              "top": 0.76727,
+              "bottom": 0.71899
+            },
+            {
+              "dir": "bearish",
+              "top": 0.77777,
+              "bottom": 0.76082
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 1.1646,
+                "count": 2
+              },
+              {
+                "price": 0.9757750000000001,
+                "count": 2
+              },
+              {
+                "price": 0.779895,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 0.8961749999999999,
+                "count": 2
+              },
+              {
+                "price": 0.841695,
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawResponse": "```json\n{\n  \"verdict\": \"SHORT NOW\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Sell SUI/USDT at market now, with a stop above 0.6972 and a first target near 0.6780.\",\n  \"reason\": \"Price is sitting inside a cluster of sell zones on all three timeframes, the trend is down on every timeframe, and the most recent structure breaks on the 1h and 4h both confirmed a bearish shift at the same timestamp — price is currently mid-range between those sell zones above and a resting liquidity pool below near 0.6781.\",\n  \"problem\": \"\",\n  \"price\": \"0.69335\",\n  \"nearSupport\": \"0.6831 (base of nearest 1h sell zone / equal lows cluster near 0.6737–0.6787)\",\n  \"nearResistance\": \"0.6972 (top of 1h bearish order block 0.69721–0.68556)\",\n  \"location\": \"at resistance\",\n  \"entryType\": \"market\",\n  \"trigger\": \"Price is already trading inside the 1h bearish order block (0.69721–0.68556) and the 4h bearish order block (0.69334–0.68597); no further confirmation needed — the zone is live.\",\n  \"entry\": \"0.69335\",\n  \"stop\": \"0.69850\",\n  \"target1\": \"0.67866\",\n  \"target2\": \"0.67366\",\n  \"rr\": \"2.8R\",\n  \"confirmLevel\": \"\",\n  \"confirmTimeframe\": \"\",\n  \"retestZone\": \"\",\n  \"validUntil\": \"Next 1h close above 0.69850 cancels the trade\",\n  \"cancelIf\": \"Any 1h candle closes above 0.69850, which would put price back above all nearby sell zones and invalidate the bearish structure\",\n  \"liqMagnet\": \"0.67806 (4h equal lows cluster, 4 touches — highest resting liquidity below)\",\n  \"rationale\": [\n    \"All three timeframes (1D, 4h, 1h) show trend=down, emaStack=bearish, priceVsE200=below, and the most recent structure event on both 1h and 4h is a bearish CHoCH confirmed at the same timestamp (1785355200000), giving full top-down alignment with no contradicting timeframe.\",\n    \"Current price 0.69335 sits inside overlapping bearish order blocks on 1h (0.69721–0.68556, 0.69557–0.69233, 0.69116–0.68764) and 4h (0.69334–0.68597, 0.69116–0.68474), and directly beneath the 1h unfilled bearish FVG (0.69916–0.68290) — this is a stacked supply confluence with no bullish structure to lean on.\",\n    \"The primary downside magnet is the 4h equal-lows cluster at 0.67806 (4 touches = heavy resting liquidity), with a secondary target at the 1h equal lows at 0.67366; funding at +10.95%/yr is mildly positive (longs paying) which is consistent with — not contradictory to — the bearish bias, and 24h OI change of +1.12% suggests fresh positioning rather than a squeeze unwind, keeping conviction at medium rather than high given the low turnover ($3.6M) which limits follow-through risk.\"\n  ],\n  \"invalidation\": \"1h candle close above 0.69850 (above all overlapping sell zones and the 1h CHoCH level), which would signal buyers have absorbed supply and the bearish thesis is wrong.\"\n}\n```",
+    "validationWarnings": [],
+    "status": "filled",
+    "filledAt": "2026-07-30T14:19:18.497Z",
+    "mod": 1785421158497
+  },
+  {
     "id": 1785416332182,
     "ts": "2026-07-30T12:58:52.182Z",
     "pair": "SUI/USDT",
@@ -2996,9 +3411,9 @@
     },
     "rawResponse": "```json\n{\n  \"verdict\": \"WAIT FOR CONFIRMATION\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Do nothing yet — wait for price to bounce up into the $55.54–$55.80 zone and then fail there before shorting.\",\n  \"reason\": \"Every timeframe points down and price just broke below a key level, but right now it is sitting directly on top of a demand zone that could push it back up temporarily, making an immediate short entry too risky.\",\n  \"problem\": \"Price is at $54.71, which is right inside a bullish demand zone ($54.28–$55.37 on the 4h). Shorting here means selling directly onto support — the trade has no room to breathe before hitting its invalidation level.\",\n  \"price\": \"54.71\",\n  \"nearSupport\": \"54.28 (4h demand zone bottom)\",\n  \"nearResistance\": \"55.54–55.80 (cluster of bearish supply zones on 1h)\",\n  \"location\": \"at support\",\n  \"entryType\": \"limit\",\n  \"trigger\": \"Price rallies back up into the $55.54–$55.80 supply cluster on the 1h, then a 1h candle CLOSES back below $55.54, confirming rejection from that zone.\",\n  \"entry\": \"55.54\",\n  \"stop\": \"56.40\",\n  \"target1\": \"54.00\",\n  \"target2\": \"52.50\",\n  \"rr\": \"2.8R\",\n  \"confirmLevel\": \"55.54\",\n  \"confirmTimeframe\": \"1h\",\n  \"retestZone\": \"55.54–55.80\",\n  \"validUntil\": \"Next 4h close above 56.40 kills the idea\",\n  \"cancelIf\": \"Any 1h candle closes above 56.40 — that would mean price has reclaimed the supply zone rather than rejected from it, flipping the short-term structure bullish and invalidating the bearish setup.\",\n  \"liqMagnet\": \"54.00 (equal lows on 1h, resting buy orders below)\",\n  \"rationale\": [\n    \"All three timeframes (1D BOS bearish at 58.23, 4h CHoCH bearish at 56.91, 1h BOS bearish at 54.60) confirm a top-down bearish structure with EMA stacks bearish on 1h and 4h; price is below the 200 EMA on both those timeframes.\",\n    \"The $55.54–$55.80 zone is a dense cluster of three overlapping 1h bearish order blocks (55.80/55.18, 55.72/55.15, 55.54/54.77) and a bearish FVG (55.99–55.59) sitting just above — this is the logical area where sellers should re-engage on any bounce.\",\n    \"Funding at +10.95%/yr is mildly positive (longs paying a small premium) which is consistent with but does not strongly amplify the bearish bias; it is within the neutral band so conviction stays medium rather than high. The $54.00 equal-lows liquidity pool on the 1h is the nearest downside magnet once the 4h demand zone at $54.28 gives way.\"\n  ],\n  \"invalidation\": \"1h close above 56.40 — price back inside the 4h bearish order block (55.80–54.60) with momentum would negate the short setup entirely.\"\n}\n```",
     "validationWarnings": [],
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1785411598352,
+    "mod": 1785420971825,
     "updates": [
       {
         "action": "ENTER SHORT",
@@ -3054,7 +3469,10 @@
     "activatedFrom": "WAIT FOR CONFIRMATION",
     "activatedAt": "2026-07-30T11:39:33.156Z",
     "outcome": null,
-    "r": null
+    "r": null,
+    "cancelPrice": 53.618,
+    "cancelProgress": 1.41,
+    "cancelledAt": "2026-07-30T14:16:11.824Z"
   },
   {
     "id": 1785313043920,
