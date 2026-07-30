@@ -422,7 +422,8 @@
     "validationWarnings": [],
     "status": "watch",
     "filledAt": null,
-    "mod": 1785423080176
+    "mod": 1785425940258,
+    "deleted": true
   },
   {
     "id": 1785416332182,
@@ -830,9 +831,9 @@
     },
     "rawResponse": "```json\n{\n  \"verdict\": \"WAIT FOR CONFIRMATION\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Do nothing yet — wait for price to push up into the supply zone overhead, then look to sell the rejection.\",\n  \"reason\": \"Every timeframe shows a downtrend and price just broke structure to the downside, but right now price is sitting directly on top of a cluster of demand zones, making a short entry here a poor-risk bet until sellers prove they can push through that floor.\",\n  \"problem\": \"Price is hovering just above a tight band of buyer zones (roughly 0.681–0.690) that could bounce it higher before the next leg down. Shorting here risks getting stopped out by that bounce.\",\n  \"price\": \"0.69293\",\n  \"nearSupport\": \"0.68133\",\n  \"nearResistance\": \"0.69916\",\n  \"location\": \"at support\",\n  \"entryType\": \"limit\",\n  \"trigger\": \"Price rallies into the 0.6956–0.6992 supply zone on the 1h chart and then closes a 1h candle back below 0.6956, confirming rejection.\",\n  \"entry\": \"0.6956\",\n  \"stop\": \"0.7010\",\n  \"target1\": \"0.6780\",\n  \"target2\": \"0.6737\",\n  \"rr\": \"2.5R\",\n  \"confirmLevel\": \"0.6956\",\n  \"confirmTimeframe\": \"1h\",\n  \"retestZone\": \"0.6956–0.6992\",\n  \"validUntil\": \"Next 4h close above 0.7010 kills the idea\",\n  \"cancelIf\": \"Any 1h candle closes above 0.7010 — that would mean price has reclaimed the supply zone rather than rejected it, invalidating the short thesis.\",\n  \"liqMagnet\": \"0.67366 (equal lows on 1h and 4h — resting sell-stop liquidity below)\",\n  \"rationale\": [\n    \"All three timeframes (1D, 4h, 1h) show bearish structure: EMA stacks are bearish, price is below the 200 EMA on every frame, and the most recent structure break on each was a bearish CHoCH — 1D broke at 0.72132, 4h at 0.67844, 1h at 0.68011.\",\n    \"Current price (0.69293) sits inside a dense cluster of 1h and 4h bearish FVGs (0.69761–0.68494 on 4h; 0.69916–0.68290 on 1h) and is sandwiched between bullish order blocks below (0.68133–0.68869) and bearish order blocks above (0.69233–0.69557 and 0.69721–0.69916) — shorting mid-cluster has poor location.\",\n    \"Funding at +10.95%/yr is mildly positive (longs paying shorts) and aligns with the bearish bias without being extreme enough to signal an imminent squeeze; the equal lows at 0.67366 on 1h/4h represent the most logical downside liquidity magnet once the demand cluster below is cleared.\"\n  ],\n  \"invalidation\": \"A 1h close above 0.7010 (above the top of the bearish order block at 0.69721–0.69916 plus one ATR buffer) cancels the short setup entirely.\"\n}\n```",
     "validationWarnings": [],
-    "status": "pending",
+    "status": "cancelled",
     "filledAt": null,
-    "mod": 1785422983711,
+    "mod": 1785425944137,
     "updates": [
       {
         "action": "ENTER SHORT",
@@ -858,7 +859,10 @@
     "activatedFrom": "WAIT FOR CONFIRMATION",
     "activatedAt": "2026-07-30T14:49:35.907Z",
     "outcome": null,
-    "r": null
+    "r": null,
+    "cancelPrice": 0.69825,
+    "cancelProgress": -0.16,
+    "cancelledAt": "2026-07-30T15:39:04.137Z"
   },
   {
     "id": 1785410281820,
@@ -1689,7 +1693,7 @@
     "validationWarnings": [],
     "status": "filled",
     "filledAt": "2026-07-30T11:13:29.125Z",
-    "mod": 1785422965795,
+    "mod": 1785425935831,
     "updates": [
       {
         "action": "ENTER SHORT",
@@ -1759,8 +1763,8 @@
     ],
     "activatedFrom": "WAIT FOR CONFIRMATION",
     "activatedAt": "2026-07-30T07:59:18.373Z",
-    "outcome": null,
-    "r": null
+    "outcome": "SL",
+    "r": -1
   },
   {
     "id": 1785324132317,
