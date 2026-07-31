@@ -1,5 +1,415 @@
 [
   {
+    "id": 1785487225689,
+    "ts": "2026-07-31T08:40:25.689Z",
+    "pair": "TAO/USDT",
+    "symbol": "TAO",
+    "tf": "data",
+    "intervals": [
+      "1h",
+      "4h",
+      "1D"
+    ],
+    "verdict": "WAIT FOR CONFIRMATION",
+    "bias": "bearish",
+    "conviction": "medium",
+    "actionNow": "Do nothing for now — wait for price to clear that level or pull back away from it.",
+    "reason": "Price has bounced into a cluster of resistance levels on the hourly chart while the daily and 4-hour charts both show a confirmed downtrend — this is a counter-trend rally running into a ceiling, not a breakout.",
+    "problem": "Support at 194.72 (4h demand zone) sits only 0.01 ATR from the entry — not enough room.",
+    "price": "194.74",
+    "nearSupport": "192.33 (4h bullish OB top / 1h equal lows cluster at 192.32)",
+    "nearResistance": "195.21 (1h bearish OB top) / 196.49 (4h bearish OB bottom)",
+    "location": "at resistance",
+    "entryType": "market",
+    "trigger": "Price is already trading inside the 1h bearish order block (192.17–195.21) and the 4h bearish order block (192.20–196.49), with the 1h CHoCH at 194.63 just printed — the rally has reached supply.",
+    "entry": "194.74",
+    "stop": "197.90",
+    "target1": "192.30",
+    "target2": "190.48",
+    "rr": "2.1R",
+    "confirmLevel": "",
+    "confirmTimeframe": "",
+    "retestZone": "",
+    "validUntil": "next 4h close (invalidated if 4h candle closes above 197.90)",
+    "cancelIf": "1h candle closes above 197.90, confirming price has broken through the full bearish OB stack",
+    "liqMagnet": "190.48 (4h equal lows / prior BOS level at 190.51)",
+    "rationale": [
+      "1D and 4h both show bearish BOS (1D broke 186.89, 4h broke 190.51), bearish EMA stacks, and price trading below the 200 EMA — the dominant structure is down and this 1h CHoCH is a lower-timeframe counter-trend move into supply, not a reversal.",
+      "Current price 194.74 sits inside three overlapping bearish order blocks on 1h (192.17–195.21, 193.34–195.00) and the 4h bearish OB (192.20–196.49), while the nearest unfilled bearish 4h FVG sits at 206.18–206.54 — overhead supply is dense and the next clean bearish FVG magnet is far above, meaning upside is capped structurally.",
+      "Funding at +10.95%/yr is mildly positive (longs paying shorts) but sits within the neutral band, so it does not contradict the short — if anything a modest long-crowding adds marginal squeeze risk to the downside; the equal-lows liquidity pool at 190.48 (4h) is the natural draw for price given the bearish 4h BOS at 190.51."
+    ],
+    "invalidation": "1h close above 197.90 (above the full 1h bearish OB at 197.85 and 4h OB at 197.85) negates the short.",
+    "blockedFrom": "SHORT NOW",
+    "blockDetail": {
+      "blocked": true,
+      "level": {
+        "price": 194.72,
+        "tf": "4h",
+        "kind": "demand zone"
+      },
+      "gapAtr": 0.01,
+      "why": "Support at 194.72 (4h demand zone) sits only 0.01 ATR from the entry — not enough room."
+    },
+    "horizon": null,
+    "regime": {
+      "regime": "ranging",
+      "confidence": 100,
+      "why": [
+        "swings oscillating"
+      ]
+    },
+    "setup": {
+      "score": 85,
+      "reasons": [
+        "2/3 TFs aligned",
+        "on bearish OB",
+        "target liq below"
+      ],
+      "tf": "4h",
+      "rank": 1,
+      "outOf": 10
+    },
+    "strategyVersion": "v3-9f751e33",
+    "model": "claude-sonnet-4-6",
+    "promptVersion": "v3-9f751e33",
+    "inputSnapshot": {
+      "bias": "bearish",
+      "liquidity": {
+        "turnover24h": 3711576.095529999,
+        "oiValue": 24924437.04096,
+        "tier": "low"
+      },
+      "derivs": {
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 24924437.04096,
+        "markPrice": 194.79,
+        "change24hPct": 1.42
+      },
+      "regime": {
+        "regime": "ranging",
+        "confidence": 100,
+        "why": [
+          "swings oscillating"
+        ]
+      },
+      "timeframes": {
+        "1h": {
+          "price": 194.74,
+          "trend": "up",
+          "lastBreak": {
+            "kind": "CHoCH",
+            "dir": "bullish",
+            "price": 194.63,
+            "brokenAt": 1785466800000
+          },
+          "emaStack": "mixed",
+          "priceVsE200": "above",
+          "atrPct": 0.83,
+          "unfilledFVGs": [
+            {
+              "dir": "bullish",
+              "top": 188.99,
+              "bottom": 188.95
+            },
+            {
+              "dir": "bullish",
+              "top": 190.42,
+              "bottom": 189.02
+            },
+            {
+              "dir": "bullish",
+              "top": 194.6,
+              "bottom": 194.14
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 193.99,
+              "bottom": 192.75
+            },
+            {
+              "dir": "bullish",
+              "top": 193.96,
+              "bottom": 192.46
+            },
+            {
+              "dir": "bearish",
+              "top": 195.21,
+              "bottom": 192.17
+            },
+            {
+              "dir": "bearish",
+              "top": 195,
+              "bottom": 193.34
+            },
+            {
+              "dir": "bearish",
+              "top": 194.01,
+              "bottom": 193
+            },
+            {
+              "dir": "bearish",
+              "top": 197.85,
+              "bottom": 195.42
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 195.23250000000002,
+                "count": 3
+              },
+              {
+                "price": 194.72875,
+                "count": 4
+              },
+              {
+                "price": 192.27999999999997,
+                "count": 2
+              },
+              {
+                "price": 194.1,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 192.3175,
+                "count": 5
+              },
+              {
+                "price": 190.39625,
+                "count": 4
+              },
+              {
+                "price": 190.825,
+                "count": 3
+              },
+              {
+                "price": 186.435,
+                "count": 3
+              }
+            ]
+          }
+        },
+        "4h": {
+          "price": 194.74,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bearish",
+            "price": 190.51,
+            "brokenAt": 1785355200000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 1.79,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 263.49,
+              "bottom": 256.65
+            },
+            {
+              "dir": "bearish",
+              "top": 249.14,
+              "bottom": 248.29
+            },
+            {
+              "dir": "bearish",
+              "top": 245.14,
+              "bottom": 243.85
+            },
+            {
+              "dir": "bearish",
+              "top": 226.9,
+              "bottom": 226.64
+            },
+            {
+              "dir": "bearish",
+              "top": 206.54,
+              "bottom": 206.18
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 198.37,
+              "bottom": 192.33
+            },
+            {
+              "dir": "bullish",
+              "top": 194.72,
+              "bottom": 188.24
+            },
+            {
+              "dir": "bearish",
+              "top": 199.9,
+              "bottom": 196.89
+            },
+            {
+              "dir": "bearish",
+              "top": 199.24,
+              "bottom": 196.67
+            },
+            {
+              "dir": "bearish",
+              "top": 196.49,
+              "bottom": 192.2
+            },
+            {
+              "dir": "bearish",
+              "top": 197.85,
+              "bottom": 192.51
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 219.39999999999998,
+                "count": 2
+              },
+              {
+                "price": 201.905,
+                "count": 2
+              },
+              {
+                "price": 199.94,
+                "count": 2
+              },
+              {
+                "price": 201.41500000000002,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 195.54000000000002,
+                "count": 2
+              },
+              {
+                "price": 208.835,
+                "count": 2
+              },
+              {
+                "price": 192.88,
+                "count": 2
+              },
+              {
+                "price": 190.475,
+                "count": 2
+              }
+            ]
+          }
+        },
+        "1D": {
+          "price": 194.74,
+          "trend": "down",
+          "lastBreak": {
+            "kind": "BOS",
+            "dir": "bearish",
+            "price": 186.89,
+            "brokenAt": 1785196800000
+          },
+          "emaStack": "bearish",
+          "priceVsE200": "below",
+          "atrPct": 4.99,
+          "unfilledFVGs": [
+            {
+              "dir": "bearish",
+              "top": 444,
+              "bottom": 406
+            },
+            {
+              "dir": "bullish",
+              "top": 176.73,
+              "bottom": 159.97
+            },
+            {
+              "dir": "bearish",
+              "top": 249.2,
+              "bottom": 248.97
+            },
+            {
+              "dir": "bearish",
+              "top": 226.9,
+              "bottom": 226.05
+            }
+          ],
+          "orderBlocks": [
+            {
+              "dir": "bullish",
+              "top": 194.98,
+              "bottom": 186.89
+            },
+            {
+              "dir": "bullish",
+              "top": 201.47,
+              "bottom": 186.38
+            },
+            {
+              "dir": "bearish",
+              "top": 219.2,
+              "bottom": 211.52
+            },
+            {
+              "dir": "bearish",
+              "top": 215.18,
+              "bottom": 201.26
+            },
+            {
+              "dir": "bearish",
+              "top": 202.63,
+              "bottom": 193
+            },
+            {
+              "dir": "bearish",
+              "top": 200.01,
+              "bottom": 190.86
+            }
+          ],
+          "liquidity": {
+            "equalHighs": [
+              {
+                "price": 460.09000000000003,
+                "count": 2
+              },
+              {
+                "price": 300.155,
+                "count": 2
+              },
+              {
+                "price": 216.13,
+                "count": 2
+              },
+              {
+                "price": 219.39999999999998,
+                "count": 2
+              }
+            ],
+            "equalLows": [
+              {
+                "price": 260.58500000000004,
+                "count": 2
+              },
+              {
+                "price": 183.375,
+                "count": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rawResponse": "```json\n{\n  \"verdict\": \"SHORT NOW\",\n  \"bias\": \"bearish\",\n  \"conviction\": \"medium\",\n  \"actionNow\": \"Sell TAO/USDT at market now, with a stop above 197.86 and a first target near 192.30.\",\n  \"reason\": \"Price has bounced into a cluster of resistance levels on the hourly chart while the daily and 4-hour charts both show a confirmed downtrend — this is a counter-trend rally running into a ceiling, not a breakout.\",\n  \"problem\": \"\",\n  \"price\": \"194.74\",\n  \"nearSupport\": \"192.33 (4h bullish OB top / 1h equal lows cluster at 192.32)\",\n  \"nearResistance\": \"195.21 (1h bearish OB top) / 196.49 (4h bearish OB bottom)\",\n  \"location\": \"at resistance\",\n  \"entryType\": \"market\",\n  \"trigger\": \"Price is already trading inside the 1h bearish order block (192.17–195.21) and the 4h bearish order block (192.20–196.49), with the 1h CHoCH at 194.63 just printed — the rally has reached supply.\",\n  \"entry\": \"194.74\",\n  \"stop\": \"197.90\",\n  \"target1\": \"192.30\",\n  \"target2\": \"190.48\",\n  \"rr\": \"2.1R\",\n  \"confirmLevel\": \"\",\n  \"confirmTimeframe\": \"\",\n  \"retestZone\": \"\",\n  \"validUntil\": \"next 4h close (invalidated if 4h candle closes above 197.90)\",\n  \"cancelIf\": \"1h candle closes above 197.90, confirming price has broken through the full bearish OB stack\",\n  \"liqMagnet\": \"190.48 (4h equal lows / prior BOS level at 190.51)\",\n  \"rationale\": [\n    \"1D and 4h both show bearish BOS (1D broke 186.89, 4h broke 190.51), bearish EMA stacks, and price trading below the 200 EMA — the dominant structure is down and this 1h CHoCH is a lower-timeframe counter-trend move into supply, not a reversal.\",\n    \"Current price 194.74 sits inside three overlapping bearish order blocks on 1h (192.17–195.21, 193.34–195.00) and the 4h bearish OB (192.20–196.49), while the nearest unfilled bearish 4h FVG sits at 206.18–206.54 — overhead supply is dense and the next clean bearish FVG magnet is far above, meaning upside is capped structurally.\",\n    \"Funding at +10.95%/yr is mildly positive (longs paying shorts) but sits within the neutral band, so it does not contradict the short — if anything a modest long-crowding adds marginal squeeze risk to the downside; the equal-lows liquidity pool at 190.48 (4h) is the natural draw for price given the bearish 4h BOS at 190.51.\"\n  ],\n  \"invalidation\": \"1h close above 197.90 (above the full 1h bearish OB at 197.85 and 4h OB at 197.85) negates the short.\"\n}\n```",
+    "validationWarnings": [],
+    "status": "watch",
+    "filledAt": null,
+    "mod": 1785487225690
+  },
+  {
     "id": 1785440757270,
     "ts": "2026-07-30T19:45:57.270Z",
     "pair": "HYPE/USDT",
