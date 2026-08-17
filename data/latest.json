@@ -1,43 +1,37 @@
 {
-  "generatedAt": "2026-08-17T15:57:42.751Z",
+  "generatedAt": "2026-08-17T17:13:15.294Z",
   "mock": false,
   "symbols": [
     {
       "symbol": "BTC",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 1768816419.7931466,
-        "oiValue": 2764337693.00904,
+        "turnover24h": 1774964986.839673,
+        "oiValue": 2752720757.303312,
         "tier": "high"
       },
       "derivs": {
         "fundingHourlyPct": -0.00031,
-        "fundingAnnualPct": -2.73,
-        "openInterestUsd": 2764337693.00904,
-        "markPrice": 64164,
-        "change24hPct": 1.66
+        "fundingAnnualPct": -2.75,
+        "openInterestUsd": 2752720757.303312,
+        "markPrice": 63980.2,
+        "change24hPct": 1.25
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 64157,
-            "atr": 218.66397645249793,
-            "atrPct": 0.34,
+            "price": 63972,
+            "atr": 206.88373480115257,
+            "atrPct": 0.32,
             "structure": {
               "trend": "up",
               "lastBreak": {
-                "kind": "CHoCH",
+                "kind": "BOS",
                 "dir": "bullish",
-                "price": 63368,
-                "brokenAt": 1786946400000
+                "price": 63685,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "BOS",
-                  "dir": "bullish",
-                  "price": 63112,
-                  "brokenAt": 1786827600000
-                },
                 {
                   "kind": "CHoCH",
                   "dir": "bearish",
@@ -67,13 +61,19 @@
                   "dir": "bullish",
                   "price": 63368,
                   "brokenAt": 1786946400000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bullish",
+                  "price": 63685,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 63483.12998551102,
-              "e50": 63290.27876302365,
-              "e200": 63635.708038806835,
+              "e20": 63581.75190801847,
+              "e50": 63347.05984510154,
+              "e200": 63647.626593050474,
               "stack": "mixed",
               "priceVsE200": "above"
             },
@@ -92,12 +92,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 63144,
-                "bottom": 63072,
-                "time": 1786827600000
-              },
-              {
-                "dir": "bearish",
                 "top": 63130,
                 "bottom": 63000,
                 "time": 1786845600000
@@ -113,50 +107,56 @@
                 "top": 63685,
                 "bottom": 63446,
                 "time": 1786946400000
+              },
+              {
+                "dir": "bearish",
+                "top": 64196,
+                "bottom": 63771,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
               {
-                "dir": "bearish",
-                "top": 64520,
-                "bottom": 64334,
-                "idx": 133,
-                "time": 1786377600000
-              },
-              {
                 "dir": "bullish",
                 "top": 62996,
                 "bottom": 62942,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               },
               {
                 "dir": "bullish",
                 "top": 63316,
                 "bottom": 63222,
-                "idx": 288,
+                "idx": 286,
                 "time": 1786935600000
               },
               {
                 "dir": "bullish",
                 "top": 63554,
                 "bottom": 63400,
-                "idx": 296,
+                "idx": 294,
                 "time": 1786964400000
               },
               {
                 "dir": "bullish",
                 "top": 63771,
                 "bottom": 63756,
-                "idx": 300,
+                "idx": 298,
                 "time": 1786978800000
+              },
+              {
+                "dir": "bullish",
+                "top": 64025,
+                "bottom": 63870,
+                "idx": 299,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
               "equalHighs": [
                 {
-                  "price": 64179,
-                  "count": 2,
+                  "price": 64187.5,
+                  "count": 3,
                   "time": 1786392000000
                 },
                 {
@@ -200,40 +200,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 271,
-                "price": 62942,
-                "type": "low",
-                "time": 1786874400000
-              },
-              {
-                "idx": 277,
+                "idx": 275,
                 "price": 63368,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 283,
+                "idx": 281,
                 "price": 62678,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 63685,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 63252,
                 "type": "low",
                 "time": 1786957200000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 63407,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 64196,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -241,9 +241,9 @@
         },
         "4h": {
           "smc": {
-            "price": 64157,
-            "atr": 369.02867195950773,
-            "atrPct": 0.58,
+            "price": 63972,
+            "atr": 357.81233825393076,
+            "atrPct": 0.56,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -292,9 +292,9 @@
               ]
             },
             "ema": {
-              "e20": 63331.41982250291,
-              "e50": 63552.38982485673,
-              "e200": 63669.73173794903,
+              "e20": 63393.03063305817,
+              "e50": 63569.107650051155,
+              "e200": 63680.48536017739,
               "stack": "bearish",
               "priceVsE200": "above"
             },
@@ -341,29 +341,36 @@
                 "dir": "bullish",
                 "top": 59764,
                 "bottom": 59070,
-                "idx": 19,
+                "idx": 18,
                 "time": 1782921600000
               },
               {
                 "dir": "bullish",
                 "top": 61166,
                 "bottom": 61068,
-                "idx": 24,
+                "idx": 23,
                 "time": 1782993600000
               },
               {
                 "dir": "bearish",
                 "top": 64934,
                 "bottom": 64334,
-                "idx": 259,
+                "idx": 258,
                 "time": 1786377600000
               },
               {
                 "dir": "bullish",
                 "top": 63402,
                 "bottom": 63110,
-                "idx": 298,
+                "idx": 297,
                 "time": 1786939200000
+              },
+              {
+                "dir": "bullish",
+                "top": 63970,
+                "bottom": 63750,
+                "idx": 300,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
@@ -414,37 +421,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 62523,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 283,
+                "idx": 282,
                 "price": 63224,
                 "type": "high",
                 "time": 1786723200000
               },
               {
-                "idx": 287,
+                "idx": 286,
                 "price": 62890,
                 "type": "low",
                 "time": 1786780800000
               },
               {
-                "idx": 290,
+                "idx": 289,
                 "price": 63144,
                 "type": "high",
                 "time": 1786824000000
               },
               {
-                "idx": 293,
+                "idx": 292,
                 "price": 62942,
                 "type": "low",
                 "time": 1786867200000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 62678,
                 "type": "low",
                 "time": 1786910400000
@@ -455,7 +462,7 @@
         },
         "1D": {
           "smc": {
-            "price": 64157,
+            "price": 63972,
             "atr": 1237.732413676731,
             "atrPct": 1.93,
             "structure": {
@@ -506,9 +513,9 @@
               ]
             },
             "ema": {
-              "e20": 63807.311153502356,
-              "e50": 64324.30698702286,
-              "e200": 71952.2278750953,
+              "e20": 63789.69210588331,
+              "e50": 64317.052085062074,
+              "e200": 71950.3870790754,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -680,38 +687,32 @@
       "symbol": "ETH",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 597154244.1208801,
-        "oiValue": 1745691595.2933612,
+        "turnover24h": 566021190.0640914,
+        "oiValue": 1734770521.584096,
         "tier": "mid"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00125,
-        "fundingAnnualPct": 10.95,
-        "openInterestUsd": 1745691595.2933612,
-        "markPrice": 1912.3,
-        "change24hPct": 1.52
+        "fundingHourlyPct": 0.00087,
+        "fundingAnnualPct": 7.62,
+        "openInterestUsd": 1734770521.584096,
+        "markPrice": 1904.5,
+        "change24hPct": 0.91
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 1912.4,
-            "atr": 8.480186352507543,
-            "atrPct": 0.44,
+            "price": 1905,
+            "atr": 7.935466804378005,
+            "atrPct": 0.42,
             "structure": {
               "trend": "up",
               "lastBreak": {
                 "kind": "BOS",
                 "dir": "bullish",
-                "price": 1906.9,
-                "brokenAt": 1786946400000
+                "price": 1908.8,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "CHoCH",
-                  "dir": "bearish",
-                  "price": 1879.1,
-                  "brokenAt": 1786784400000
-                },
                 {
                   "kind": "BOS",
                   "dir": "bearish",
@@ -741,14 +742,20 @@
                   "dir": "bullish",
                   "price": 1906.9,
                   "brokenAt": 1786946400000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bullish",
+                  "price": 1908.8,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 1897.795262279281,
-              "e50": 1890.509586898107,
-              "e200": 1890.9791259614728,
-              "stack": "mixed",
+              "e20": 1899.2056455392753,
+              "e50": 1891.6690651850943,
+              "e200": 1891.4501403206843,
+              "stack": "bullish",
               "priceVsE200": "above"
             },
             "orderBlocks": [
@@ -763,12 +770,6 @@
                 "top": 1905.6,
                 "bottom": 1896.1,
                 "time": 1786968000000
-              },
-              {
-                "dir": "bearish",
-                "top": 1891.3,
-                "bottom": 1883.5,
-                "time": 1786896000000
               },
               {
                 "dir": "bearish",
@@ -787,6 +788,12 @@
                 "top": 1908.8,
                 "bottom": 1891.5,
                 "time": 1786960800000
+              },
+              {
+                "dir": "bearish",
+                "top": 1914.7,
+                "bottom": 1903.8,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
@@ -794,14 +801,14 @@
                 "dir": "bullish",
                 "top": 1877.7,
                 "bottom": 1876.8,
-                "idx": 286,
+                "idx": 284,
                 "time": 1786928400000
               },
               {
                 "dir": "bullish",
                 "top": 1887.7,
                 "bottom": 1879.6,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               }
             ],
@@ -853,40 +860,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 283,
-                "price": 1868.7,
-                "type": "low",
-                "time": 1786917600000
-              },
-              {
-                "idx": 287,
+                "idx": 285,
                 "price": 1906.9,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 1911,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 1890.7,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 295,
+                "idx": 293,
                 "price": 1908.8,
                 "type": "high",
                 "time": 1786960800000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 1895.5,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 1914.7,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -894,9 +901,9 @@
         },
         "4h": {
           "smc": {
-            "price": 1912.4,
-            "atr": 13.73589175249491,
-            "atrPct": 0.72,
+            "price": 1905,
+            "atr": 13.326185198858923,
+            "atrPct": 0.7,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -945,9 +952,9 @@
               ]
             },
             "ema": {
-              "e20": 1889.5616324119146,
-              "e50": 1889.0205294408315,
-              "e200": 1860.947595628761,
+              "e20": 1891.0319531345892,
+              "e50": 1889.647158829361,
+              "e200": 1861.7236757561545,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -994,35 +1001,35 @@
                 "dir": "bullish",
                 "top": 1686.8,
                 "bottom": 1654.7,
-                "idx": 25,
+                "idx": 24,
                 "time": 1783008000000
               },
               {
                 "dir": "bullish",
                 "top": 1779.3,
                 "bottom": 1778.3,
-                "idx": 94,
+                "idx": 93,
                 "time": 1784001600000
               },
               {
                 "dir": "bullish",
                 "top": 1794.6,
                 "bottom": 1792.7,
-                "idx": 96,
+                "idx": 95,
                 "time": 1784030400000
               },
               {
                 "dir": "bearish",
                 "top": 1956.5,
                 "bottom": 1954.7,
-                "idx": 175,
+                "idx": 174,
                 "time": 1785168000000
               },
               {
                 "dir": "bullish",
                 "top": 1897.5,
                 "bottom": 1886.6,
-                "idx": 298,
+                "idx": 297,
                 "time": 1786939200000
               }
             ],
@@ -1074,37 +1081,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 1863.4,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 283,
+                "idx": 282,
                 "price": 1887.5,
                 "type": "high",
                 "time": 1786723200000
               },
               {
-                "idx": 287,
+                "idx": 286,
                 "price": 1875.3,
                 "type": "low",
                 "time": 1786780800000
               },
               {
-                "idx": 289,
+                "idx": 288,
                 "price": 1885.6,
                 "type": "high",
                 "time": 1786809600000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 1876.4,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 1868.7,
                 "type": "low",
                 "time": 1786910400000
@@ -1115,9 +1122,9 @@
         },
         "1D": {
           "smc": {
-            "price": 1912.3,
+            "price": 1905,
             "atr": 46.49331572345977,
-            "atrPct": 2.43,
+            "atrPct": 2.44,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -1166,9 +1173,9 @@
               ]
             },
             "ema": {
-              "e20": 1885.4440320151498,
-              "e50": 1867.886042994557,
-              "e200": 2156.644728632327,
+              "e20": 1884.7487939199116,
+              "e50": 1867.5997684847532,
+              "e200": 2156.572091816406,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -1325,38 +1332,32 @@
       "symbol": "SOL",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 87635985.21806002,
-        "oiValue": 387677495.67096,
+        "turnover24h": 89310419.50153996,
+        "oiValue": 386877306.53521997,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": -0.00048,
-        "fundingAnnualPct": -4.2,
-        "openInterestUsd": 387677495.67096,
-        "markPrice": 76.098,
-        "change24hPct": 0.75
+        "fundingHourlyPct": -0.00063,
+        "fundingAnnualPct": -5.51,
+        "openInterestUsd": 386877306.53521997,
+        "markPrice": 75.797,
+        "change24hPct": 0.36
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 76.098,
-            "atr": 0.34931986246988617,
-            "atrPct": 0.46,
+            "price": 75.793,
+            "atr": 0.3284798814180738,
+            "atrPct": 0.43,
             "structure": {
               "trend": "up",
               "lastBreak": {
-                "kind": "CHoCH",
+                "kind": "BOS",
                 "dir": "bullish",
-                "price": 75.676,
-                "brokenAt": 1786946400000
+                "price": 75.882,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "BOS",
-                  "dir": "bullish",
-                  "price": 75.638,
-                  "brokenAt": 1786827600000
-                },
                 {
                   "kind": "CHoCH",
                   "dir": "bearish",
@@ -1386,13 +1387,19 @@
                   "dir": "bullish",
                   "price": 75.676,
                   "brokenAt": 1786946400000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bullish",
+                  "price": 75.882,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 75.50170212481817,
-              "e50": 75.41309537280574,
-              "e200": 75.35103275401875,
+              "e20": 75.56679341412878,
+              "e50": 75.4475944559485,
+              "e200": 75.36404534410117,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -1411,12 +1418,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 75.633,
-                "bottom": 75.226,
-                "time": 1786845600000
-              },
-              {
-                "dir": "bearish",
                 "top": 75.6,
                 "bottom": 75.356,
                 "time": 1786892400000
@@ -1432,6 +1433,12 @@
                 "top": 75.764,
                 "bottom": 75.28,
                 "time": 1786960800000
+              },
+              {
+                "dir": "bearish",
+                "top": 76.19,
+                "bottom": 75.76,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
@@ -1439,35 +1446,35 @@
                 "dir": "bullish",
                 "top": 73.828,
                 "bottom": 73.704,
-                "idx": 71,
+                "idx": 69,
                 "time": 1786154400000
               },
               {
                 "dir": "bullish",
                 "top": 74.571,
                 "bottom": 73.937,
-                "idx": 73,
+                "idx": 71,
                 "time": 1786161600000
               },
               {
                 "dir": "bearish",
                 "top": 76.671,
                 "bottom": 76.641,
-                "idx": 178,
+                "idx": 176,
                 "time": 1786539600000
               },
               {
                 "dir": "bullish",
                 "top": 75.016,
                 "bottom": 74.69,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               },
               {
                 "dir": "bullish",
                 "top": 75.76,
                 "bottom": 75.732,
-                "idx": 300,
+                "idx": 298,
                 "time": 1786978800000
               }
             ],
@@ -1519,40 +1526,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
-                "price": 75.676,
-                "type": "high",
-                "time": 1786896000000
-              },
-              {
-                "idx": 282,
+                "idx": 280,
                 "price": 74.088,
                 "type": "low",
                 "time": 1786914000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 75.971,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 75.141,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 75.882,
                 "type": "high",
                 "time": 1786964400000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 75.269,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 76.19,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -1560,9 +1567,9 @@
         },
         "4h": {
           "smc": {
-            "price": 76.098,
-            "atr": 0.6676571688528211,
-            "atrPct": 0.88,
+            "price": 75.793,
+            "atr": 0.6425387996446201,
+            "atrPct": 0.85,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -1611,9 +1618,9 @@
               ]
             },
             "ema": {
-              "e20": 75.52488707810127,
-              "e50": 75.46634760657082,
-              "e200": 75.69002838766288,
+              "e20": 75.54757810467662,
+              "e50": 75.47791642250239,
+              "e200": 75.70656051872196,
               "stack": "mixed",
               "priceVsE200": "above"
             },
@@ -1660,28 +1667,28 @@
                 "dir": "bearish",
                 "top": 80.744,
                 "bottom": 80.729,
-                "idx": 57,
+                "idx": 56,
                 "time": 1783468800000
               },
               {
                 "dir": "bearish",
                 "top": 80.3,
                 "bottom": 78.888,
-                "idx": 58,
+                "idx": 57,
                 "time": 1783483200000
               },
               {
                 "dir": "bullish",
                 "top": 73.551,
                 "bottom": 73.046,
-                "idx": 240,
+                "idx": 239,
                 "time": 1786104000000
               },
               {
                 "dir": "bullish",
                 "top": 74.474,
                 "bottom": 74.061,
-                "idx": 244,
+                "idx": 243,
                 "time": 1786161600000
               }
             ],
@@ -1733,37 +1740,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
+                "idx": 276,
                 "price": 75.05,
                 "type": "low",
                 "time": 1786636800000
               },
               {
-                "idx": 283,
+                "idx": 282,
                 "price": 74.65,
                 "type": "low",
                 "time": 1786723200000
               },
               {
-                "idx": 287,
+                "idx": 286,
                 "price": 75.015,
                 "type": "low",
                 "time": 1786780800000
               },
               {
-                "idx": 290,
+                "idx": 289,
                 "price": 75.703,
                 "type": "high",
                 "time": 1786824000000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 75.676,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 74.088,
                 "type": "low",
                 "time": 1786910400000
@@ -1774,9 +1781,9 @@
         },
         "1D": {
           "smc": {
-            "price": 76.098,
+            "price": 75.793,
             "atr": 2.058274145877191,
-            "atrPct": 2.7,
+            "atrPct": 2.72,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -1825,9 +1832,9 @@
               ]
             },
             "ema": {
-              "e20": 75.18491234987998,
-              "e50": 75.48238440542157,
-              "e200": 90.21922989355528,
+              "e20": 75.15586473083236,
+              "e50": 75.47042362110784,
+              "e200": 90.21619506768462,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -1994,23 +2001,23 @@
       "symbol": "HYPE",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 257769044.6003798,
-        "oiValue": 1340371616.3444395,
+        "turnover24h": 249469235.0117299,
+        "oiValue": 1333687813.0714395,
         "tier": "mid"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 1340371616.3444395,
-        "markPrice": 59.226,
-        "change24hPct": 3.15
+        "openInterestUsd": 1333687813.0714395,
+        "markPrice": 58.972,
+        "change24hPct": 1.73
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 59.238,
-            "atr": 0.4649475520308654,
-            "atrPct": 0.78,
+            "price": 58.953,
+            "atr": 0.43567926680972846,
+            "atrPct": 0.74,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -2059,9 +2066,9 @@
               ]
             },
             "ema": {
-              "e20": 58.815958858709955,
-              "e50": 58.00826564568041,
-              "e200": 56.654605906132836,
+              "e20": 58.86179873748847,
+              "e50": 58.090163330071476,
+              "e200": 56.693019823431,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -2080,12 +2087,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 57.93,
-                "bottom": 57.411,
-                "time": 1786896000000
-              },
-              {
-                "dir": "bearish",
                 "top": 59.176,
                 "bottom": 58.731,
                 "time": 1786935600000
@@ -2101,6 +2102,12 @@
                 "top": 59.826,
                 "bottom": 59.149,
                 "time": 1786960800000
+              },
+              {
+                "dir": "bearish",
+                "top": 59.502,
+                "bottom": 58.832,
+                "time": 1786975200000
               }
             ],
             "fvgs": [
@@ -2108,45 +2115,40 @@
                 "dir": "bullish",
                 "top": 56.211,
                 "bottom": 56.03,
-                "idx": 250,
+                "idx": 248,
                 "time": 1786798800000
               },
               {
                 "dir": "bullish",
                 "top": 56.598,
                 "bottom": 56.476,
-                "idx": 253,
+                "idx": 251,
                 "time": 1786809600000
               },
               {
                 "dir": "bullish",
                 "top": 57.307,
                 "bottom": 57.284,
-                "idx": 286,
+                "idx": 284,
                 "time": 1786928400000
               },
               {
                 "dir": "bullish",
                 "top": 58.182,
                 "bottom": 57.331,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               },
               {
                 "dir": "bullish",
                 "top": 58.731,
                 "bottom": 58.421,
-                "idx": 288,
+                "idx": 286,
                 "time": 1786935600000
               }
             ],
             "liquidity": {
               "equalHighs": [
-                {
-                  "price": 54.8445,
-                  "count": 4,
-                  "time": 1786186800000
-                },
                 {
                   "price": 55.217,
                   "count": 3,
@@ -2161,6 +2163,11 @@
                   "price": 57.316500000000005,
                   "count": 2,
                   "time": 1786820400000
+                },
+                {
+                  "price": 59.6085,
+                  "count": 2,
+                  "time": 1786950000000
                 }
               ],
               "equalLows": [
@@ -2188,40 +2195,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 285,
-                "price": 57.021,
-                "type": "low",
-                "time": 1786924800000
-              },
-              {
-                "idx": 288,
+                "idx": 286,
                 "price": 59.176,
                 "type": "high",
                 "time": 1786935600000
               },
               {
-                "idx": 290,
+                "idx": 288,
                 "price": 58.668,
                 "type": "low",
                 "time": 1786942800000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 59.647,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 59.874,
                 "type": "high",
                 "time": 1786964400000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 58.777,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 59.57,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -2229,24 +2236,18 @@
         },
         "4h": {
           "smc": {
-            "price": 59.238,
-            "atr": 0.8309465938650442,
-            "atrPct": 1.4,
+            "price": 58.953,
+            "atr": 0.7959504085940885,
+            "atrPct": 1.35,
             "structure": {
               "trend": "up",
               "lastBreak": {
                 "kind": "BOS",
                 "dir": "bullish",
-                "price": 56.729,
-                "brokenAt": 1786809600000
+                "price": 57.35,
+                "brokenAt": 1786953600000
               },
               "events": [
-                {
-                  "kind": "BOS",
-                  "dir": "bearish",
-                  "price": 54.057,
-                  "brokenAt": 1786305600000
-                },
                 {
                   "kind": "CHoCH",
                   "dir": "bullish",
@@ -2276,13 +2277,19 @@
                   "dir": "bullish",
                   "price": 56.729,
                   "brokenAt": 1786809600000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bullish",
+                  "price": 57.35,
+                  "brokenAt": 1786953600000
                 }
               ]
             },
             "ema": {
-              "e20": 57.65229877714451,
-              "e50": 56.662315881588576,
-              "e200": 58.380642056437,
+              "e20": 57.779363292700005,
+              "e50": 56.7535410925384,
+              "e200": 58.40579567557428,
               "stack": "mixed",
               "priceVsE200": "above"
             },
@@ -2301,12 +2308,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 56.564,
-                "bottom": 55.393,
-                "time": 1786536000000
-              },
-              {
-                "dir": "bearish",
                 "top": 58.5,
                 "bottom": 56.99,
                 "time": 1786622400000
@@ -2322,6 +2323,12 @@
                 "top": 57.35,
                 "bottom": 56.598,
                 "time": 1786809600000
+              },
+              {
+                "dir": "bearish",
+                "top": 59.647,
+                "bottom": 58.668,
+                "time": 1786939200000
               }
             ],
             "fvgs": [
@@ -2329,35 +2336,35 @@
                 "dir": "bullish",
                 "top": 54.028,
                 "bottom": 53.169,
-                "idx": 217,
+                "idx": 216,
                 "time": 1785772800000
               },
               {
                 "dir": "bullish",
                 "top": 54.858,
                 "bottom": 54.752,
-                "idx": 269,
+                "idx": 268,
                 "time": 1786521600000
               },
               {
                 "dir": "bullish",
                 "top": 55.393,
                 "bottom": 55.195,
-                "idx": 270,
+                "idx": 269,
                 "time": 1786536000000
               },
               {
                 "dir": "bullish",
                 "top": 56.598,
                 "bottom": 56.48,
-                "idx": 289,
+                "idx": 288,
                 "time": 1786809600000
               },
               {
                 "dir": "bullish",
                 "top": 58.668,
                 "bottom": 57.764,
-                "idx": 298,
+                "idx": 297,
                 "time": 1786939200000
               }
             ],
@@ -2409,40 +2416,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 271,
-                "price": 56.913,
-                "type": "high",
-                "time": 1786550400000
-              },
-              {
-                "idx": 276,
+                "idx": 275,
                 "price": 58.5,
                 "type": "high",
                 "time": 1786622400000
               },
               {
-                "idx": 283,
+                "idx": 282,
                 "price": 55.302,
                 "type": "low",
                 "time": 1786723200000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 56.729,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 289,
+                "idx": 288,
                 "price": 57.35,
                 "type": "high",
                 "time": 1786809600000
               },
               {
-                "idx": 297,
+                "idx": 296,
                 "price": 57.021,
                 "type": "low",
                 "time": 1786924800000
+              },
+              {
+                "idx": 298,
+                "price": 59.874,
+                "type": "high",
+                "time": 1786953600000
               }
             ]
           },
@@ -2450,9 +2457,9 @@
         },
         "1D": {
           "smc": {
-            "price": 59.238,
+            "price": 58.953,
             "atr": 2.5550580029513488,
-            "atrPct": 4.31,
+            "atrPct": 4.33,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -2501,9 +2508,9 @@
               ]
             },
             "ema": {
-              "e20": 56.625400023621026,
-              "e50": 58.22276559516412,
-              "e200": 50.431088085083694,
+              "e20": 56.59825716647817,
+              "e50": 58.21158912457588,
+              "e200": 50.428252264188174,
               "stack": "mixed",
               "priceVsE200": "above"
             },
@@ -2639,38 +2646,32 @@
       "symbol": "XRP",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 25459204.540650018,
-        "oiValue": 115648301.34,
+        "turnover24h": 31964126.04375001,
+        "oiValue": 110835624.52319999,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00125,
-        "fundingAnnualPct": 10.95,
-        "openInterestUsd": 115648301.34,
-        "markPrice": 1.0062,
-        "change24hPct": 0.47
+        "fundingHourlyPct": 0.00082,
+        "fundingAnnualPct": 7.21,
+        "openInterestUsd": 110835624.52319999,
+        "markPrice": 1.0004,
+        "change24hPct": -0.15
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 1.0061,
-            "atr": 0.0043976664457497745,
-            "atrPct": 0.44,
+            "price": 1.0006,
+            "atr": 0.00421482463954322,
+            "atrPct": 0.42,
             "structure": {
               "trend": "up",
               "lastBreak": {
                 "kind": "BOS",
                 "dir": "bullish",
-                "price": 1.0043,
-                "brokenAt": 1786946400000
+                "price": 1.0069,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "BOS",
-                  "dir": "bearish",
-                  "price": 0.99876,
-                  "brokenAt": 1786874400000
-                },
                 {
                   "kind": "CHoCH",
                   "dir": "bullish",
@@ -2700,13 +2701,19 @@
                   "dir": "bullish",
                   "price": 1.0043,
                   "brokenAt": 1786946400000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bullish",
+                  "price": 1.0069,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 1.000625030645155,
-              "e50": 1.000849830000315,
-              "e200": 1.012554293220355,
+              "e20": 1.000778053916523,
+              "e50": 1.0008989032398516,
+              "e200": 1.0123032570153572,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -2725,12 +2732,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 1.0021,
-                "bottom": 0.99988,
-                "time": 1786863600000
-              },
-              {
-                "dir": "bearish",
                 "top": 1.0031,
                 "bottom": 1.001,
                 "time": 1786896000000
@@ -2746,6 +2747,12 @@
                 "top": 1.0069,
                 "bottom": 1.0004,
                 "time": 1786946400000
+              },
+              {
+                "dir": "bearish",
+                "top": 1.0082,
+                "bottom": 1.0018,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
@@ -2753,35 +2760,35 @@
                 "dir": "bearish",
                 "top": 1.0605,
                 "bottom": 1.0544,
-                "idx": 23,
+                "idx": 21,
                 "time": 1785981600000
               },
               {
                 "dir": "bearish",
                 "top": 1.0411,
                 "bottom": 1.0379,
-                "idx": 116,
+                "idx": 114,
                 "time": 1786316400000
               },
               {
                 "dir": "bearish",
                 "top": 1.0367,
                 "bottom": 1.0344,
-                "idx": 126,
+                "idx": 124,
                 "time": 1786352400000
               },
               {
                 "dir": "bearish",
                 "top": 1.02,
                 "bottom": 1.0182,
-                "idx": 178,
+                "idx": 176,
                 "time": 1786539600000
               },
               {
                 "dir": "bullish",
                 "top": 0.99719,
                 "bottom": 0.99362,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               }
             ],
@@ -2798,8 +2805,8 @@
                   "time": 1786500000000
                 },
                 {
-                  "price": 1.0073375,
-                  "count": 4,
+                  "price": 1.0077687499999999,
+                  "count": 5,
                   "time": 1786579200000
                 },
                 {
@@ -2833,40 +2840,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
-                "price": 0.98937,
-                "type": "low",
-                "time": 1786914000000
-              },
-              {
-                "idx": 285,
+                "idx": 283,
                 "price": 0.98815,
                 "type": "low",
                 "time": 1786924800000
               },
               {
-                "idx": 287,
+                "idx": 285,
                 "price": 1.0043,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 1.0069,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 0.99616,
                 "type": "low",
                 "time": 1786957200000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 0.99661,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 1.0082,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -2874,9 +2881,9 @@
         },
         "4h": {
           "smc": {
-            "price": 1.0061,
-            "atr": 0.007879145614318964,
-            "atrPct": 0.78,
+            "price": 1.0006,
+            "atr": 0.007744920927745853,
+            "atrPct": 0.77,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -2925,9 +2932,9 @@
               ]
             },
             "ema": {
-              "e20": 1.0028903834863212,
-              "e50": 1.0125654165798754,
-              "e200": 1.0525503587738103,
+              "e20": 1.0026464013855827,
+              "e50": 1.012084875023132,
+              "e200": 1.0521785590159203,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -2974,35 +2981,35 @@
                 "dir": "bearish",
                 "top": 1.1032,
                 "bottom": 1.0953,
-                "idx": 175,
+                "idx": 174,
                 "time": 1785168000000
               },
               {
                 "dir": "bearish",
                 "top": 1.073,
                 "bottom": 1.0724,
-                "idx": 226,
+                "idx": 225,
                 "time": 1785902400000
               },
               {
                 "dir": "bearish",
                 "top": 1.06,
                 "bottom": 1.0518,
-                "idx": 232,
+                "idx": 231,
                 "time": 1785988800000
               },
               {
                 "dir": "bearish",
                 "top": 1.0298,
                 "bottom": 1.0249,
-                "idx": 259,
+                "idx": 258,
                 "time": 1786377600000
               },
               {
                 "dir": "bearish",
                 "top": 1.0167,
                 "bottom": 1.0128,
-                "idx": 271,
+                "idx": 270,
                 "time": 1786550400000
               }
             ],
@@ -3054,37 +3061,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 279,
+                "idx": 278,
                 "price": 1.0138,
                 "type": "high",
                 "time": 1786665600000
               },
               {
-                "idx": 284,
+                "idx": 283,
                 "price": 0.98701,
                 "type": "low",
                 "time": 1786737600000
               },
               {
-                "idx": 288,
+                "idx": 287,
                 "price": 0.99908,
                 "type": "low",
                 "time": 1786795200000
               },
               {
-                "idx": 290,
+                "idx": 289,
                 "price": 1.0061,
                 "type": "high",
                 "time": 1786824000000
               },
               {
-                "idx": 293,
+                "idx": 292,
                 "price": 0.99704,
                 "type": "low",
                 "time": 1786867200000
               },
               {
-                "idx": 297,
+                "idx": 296,
                 "price": 0.98815,
                 "type": "low",
                 "time": 1786924800000
@@ -3095,9 +3102,9 @@
         },
         "1D": {
           "smc": {
-            "price": 1.0061,
+            "price": 1.0006,
             "atr": 0.026558676210666265,
-            "atrPct": 2.64,
+            "atrPct": 2.65,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -3146,9 +3153,9 @@
               ]
             },
             "ema": {
-              "e20": 1.0325899866918182,
-              "e50": 1.0770225361181427,
-              "e200": 1.3635032085613814,
+              "e20": 1.0320661771680086,
+              "e50": 1.0768068498436327,
+              "e200": 1.3634484821932222,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -3320,23 +3327,23 @@
       "symbol": "SUI",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 7701555.830208999,
-        "oiValue": 25261072.173810005,
+        "turnover24h": 7752432.568307,
+        "oiValue": 25255911.176392,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 25261072.173810005,
-        "markPrice": 0.67815,
-        "change24hPct": -0.33
+        "openInterestUsd": 25255911.176392,
+        "markPrice": 0.67678,
+        "change24hPct": -0.25
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.6782,
-            "atr": 0.0034205854061168553,
-            "atrPct": 0.5,
+            "price": 0.67668,
+            "atr": 0.003195453743081038,
+            "atrPct": 0.47,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -3385,24 +3392,24 @@
               ]
             },
             "ema": {
-              "e20": 0.6765949663169211,
-              "e50": 0.6774498439159152,
-              "e200": 0.6818059212217644,
+              "e20": 0.6767503120233862,
+              "e50": 0.6774526397667907,
+              "e200": 0.6817061937573872,
               "stack": "bearish",
               "priceVsE200": "below"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 0.67528,
-                "bottom": 0.66734,
-                "time": 1786914000000
-              },
-              {
-                "dir": "bullish",
                 "top": 0.67842,
                 "bottom": 0.67342,
                 "time": 1786953600000
+              },
+              {
+                "dir": "bullish",
+                "top": 0.67791,
+                "bottom": 0.67493,
+                "time": 1786968000000
               },
               {
                 "dir": "bearish",
@@ -3434,28 +3441,28 @@
                 "dir": "bearish",
                 "top": 0.68868,
                 "bottom": 0.6878,
-                "idx": 215,
+                "idx": 213,
                 "time": 1786672800000
               },
               {
                 "dir": "bearish",
                 "top": 0.68477,
                 "bottom": 0.6829,
-                "idx": 245,
+                "idx": 243,
                 "time": 1786780800000
               },
               {
                 "dir": "bearish",
                 "top": 0.68223,
                 "bottom": 0.68153,
-                "idx": 255,
+                "idx": 253,
                 "time": 1786816800000
               },
               {
                 "dir": "bullish",
                 "top": 0.67184,
                 "bottom": 0.67126,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               }
             ],
@@ -3499,48 +3506,48 @@
                   "time": 1786572000000
                 },
                 {
-                  "price": 0.6735599999999999,
-                  "count": 2,
+                  "price": 0.673765,
+                  "count": 3,
                   "time": 1786845600000
                 }
               ]
             },
             "swingsRecent": [
               {
-                "idx": 277,
-                "price": 0.68169,
-                "type": "high",
-                "time": 1786896000000
-              },
-              {
-                "idx": 283,
+                "idx": 281,
                 "price": 0.66683,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 288,
+                "idx": 286,
                 "price": 0.6798,
                 "type": "high",
                 "time": 1786935600000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 0.68086,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 0.67342,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 0.67963,
                 "type": "high",
                 "time": 1786964400000
+              },
+              {
+                "idx": 297,
+                "price": 0.67397,
+                "type": "low",
+                "time": 1786975200000
               }
             ]
           },
@@ -3548,9 +3555,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.6782,
-            "atr": 0.006804311753344659,
-            "atrPct": 1,
+            "price": 0.67668,
+            "atr": 0.006473289485370003,
+            "atrPct": 0.96,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -3599,9 +3606,9 @@
               ]
             },
             "ema": {
-              "e20": 0.6791324717938477,
-              "e50": 0.6825671666024449,
-              "e200": 0.7008193432797486,
+              "e20": 0.6789316468157485,
+              "e50": 0.6823506317275764,
+              "e200": 0.7007463330919869,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -3648,28 +3655,28 @@
                 "dir": "bearish",
                 "top": 0.76626,
                 "bottom": 0.7487,
-                "idx": 151,
+                "idx": 150,
                 "time": 1784822400000
               },
               {
                 "dir": "bearish",
                 "top": 0.74106,
                 "bottom": 0.73199,
-                "idx": 156,
+                "idx": 155,
                 "time": 1784894400000
               },
               {
                 "dir": "bearish",
                 "top": 0.72926,
                 "bottom": 0.71762,
-                "idx": 157,
+                "idx": 156,
                 "time": 1784908800000
               },
               {
                 "dir": "bearish",
                 "top": 0.71233,
                 "bottom": 0.70612,
-                "idx": 175,
+                "idx": 174,
                 "time": 1785168000000
               }
             ],
@@ -3713,45 +3720,45 @@
                   "time": 1785931200000
                 },
                 {
-                  "price": 0.672485,
-                  "count": 2,
+                  "price": 0.6722950000000001,
+                  "count": 3,
                   "time": 1786449600000
                 }
               ]
             },
             "swingsRecent": [
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 0.67157,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.68848,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 292,
+                "idx": 291,
                 "price": 0.67264,
                 "type": "low",
                 "time": 1786852800000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 0.68169,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 0.66683,
                 "type": "low",
                 "time": 1786910400000
               },
               {
-                "idx": 298,
+                "idx": 297,
                 "price": 0.68086,
                 "type": "high",
                 "time": 1786939200000
@@ -3762,7 +3769,7 @@
         },
         "1D": {
           "smc": {
-            "price": 0.6782,
+            "price": 0.67668,
             "atr": 0.02182233010460315,
             "atrPct": 3.22,
             "structure": {
@@ -3813,9 +3820,9 @@
               ]
             },
             "ema": {
-              "e20": 0.6886566012361948,
-              "e50": 0.7176654063105493,
-              "e200": 0.9803380879469373,
+              "e20": 0.6885118393314329,
+              "e50": 0.717605798467412,
+              "e200": 0.9803229635688279,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -3977,22 +3984,22 @@
       "symbol": "LINK",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 11062914.28281,
-        "oiValue": 45523126.570240006,
+        "turnover24h": 10810136.160930004,
+        "oiValue": 45489297.79547999,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00125,
-        "fundingAnnualPct": 10.95,
-        "openInterestUsd": 45523126.570240006,
-        "markPrice": 9.5141,
-        "change24hPct": 1.34
+        "fundingHourlyPct": 0.00056,
+        "fundingAnnualPct": 4.94,
+        "openInterestUsd": 45489297.79547999,
+        "markPrice": 9.4941,
+        "change24hPct": 0.93
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 9.513,
-            "atr": 0.07476643744820621,
+            "price": 9.4941,
+            "atr": 0.07523075473996388,
             "atrPct": 0.79,
             "structure": {
               "trend": "up",
@@ -4042,24 +4049,24 @@
               ]
             },
             "ema": {
-              "e20": 9.46431644741033,
-              "e50": 9.398106975700774,
-              "e200": 8.950337248308436,
+              "e20": 9.475214403176517,
+              "e50": 9.407896143445665,
+              "e200": 8.961282112832768,
               "stack": "bullish",
               "priceVsE200": "above"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 9.3885,
-                "bottom": 9.3441,
-                "time": 1786917600000
-              },
-              {
-                "dir": "bullish",
                 "top": 9.4167,
                 "bottom": 9.3584,
                 "time": 1786953600000
+              },
+              {
+                "dir": "bullish",
+                "top": 9.5567,
+                "bottom": 9.4776,
+                "time": 1786971600000
               },
               {
                 "dir": "bearish",
@@ -4091,35 +4098,35 @@
                 "dir": "bullish",
                 "top": 8.6144,
                 "bottom": 8.6052,
-                "idx": 161,
+                "idx": 159,
                 "time": 1786478400000
               },
               {
                 "dir": "bullish",
                 "top": 8.6824,
                 "bottom": 8.6673,
-                "idx": 192,
+                "idx": 190,
                 "time": 1786590000000
               },
               {
                 "dir": "bullish",
                 "top": 9.0726,
                 "bottom": 8.999,
-                "idx": 238,
+                "idx": 236,
                 "time": 1786755600000
               },
               {
                 "dir": "bullish",
                 "top": 9.3152,
                 "bottom": 9.0901,
-                "idx": 239,
+                "idx": 237,
                 "time": 1786759200000
               },
               {
                 "dir": "bullish",
                 "top": 9.4673,
                 "bottom": 9.4227,
-                "idx": 296,
+                "idx": 294,
                 "time": 1786964400000
               }
             ],
@@ -4172,39 +4179,39 @@
             "swingsRecent": [
               {
                 "idx": 281,
-                "price": 9.4882,
-                "type": "high",
-                "time": 1786910400000
-              },
-              {
-                "idx": 283,
                 "price": 9.3441,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 288,
+                "idx": 286,
                 "price": 9.5636,
                 "type": "high",
                 "time": 1786935600000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 9.4888,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 9.3584,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 297,
+                "idx": 295,
                 "price": 9.5709,
                 "type": "high",
                 "time": 1786968000000
+              },
+              {
+                "idx": 297,
+                "price": 9.4349,
+                "type": "low",
+                "time": 1786975200000
               }
             ]
           },
@@ -4212,9 +4219,9 @@
         },
         "4h": {
           "smc": {
-            "price": 9.513,
-            "atr": 0.15278992427171967,
-            "atrPct": 1.61,
+            "price": 9.4941,
+            "atr": 0.14838350110964152,
+            "atrPct": 1.56,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -4263,9 +4270,9 @@
               ]
             },
             "ema": {
-              "e20": 9.310650847604613,
-              "e50": 8.986889233659403,
-              "e200": 8.459741895253234,
+              "e20": 9.32832899817288,
+              "e50": 9.006870248507049,
+              "e200": 8.47141814826605,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -4312,35 +4319,35 @@
                 "dir": "bullish",
                 "top": 7.8778,
                 "bottom": 7.7865,
-                "idx": 70,
+                "idx": 69,
                 "time": 1783656000000
               },
               {
                 "dir": "bullish",
                 "top": 8.3683,
                 "bottom": 8.3195,
-                "idx": 262,
+                "idx": 261,
                 "time": 1786420800000
               },
               {
                 "dir": "bullish",
                 "top": 8.4995,
                 "bottom": 8.4749,
-                "idx": 264,
+                "idx": 263,
                 "time": 1786449600000
               },
               {
                 "dir": "bullish",
                 "top": 8.923,
                 "bottom": 8.8804,
-                "idx": 284,
+                "idx": 283,
                 "time": 1786737600000
               },
               {
                 "dir": "bullish",
                 "top": 9.3166,
                 "bottom": 8.999,
-                "idx": 286,
+                "idx": 285,
                 "time": 1786766400000
               }
             ],
@@ -4392,37 +4399,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 278,
+                "idx": 277,
                 "price": 8.9023,
                 "type": "high",
                 "time": 1786651200000
               },
               {
-                "idx": 281,
+                "idx": 280,
                 "price": 8.7196,
                 "type": "low",
                 "time": 1786694400000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 9.7456,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 289,
+                "idx": 288,
                 "price": 9.6285,
                 "type": "high",
                 "time": 1786809600000
               },
               {
-                "idx": 294,
+                "idx": 293,
                 "price": 9.2916,
                 "type": "low",
                 "time": 1786881600000
               },
               {
-                "idx": 297,
+                "idx": 296,
                 "price": 9.5636,
                 "type": "high",
                 "time": 1786924800000
@@ -4433,9 +4440,9 @@
         },
         "1D": {
           "smc": {
-            "price": 9.513,
+            "price": 9.4941,
             "atr": 0.3141298534110973,
-            "atrPct": 3.3,
+            "atrPct": 3.31,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -4484,9 +4491,9 @@
               ]
             },
             "ema": {
-              "e20": 8.709086523183647,
-              "e50": 8.463791614803895,
-              "e200": 9.537415489933284,
+              "e20": 8.707286523183646,
+              "e50": 8.463050438333307,
+              "e200": 9.537227430231791,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -4641,40 +4648,34 @@
     },
     {
       "symbol": "DOGE",
-      "bias": "bearish",
+      "bias": "bullish",
       "liquidity": {
-        "turnover24h": 4936360.599600001,
-        "oiValue": 31039424.444391996,
+        "turnover24h": 5162126.666877003,
+        "oiValue": 31001869.7719,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 31039424.444391996,
-        "markPrice": 0.070486,
-        "change24hPct": 0.63
+        "openInterestUsd": 31001869.7719,
+        "markPrice": 0.070297,
+        "change24hPct": 0.42
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.070486,
-            "atr": 0.0002509977099527447,
-            "atrPct": 0.36,
+            "price": 0.070305,
+            "atr": 0.00023469700501745742,
+            "atrPct": 0.33,
             "structure": {
-              "trend": "down",
+              "trend": "up",
               "lastBreak": {
                 "kind": "CHoCH",
-                "dir": "bearish",
-                "price": 0.070028,
-                "brokenAt": 1786968000000
+                "dir": "bullish",
+                "price": 0.070414,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "CHoCH",
-                  "dir": "bullish",
-                  "price": 0.069901,
-                  "brokenAt": 1786867200000
-                },
                 {
                   "kind": "BOS",
                   "dir": "bullish",
@@ -4704,13 +4705,19 @@
                   "dir": "bearish",
                   "price": 0.070028,
                   "brokenAt": 1786968000000
+                },
+                {
+                  "kind": "CHoCH",
+                  "dir": "bullish",
+                  "price": 0.070414,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 0.07015233637569995,
-              "e50": 0.07003570069236786,
-              "e200": 0.07003197020821485,
+              "e20": 0.07018566419006388,
+              "e50": 0.07005890754253909,
+              "e200": 0.07003950135081417,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -4729,12 +4736,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 0.070073,
-                "bottom": 0.069994,
-                "time": 1786892400000
-              },
-              {
-                "dir": "bearish",
                 "top": 0.07029,
                 "bottom": 0.069901,
                 "time": 1786932000000
@@ -4750,6 +4751,12 @@
                 "top": 0.070414,
                 "bottom": 0.070159,
                 "time": 1786960800000
+              },
+              {
+                "dir": "bearish",
+                "top": 0.070588,
+                "bottom": 0.070284,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
@@ -4757,28 +4764,28 @@
                 "dir": "bearish",
                 "top": 0.07187,
                 "bottom": 0.071683,
-                "idx": 178,
+                "idx": 176,
                 "time": 1786539600000
               },
               {
                 "dir": "bearish",
                 "top": 0.071418,
                 "bottom": 0.070716,
-                "idx": 179,
+                "idx": 177,
                 "time": 1786543200000
               },
               {
                 "dir": "bullish",
                 "top": 0.06973,
                 "bottom": 0.069669,
-                "idx": 286,
+                "idx": 284,
                 "time": 1786928400000
               },
               {
                 "dir": "bullish",
                 "top": 0.069901,
                 "bottom": 0.069775,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
               }
             ],
@@ -4830,40 +4837,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
-                "price": 0.069048,
-                "type": "low",
-                "time": 1786914000000
-              },
-              {
-                "idx": 287,
+                "idx": 285,
                 "price": 0.07029,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 0.070481,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 0.070028,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 295,
+                "idx": 293,
                 "price": 0.070414,
                 "type": "high",
                 "time": 1786960800000
               },
               {
-                "idx": 297,
+                "idx": 295,
                 "price": 0.069997,
                 "type": "low",
                 "time": 1786968000000
+              },
+              {
+                "idx": 298,
+                "price": 0.070588,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -4871,9 +4878,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.070486,
-            "atr": 0.0005464075270152648,
-            "atrPct": 0.78,
+            "price": 0.070305,
+            "atr": 0.000522521275103822,
+            "atrPct": 0.74,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -4922,9 +4929,9 @@
               ]
             },
             "ema": {
-              "e20": 0.0700638036656004,
-              "e50": 0.07011934522573814,
-              "e200": 0.07110983574878744,
+              "e20": 0.07008823959767474,
+              "e50": 0.07012726568699497,
+              "e200": 0.07110688473818966,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -4971,14 +4978,14 @@
                 "dir": "bearish",
                 "top": 0.076588,
                 "bottom": 0.075623,
-                "idx": 52,
+                "idx": 51,
                 "time": 1783396800000
               },
               {
                 "dir": "bearish",
                 "top": 0.071489,
                 "bottom": 0.070959,
-                "idx": 271,
+                "idx": 270,
                 "time": 1786550400000
               }
             ],
@@ -5030,37 +5037,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 274,
+                "idx": 273,
                 "price": 0.070801,
                 "type": "high",
                 "time": 1786593600000
               },
               {
-                "idx": 277,
+                "idx": 276,
                 "price": 0.06951,
                 "type": "low",
                 "time": 1786636800000
               },
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 0.069207,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.070516,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 0.069493,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 0.069048,
                 "type": "low",
                 "time": 1786910400000
@@ -5071,9 +5078,9 @@
         },
         "1D": {
           "smc": {
-            "price": 0.070486,
+            "price": 0.070305,
             "atr": 0.0019692457383409276,
-            "atrPct": 2.79,
+            "atrPct": 2.8,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -5122,9 +5129,9 @@
               ]
             },
             "ema": {
-              "e20": 0.07036106919530591,
-              "e50": 0.0734532757327342,
-              "e200": 0.09535242603933523,
+              "e20": 0.07034383110006782,
+              "e50": 0.07344617769351852,
+              "e200": 0.09535062504431036,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -5296,23 +5303,23 @@
       "symbol": "ENA",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 2816395.6533219996,
-        "oiValue": 21932857.881610002,
+        "turnover24h": 2848833.7517889994,
+        "oiValue": 21718370.6134,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00125,
-        "fundingAnnualPct": 10.95,
-        "openInterestUsd": 21932857.881610002,
-        "markPrice": 0.083681,
-        "change24hPct": -0.57
+        "fundingHourlyPct": 0.00109,
+        "fundingAnnualPct": 9.55,
+        "openInterestUsd": 21718370.6134,
+        "markPrice": 0.082844,
+        "change24hPct": -0.87
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.083694,
-            "atr": 0.0007582426342380469,
-            "atrPct": 0.91,
+            "price": 0.082847,
+            "atr": 0.0007274132917730387,
+            "atrPct": 0.88,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -5361,9 +5368,9 @@
               ]
             },
             "ema": {
-              "e20": 0.08349762908768545,
-              "e50": 0.08372093930108897,
-              "e200": 0.08629762706439821,
+              "e20": 0.08340058914952422,
+              "e50": 0.08366312650387361,
+              "e200": 0.0862459937254587,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -5382,12 +5389,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 0.083983,
-                "bottom": 0.083448,
-                "time": 1786845600000
-              },
-              {
-                "dir": "bearish",
                 "top": 0.083379,
                 "bottom": 0.083047,
                 "time": 1786870800000
@@ -5403,52 +5404,53 @@
                 "top": 0.0845,
                 "bottom": 0.083409,
                 "time": 1786946400000
+              },
+              {
+                "dir": "bearish",
+                "top": 0.084086,
+                "bottom": 0.083353,
+                "time": 1786975200000
               }
             ],
             "fvgs": [
               {
                 "dir": "bearish",
-                "top": 0.087262,
-                "bottom": 0.087121,
-                "idx": 197,
-                "time": 1786608000000
-              },
-              {
-                "dir": "bearish",
                 "top": 0.086946,
                 "bottom": 0.086751,
-                "idx": 198,
+                "idx": 196,
                 "time": 1786611600000
               },
               {
                 "dir": "bearish",
                 "top": 0.085224,
                 "bottom": 0.084801,
-                "idx": 255,
+                "idx": 253,
                 "time": 1786816800000
               },
               {
                 "dir": "bearish",
                 "top": 0.084546,
                 "bottom": 0.084504,
-                "idx": 258,
+                "idx": 256,
                 "time": 1786827600000
               },
               {
                 "dir": "bullish",
                 "top": 0.082564,
                 "bottom": 0.082533,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
+              },
+              {
+                "dir": "bearish",
+                "top": 0.08317,
+                "bottom": 0.083,
+                "idx": 300,
+                "time": 1786986000000
               }
             ],
             "liquidity": {
               "equalHighs": [
-                {
-                  "price": 0.0914765,
-                  "count": 3,
-                  "time": 1786359600000
-                },
                 {
                   "price": 0.0856005,
                   "count": 2,
@@ -5458,6 +5460,11 @@
                   "price": 0.085838,
                   "count": 2,
                   "time": 1786683600000
+                },
+                {
+                  "price": 0.084071,
+                  "count": 2,
+                  "time": 1786849200000
                 },
                 {
                   "price": 0.084522,
@@ -5490,40 +5497,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 270,
-                "price": 0.083379,
-                "type": "high",
-                "time": 1786870800000
-              },
-              {
-                "idx": 271,
+                "idx": 269,
                 "price": 0.082852,
                 "type": "low",
                 "time": 1786874400000
               },
               {
-                "idx": 276,
+                "idx": 274,
                 "price": 0.084544,
                 "type": "high",
                 "time": 1786892400000
               },
               {
-                "idx": 282,
+                "idx": 280,
                 "price": 0.081002,
                 "type": "low",
                 "time": 1786914000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 0.0845,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 297,
+                "idx": 295,
                 "price": 0.082714,
                 "type": "low",
                 "time": 1786968000000
+              },
+              {
+                "idx": 297,
+                "price": 0.084086,
+                "type": "high",
+                "time": 1786975200000
               }
             ]
           },
@@ -5531,9 +5538,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.083694,
-            "atr": 0.0013521763174432764,
-            "atrPct": 1.62,
+            "price": 0.082847,
+            "atr": 0.0013334494376502231,
+            "atrPct": 1.61,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -5582,9 +5589,9 @@
               ]
             },
             "ema": {
-              "e20": 0.08422701206662686,
-              "e50": 0.08585857284746361,
-              "e200": 0.08518707003610733,
+              "e20": 0.08410411295824069,
+              "e50": 0.08574420107835373,
+              "e200": 0.08517468862265677,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -5631,35 +5638,35 @@
                 "dir": "bearish",
                 "top": 0.093294,
                 "bottom": 0.091492,
-                "idx": 243,
+                "idx": 242,
                 "time": 1786147200000
               },
               {
                 "dir": "bearish",
                 "top": 0.088281,
                 "bottom": 0.086923,
-                "idx": 272,
+                "idx": 271,
                 "time": 1786564800000
               },
               {
                 "dir": "bearish",
                 "top": 0.086946,
                 "bottom": 0.086622,
-                "idx": 276,
+                "idx": 275,
                 "time": 1786622400000
               },
               {
                 "dir": "bearish",
                 "top": 0.084771,
                 "bottom": 0.084707,
-                "idx": 290,
+                "idx": 289,
                 "time": 1786824000000
               },
               {
                 "dir": "bearish",
                 "top": 0.084546,
                 "bottom": 0.084056,
-                "idx": 291,
+                "idx": 290,
                 "time": 1786838400000
               }
             ],
@@ -5711,37 +5718,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 287,
+                "idx": 286,
                 "price": 0.084322,
                 "type": "low",
                 "time": 1786780800000
               },
               {
-                "idx": 289,
+                "idx": 288,
                 "price": 0.085566,
                 "type": "high",
                 "time": 1786809600000
               },
               {
-                "idx": 292,
+                "idx": 291,
                 "price": 0.082693,
                 "type": "low",
                 "time": 1786852800000
               },
               {
-                "idx": 294,
+                "idx": 293,
                 "price": 0.084544,
                 "type": "high",
                 "time": 1786881600000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 0.081002,
                 "type": "low",
                 "time": 1786910400000
               },
               {
-                "idx": 298,
+                "idx": 297,
                 "price": 0.0845,
                 "type": "high",
                 "time": 1786939200000
@@ -5752,9 +5759,9 @@
         },
         "1D": {
           "smc": {
-            "price": 0.083694,
+            "price": 0.082847,
             "atr": 0.004644080530114898,
-            "atrPct": 5.55,
+            "atrPct": 5.61,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -5803,10 +5810,10 @@
               ]
             },
             "ema": {
-              "e20": 0.086034540100587,
-              "e50": 0.0860066772168581,
-              "e200": 0.1244506924721304,
-              "stack": "mixed",
+              "e20": 0.08595387343392034,
+              "e50": 0.08597346153058359,
+              "e200": 0.12444226461143389,
+              "stack": "bearish",
               "priceVsE200": "below"
             },
             "orderBlocks": [
@@ -5957,22 +5964,22 @@
       "symbol": "AAVE",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 2748300.82226,
-        "oiValue": 57813472.83219998,
+        "turnover24h": 3035649.072370001,
+        "oiValue": 57256727.530920014,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": -0.00007,
-        "fundingAnnualPct": -0.63,
-        "openInterestUsd": 57813472.83219998,
-        "markPrice": 88.085,
-        "change24hPct": 1.42
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 57256727.530920014,
+        "markPrice": 87.693,
+        "change24hPct": 1.05
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 88.084,
-            "atr": 0.565250850048147,
+            "price": 87.675,
+            "atr": 0.5595785390930682,
             "atrPct": 0.64,
             "structure": {
               "trend": "down",
@@ -6022,11 +6029,11 @@
               ]
             },
             "ema": {
-              "e20": 86.71945489449175,
-              "e50": 86.60062240879752,
-              "e200": 87.82796565472812,
+              "e20": 86.88885731078095,
+              "e50": 86.68150415785018,
+              "e200": 87.82539173254051,
               "stack": "mixed",
-              "priceVsE200": "above"
+              "priceVsE200": "below"
             },
             "orderBlocks": [
               {
@@ -6071,35 +6078,35 @@
                 "dir": "bearish",
                 "top": 91.887,
                 "bottom": 91.383,
-                "idx": 127,
+                "idx": 125,
                 "time": 1786356000000
               },
               {
                 "dir": "bearish",
                 "top": 90.832,
                 "bottom": 90.53,
-                "idx": 132,
+                "idx": 130,
                 "time": 1786374000000
               },
               {
                 "dir": "bearish",
                 "top": 89.125,
                 "bottom": 89.116,
-                "idx": 198,
+                "idx": 196,
                 "time": 1786611600000
               },
               {
                 "dir": "bullish",
                 "top": 86.55,
                 "bottom": 86.025,
-                "idx": 296,
+                "idx": 294,
                 "time": 1786964400000
               },
               {
                 "dir": "bullish",
                 "top": 87.56,
                 "bottom": 87.237,
-                "idx": 300,
+                "idx": 298,
                 "time": 1786978800000
               }
             ],
@@ -6151,37 +6158,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 267,
+                "idx": 265,
                 "price": 85.711,
                 "type": "low",
                 "time": 1786860000000
               },
               {
-                "idx": 274,
+                "idx": 272,
                 "price": 85.599,
                 "type": "low",
                 "time": 1786885200000
               },
               {
-                "idx": 277,
+                "idx": 275,
                 "price": 87.274,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 283,
+                "idx": 281,
                 "price": 85.274,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 288,
+                "idx": 286,
                 "price": 86.984,
                 "type": "high",
                 "time": 1786935600000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 85.679,
                 "type": "low",
                 "time": 1786953600000
@@ -6192,9 +6199,9 @@
         },
         "4h": {
           "smc": {
-            "price": 88.084,
-            "atr": 1.1251440403457822,
-            "atrPct": 1.28,
+            "price": 87.675,
+            "atr": 1.1080623231763314,
+            "atrPct": 1.26,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -6243,9 +6250,9 @@
               ]
             },
             "ema": {
-              "e20": 86.88461396096093,
-              "e50": 87.94182960220232,
-              "e200": 90.54719395309472,
+              "e20": 86.9596303184206,
+              "e50": 87.93124747197368,
+              "e200": 90.5250658886841,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -6292,15 +6299,22 @@
                 "dir": "bearish",
                 "top": 96.061,
                 "bottom": 94.021,
-                "idx": 201,
+                "idx": 200,
                 "time": 1785542400000
               },
               {
                 "dir": "bearish",
                 "top": 91.102,
                 "bottom": 90.075,
-                "idx": 259,
+                "idx": 258,
                 "time": 1786377600000
+              },
+              {
+                "dir": "bullish",
+                "top": 87.605,
+                "bottom": 86.821,
+                "idx": 300,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
@@ -6351,37 +6365,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
+                "idx": 276,
                 "price": 86.868,
                 "type": "low",
                 "time": 1786636800000
               },
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 85.033,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 287,
+                "idx": 286,
                 "price": 87.231,
                 "type": "high",
                 "time": 1786780800000
               },
               {
-                "idx": 288,
+                "idx": 287,
                 "price": 86.062,
                 "type": "low",
                 "time": 1786795200000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 87.274,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 85.274,
                 "type": "low",
                 "time": 1786910400000
@@ -6392,9 +6406,9 @@
         },
         "1D": {
           "smc": {
-            "price": 88.084,
-            "atr": 3.6107033658184453,
-            "atrPct": 4.1,
+            "price": 87.675,
+            "atr": 3.62098908010416,
+            "atrPct": 4.13,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -6443,9 +6457,9 @@
               ]
             },
             "ema": {
-              "e20": 89.56598933964307,
-              "e50": 89.74444487224238,
-              "e200": 108.11905368246586,
+              "e20": 89.52703695869069,
+              "e50": 89.7284056565561,
+              "e200": 108.11498403072457,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -6607,38 +6621,32 @@
       "symbol": "TAO",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 5005880.471850002,
-        "oiValue": 32824477.58228,
+        "turnover24h": 4924245.97422,
+        "oiValue": 32773615.736399997,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 32824477.58228,
-        "markPrice": 196.99,
-        "change24hPct": -0.23
+        "openInterestUsd": 32773615.736399997,
+        "markPrice": 196.35,
+        "change24hPct": -0.26
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 197.01,
-            "atr": 1.2659372299902605,
-            "atrPct": 0.64,
+            "price": 196.33,
+            "atr": 1.2072111830101306,
+            "atrPct": 0.61,
             "structure": {
-              "trend": "down",
+              "trend": "up",
               "lastBreak": {
                 "kind": "CHoCH",
-                "dir": "bearish",
-                "price": 195.31,
-                "brokenAt": 1786957200000
+                "dir": "bullish",
+                "price": 197.61,
+                "brokenAt": 1786978800000
               },
               "events": [
-                {
-                  "kind": "BOS",
-                  "dir": "bearish",
-                  "price": 197.4,
-                  "brokenAt": 1786845600000
-                },
                 {
                   "kind": "BOS",
                   "dir": "bearish",
@@ -6668,13 +6676,19 @@
                   "dir": "bearish",
                   "price": 195.31,
                   "brokenAt": 1786957200000
+                },
+                {
+                  "kind": "CHoCH",
+                  "dir": "bullish",
+                  "price": 197.61,
+                  "brokenAt": 1786978800000
                 }
               ]
             },
             "ema": {
-              "e20": 196.6282473979015,
-              "e50": 197.03602542508503,
-              "e200": 198.2848360677831,
+              "e20": 196.6024968711253,
+              "e50": 196.9941576048287,
+              "e200": 198.25437621956,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -6693,12 +6707,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 197.89,
-                "bottom": 197.09,
-                "time": 1786892400000
-              },
-              {
-                "dir": "bearish",
                 "top": 198.66,
                 "bottom": 196.08,
                 "time": 1786932000000
@@ -6714,6 +6722,12 @@
                 "top": 197.61,
                 "bottom": 196.47,
                 "time": 1786964400000
+              },
+              {
+                "dir": "bearish",
+                "top": 197.68,
+                "bottom": 196.31,
+                "time": 1786978800000
               }
             ],
             "fvgs": [
@@ -6721,35 +6735,35 @@
                 "dir": "bullish",
                 "top": 193.6,
                 "bottom": 192.09,
-                "idx": 65,
+                "idx": 63,
                 "time": 1786132800000
               },
               {
                 "dir": "bearish",
                 "top": 208.4,
                 "bottom": 207.87,
-                "idx": 110,
+                "idx": 108,
                 "time": 1786294800000
               },
               {
                 "dir": "bearish",
                 "top": 203.33,
                 "bottom": 202.31,
-                "idx": 217,
+                "idx": 215,
                 "time": 1786680000000
               },
               {
                 "dir": "bearish",
                 "top": 201.93,
                 "bottom": 201.77,
-                "idx": 218,
+                "idx": 216,
                 "time": 1786683600000
               },
               {
                 "dir": "bearish",
                 "top": 199.77,
                 "bottom": 199.44,
-                "idx": 241,
+                "idx": 239,
                 "time": 1786766400000
               }
             ],
@@ -6802,39 +6816,39 @@
             "swingsRecent": [
               {
                 "idx": 285,
-                "price": 195.31,
-                "type": "low",
-                "time": 1786924800000
-              },
-              {
-                "idx": 287,
                 "price": 198.66,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 198.45,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 194.59,
                 "type": "low",
                 "time": 1786957200000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 197.61,
                 "type": "high",
                 "time": 1786964400000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 195,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 197.68,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -6842,9 +6856,9 @@
         },
         "4h": {
           "smc": {
-            "price": 197.01,
-            "atr": 2.6324414264501,
-            "atrPct": 1.34,
+            "price": 196.33,
+            "atr": 2.525124181624232,
+            "atrPct": 1.29,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -6893,24 +6907,24 @@
               ]
             },
             "ema": {
-              "e20": 197.7017145289307,
-              "e50": 198.40440270400882,
-              "e200": 199.3201997907971,
+              "e20": 197.5719367279894,
+              "e50": 198.3234269426761,
+              "e200": 199.293889062797,
               "stack": "bearish",
               "priceVsE200": "below"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 197.02,
-                "bottom": 195.25,
-                "time": 1786852800000
-              },
-              {
-                "dir": "bullish",
                 "top": 197.99,
                 "bottom": 194.45,
                 "time": 1786910400000
+              },
+              {
+                "dir": "bullish",
+                "top": 197.61,
+                "bottom": 194.59,
+                "time": 1786953600000
               },
               {
                 "dir": "bearish",
@@ -6942,14 +6956,14 @@
                 "dir": "bearish",
                 "top": 206.17,
                 "bottom": 205.53,
-                "idx": 255,
+                "idx": 254,
                 "time": 1786320000000
               },
               {
                 "dir": "bearish",
                 "top": 201.83,
                 "bottom": 200.63,
-                "idx": 281,
+                "idx": 280,
                 "time": 1786694400000
               }
             ],
@@ -7001,40 +7015,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
-                "price": 193.04,
-                "type": "low",
-                "time": 1786708800000
-              },
-              {
-                "idx": 285,
+                "idx": 284,
                 "price": 201.51,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 288,
+                "idx": 287,
                 "price": 196.33,
                 "type": "low",
                 "time": 1786795200000
               },
               {
-                "idx": 292,
+                "idx": 291,
                 "price": 195.25,
                 "type": "low",
                 "time": 1786852800000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 194.45,
                 "type": "low",
                 "time": 1786910400000
               },
               {
-                "idx": 297,
+                "idx": 296,
                 "price": 198.66,
                 "type": "high",
                 "time": 1786924800000
+              },
+              {
+                "idx": 298,
+                "price": 194.59,
+                "type": "low",
+                "time": 1786953600000
               }
             ]
           },
@@ -7042,9 +7056,9 @@
         },
         "1D": {
           "smc": {
-            "price": 197.01,
+            "price": 196.33,
             "atr": 8.037298112189495,
-            "atrPct": 4.08,
+            "atrPct": 4.09,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -7093,9 +7107,9 @@
               ]
             },
             "ema": {
-              "e20": 197.9710929174451,
-              "e50": 204.0244124056586,
-              "e200": 236.31427610523406,
+              "e20": 197.9063310126832,
+              "e50": 203.99774573899194,
+              "e200": 236.30750993607984,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -7245,23 +7259,23 @@
       "symbol": "ONDO",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 2802085.701309998,
-        "oiValue": 14248927.999440001,
+        "turnover24h": 2815420.5865299995,
+        "oiValue": 14330788.0716,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 14248927.999440001,
-        "markPrice": 0.33828,
-        "change24hPct": 1.54
+        "openInterestUsd": 14330788.0716,
+        "markPrice": 0.33709,
+        "change24hPct": 1.49
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.33827,
-            "atr": 0.00275674148532573,
-            "atrPct": 0.81,
+            "price": 0.33705,
+            "atr": 0.002679384239822739,
+            "atrPct": 0.79,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -7310,11 +7324,11 @@
               ]
             },
             "ema": {
-              "e20": 0.3359156959797834,
-              "e50": 0.33239397313944863,
-              "e200": 0.33786333228570326,
+              "e20": 0.3360499461421814,
+              "e50": 0.3327211918468085,
+              "e200": 0.3378112125604021,
               "stack": "mixed",
-              "priceVsE200": "above"
+              "priceVsE200": "below"
             },
             "orderBlocks": [
               {
@@ -7359,35 +7373,35 @@
                 "dir": "bearish",
                 "top": 0.35574,
                 "bottom": 0.35371,
-                "idx": 116,
+                "idx": 114,
                 "time": 1786316400000
               },
               {
                 "dir": "bearish",
                 "top": 0.34421,
                 "bottom": 0.34362,
-                "idx": 139,
+                "idx": 137,
                 "time": 1786399200000
               },
               {
                 "dir": "bearish",
                 "top": 0.34306,
                 "bottom": 0.342,
-                "idx": 140,
+                "idx": 138,
                 "time": 1786402800000
               },
               {
                 "dir": "bullish",
                 "top": 0.32516,
                 "bottom": 0.32491,
-                "idx": 271,
+                "idx": 269,
                 "time": 1786874400000
               },
               {
                 "dir": "bullish",
                 "top": 0.33069,
                 "bottom": 0.33063,
-                "idx": 286,
+                "idx": 284,
                 "time": 1786928400000
               }
             ],
@@ -7439,37 +7453,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 276,
+                "idx": 274,
                 "price": 0.33394,
                 "type": "high",
                 "time": 1786892400000
               },
               {
-                "idx": 283,
+                "idx": 281,
                 "price": 0.32633,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 287,
+                "idx": 285,
                 "price": 0.33574,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 0.33967,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 0.33514,
                 "type": "low",
                 "time": 1786957200000
               },
               {
-                "idx": 297,
+                "idx": 295,
                 "price": 0.34233,
                 "type": "high",
                 "time": 1786968000000
@@ -7480,9 +7494,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.33827,
-            "atr": 0.0052402030232043964,
-            "atrPct": 1.55,
+            "price": 0.33705,
+            "atr": 0.005062331378770378,
+            "atrPct": 1.5,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -7531,9 +7545,9 @@
               ]
             },
             "ema": {
-              "e20": 0.3322660283685452,
-              "e50": 0.3375113139692768,
-              "e200": 0.3497224234325655,
+              "e20": 0.3327397399524932,
+              "e50": 0.3375011419009607,
+              "e200": 0.34961570982757767,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -7580,35 +7594,35 @@
                 "dir": "bearish",
                 "top": 0.41565,
                 "bottom": 0.40807,
-                "idx": 196,
+                "idx": 195,
                 "time": 1785470400000
               },
               {
                 "dir": "bearish",
                 "top": 0.36615,
                 "bottom": 0.3591,
-                "idx": 237,
+                "idx": 236,
                 "time": 1786060800000
               },
               {
                 "dir": "bearish",
                 "top": 0.34938,
                 "bottom": 0.34864,
-                "idx": 259,
+                "idx": 258,
                 "time": 1786377600000
               },
               {
                 "dir": "bullish",
                 "top": 0.32544,
                 "bottom": 0.32541,
-                "idx": 294,
+                "idx": 293,
                 "time": 1786881600000
               },
               {
                 "dir": "bullish",
                 "top": 0.33368,
                 "bottom": 0.33224,
-                "idx": 298,
+                "idx": 297,
                 "time": 1786939200000
               }
             ],
@@ -7660,37 +7674,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
+                "idx": 276,
                 "price": 0.32998,
                 "type": "low",
                 "time": 1786636800000
               },
               {
-                "idx": 284,
+                "idx": 283,
                 "price": 0.32135,
                 "type": "low",
                 "time": 1786737600000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.33145,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 0.3284,
                 "type": "high",
                 "time": 1786838400000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 0.32231,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 294,
+                "idx": 293,
                 "price": 0.33394,
                 "type": "high",
                 "time": 1786881600000
@@ -7701,9 +7715,9 @@
         },
         "1D": {
           "smc": {
-            "price": 0.33827,
+            "price": 0.33705,
             "atr": 0.01735506490764081,
-            "atrPct": 5.13,
+            "atrPct": 5.15,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -7752,9 +7766,9 @@
               ]
             },
             "ema": {
-              "e20": 0.3488544617966661,
-              "e50": 0.35362355487959773,
-              "e200": 0.36577797210124824,
+              "e20": 0.3487382713204757,
+              "e50": 0.35357571174234287,
+              "e200": 0.36576583279776564,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -7921,23 +7935,23 @@
       "symbol": "AVAX",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 1652869.2640729998,
-        "oiValue": 11782726.79976,
+        "turnover24h": 1700712.2217589996,
+        "oiValue": 11792862.197292004,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": -0.0009,
-        "fundingAnnualPct": -7.87,
-        "openInterestUsd": 11782726.79976,
-        "markPrice": 6.321,
-        "change24hPct": -1.66
+        "fundingHourlyPct": -0.00058,
+        "fundingAnnualPct": -5.12,
+        "openInterestUsd": 11792862.197292004,
+        "markPrice": 6.2994,
+        "change24hPct": -0.98
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 6.3231,
-            "atr": 0.03484185432152397,
-            "atrPct": 0.55,
+            "price": 6.2993,
+            "atr": 0.03309731316611151,
+            "atrPct": 0.53,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -7986,9 +8000,9 @@
               ]
             },
             "ema": {
-              "e20": 6.337275015967233,
-              "e50": 6.371170252627846,
-              "e200": 6.435642928397708,
+              "e20": 6.330081664620194,
+              "e50": 6.365509444161575,
+              "e200": 6.43215303670468,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -8007,12 +8021,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 6.8771,
-                "bottom": 6.4867,
-                "time": 1786759200000
-              },
-              {
-                "dir": "bearish",
                 "top": 6.3562,
                 "bottom": 6.312,
                 "time": 1786845600000
@@ -8028,52 +8036,53 @@
                 "top": 6.3944,
                 "bottom": 6.3624,
                 "time": 1786939200000
+              },
+              {
+                "dir": "bearish",
+                "top": 6.3296,
+                "bottom": 6.2908,
+                "time": 1786975200000
               }
             ],
             "fvgs": [
               {
                 "dir": "bearish",
-                "top": 6.6195,
-                "bottom": 6.6025,
-                "idx": 246,
-                "time": 1786784400000
-              },
-              {
-                "dir": "bearish",
                 "top": 6.5427,
                 "bottom": 6.516,
-                "idx": 254,
+                "idx": 252,
                 "time": 1786813200000
               },
               {
                 "dir": "bearish",
                 "top": 6.4903,
                 "bottom": 6.3758,
-                "idx": 260,
+                "idx": 258,
                 "time": 1786834800000
               },
               {
                 "dir": "bearish",
                 "top": 6.4088,
                 "bottom": 6.3747,
-                "idx": 278,
+                "idx": 276,
                 "time": 1786899600000
               },
               {
                 "dir": "bearish",
                 "top": 6.3571,
                 "bottom": 6.3288,
-                "idx": 294,
+                "idx": 292,
                 "time": 1786957200000
+              },
+              {
+                "dir": "bearish",
+                "top": 6.3102,
+                "bottom": 6.3085,
+                "idx": 300,
+                "time": 1786986000000
               }
             ],
             "liquidity": {
               "equalHighs": [
-                {
-                  "price": 6.548375,
-                  "count": 3,
-                  "time": 1786165200000
-                },
                 {
                   "price": 6.5714500000000005,
                   "count": 2,
@@ -8088,6 +8097,11 @@
                   "price": 6.537050000000001,
                   "count": 2,
                   "time": 1786323600000
+                },
+                {
+                  "price": 6.3339,
+                  "count": 2,
+                  "time": 1786485600000
                 }
               ],
               "equalLows": [
@@ -8115,40 +8129,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 269,
-                "price": 6.3103,
-                "type": "low",
-                "time": 1786867200000
-              },
-              {
-                "idx": 277,
+                "idx": 275,
                 "price": 6.4326,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 282,
+                "idx": 280,
                 "price": 6.269,
                 "type": "low",
                 "time": 1786914000000
               },
               {
-                "idx": 289,
+                "idx": 287,
                 "price": 6.3944,
                 "type": "high",
                 "time": 1786939200000
               },
               {
-                "idx": 293,
+                "idx": 291,
                 "price": 6.3056,
                 "type": "low",
                 "time": 1786953600000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 6.2895,
                 "type": "low",
                 "time": 1786971600000
+              },
+              {
+                "idx": 298,
+                "price": 6.3381,
+                "type": "high",
+                "time": 1786978800000
               }
             ]
           },
@@ -8156,9 +8170,9 @@
         },
         "4h": {
           "smc": {
-            "price": 6.3231,
-            "atr": 0.0950866575339112,
-            "atrPct": 1.5,
+            "price": 6.2993,
+            "atr": 0.09063761056923189,
+            "atrPct": 1.44,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -8207,9 +8221,9 @@
               ]
             },
             "ema": {
-              "e20": 6.392938331683523,
-              "e50": 6.427475828326999,
-              "e200": 6.51360284256791,
+              "e20": 6.3839600778724,
+              "e50": 6.422423177624464,
+              "e200": 6.512376827954455,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -8256,28 +8270,28 @@
                 "dir": "bearish",
                 "top": 6.6,
                 "bottom": 6.5947,
-                "idx": 288,
+                "idx": 287,
                 "time": 1786795200000
               },
               {
                 "dir": "bearish",
                 "top": 6.5669,
                 "bottom": 6.564,
-                "idx": 289,
+                "idx": 288,
                 "time": 1786809600000
               },
               {
                 "dir": "bearish",
                 "top": 6.5427,
                 "bottom": 6.504,
-                "idx": 290,
+                "idx": 289,
                 "time": 1786824000000
               },
               {
                 "dir": "bearish",
                 "top": 6.4843,
                 "bottom": 6.3662,
-                "idx": 291,
+                "idx": 290,
                 "time": 1786838400000
               }
             ],
@@ -8329,37 +8343,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 6.3451,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 6.8771,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 6.2223,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 6.4326,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 6.269,
                 "type": "low",
                 "time": 1786910400000
               },
               {
-                "idx": 298,
+                "idx": 297,
                 "price": 6.3944,
                 "type": "high",
                 "time": 1786939200000
@@ -8370,9 +8384,9 @@
         },
         "1D": {
           "smc": {
-            "price": 6.3231,
+            "price": 6.2993,
             "atr": 0.27841708455681635,
-            "atrPct": 4.4,
+            "atrPct": 4.42,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -8421,9 +8435,9 @@
               ]
             },
             "ema": {
-              "e20": 6.429575532691351,
-              "e50": 6.624905415261042,
-              "e200": 8.785753336417656,
+              "e20": 6.427308866024685,
+              "e50": 6.623972081927708,
+              "e200": 8.785516520497259,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -8590,23 +8604,23 @@
       "symbol": "ADA",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 6056073.769489994,
-        "oiValue": 29194902.429,
+        "turnover24h": 6512463.33822,
+        "oiValue": 29177498.03904,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": -0.00094,
-        "fundingAnnualPct": -8.21,
-        "openInterestUsd": 29194902.429,
-        "markPrice": 0.17502,
-        "change24hPct": -0.99
+        "fundingHourlyPct": 0.0012,
+        "fundingAnnualPct": 10.52,
+        "openInterestUsd": 29177498.03904,
+        "markPrice": 0.17368,
+        "change24hPct": -1.56
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.17504,
-            "atr": 0.0013839141845901713,
-            "atrPct": 0.79,
+            "price": 0.17368,
+            "atr": 0.0013318443735601362,
+            "atrPct": 0.77,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -8655,9 +8669,9 @@
               ]
             },
             "ema": {
-              "e20": 0.1754084189174214,
-              "e50": 0.1766109878581305,
-              "e200": 0.1836500592978458,
+              "e20": 0.17514013214695742,
+              "e50": 0.17640550481214262,
+              "e200": 0.1835063136738656,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -8704,35 +8718,35 @@
                 "dir": "bearish",
                 "top": 0.18655,
                 "bottom": 0.18618,
-                "idx": 177,
+                "idx": 175,
                 "time": 1786536000000
               },
               {
                 "dir": "bearish",
                 "top": 0.1839,
                 "bottom": 0.18264,
-                "idx": 205,
+                "idx": 203,
                 "time": 1786636800000
               },
               {
                 "dir": "bearish",
                 "top": 0.18041,
                 "bottom": 0.18012,
-                "idx": 243,
+                "idx": 241,
                 "time": 1786773600000
               },
               {
                 "dir": "bearish",
                 "top": 0.17634,
                 "bottom": 0.17612,
-                "idx": 293,
+                "idx": 291,
                 "time": 1786953600000
               },
               {
                 "dir": "bearish",
                 "top": 0.17569,
                 "bottom": 0.17515,
-                "idx": 294,
+                "idx": 292,
                 "time": 1786957200000
               }
             ],
@@ -8784,37 +8798,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 280,
+                "idx": 278,
                 "price": 0.1792,
                 "type": "high",
                 "time": 1786906800000
               },
               {
-                "idx": 285,
+                "idx": 283,
                 "price": 0.17367,
                 "type": "low",
                 "time": 1786924800000
               },
               {
-                "idx": 290,
+                "idx": 288,
                 "price": 0.17782,
                 "type": "high",
                 "time": 1786942800000
               },
               {
-                "idx": 295,
+                "idx": 293,
                 "price": 0.17241,
                 "type": "low",
                 "time": 1786960800000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 0.17562,
                 "type": "high",
                 "time": 1786964400000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 0.17298,
                 "type": "low",
                 "time": 1786971600000
@@ -8825,24 +8839,18 @@
         },
         "4h": {
           "smc": {
-            "price": 0.17504,
-            "atr": 0.0026534790223342705,
-            "atrPct": 1.52,
+            "price": 0.17368,
+            "atr": 0.0025975162350384343,
+            "atrPct": 1.5,
             "structure": {
               "trend": "down",
               "lastBreak": {
                 "kind": "BOS",
                 "dir": "bearish",
-                "price": 0.17801,
-                "brokenAt": 1786824000000
+                "price": 0.17571,
+                "brokenAt": 1786953600000
               },
               "events": [
-                {
-                  "kind": "CHoCH",
-                  "dir": "bearish",
-                  "price": 0.19836,
-                  "brokenAt": 1786305600000
-                },
                 {
                   "kind": "BOS",
                   "dir": "bearish",
@@ -8872,28 +8880,34 @@
                   "dir": "bearish",
                   "price": 0.17801,
                   "brokenAt": 1786824000000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bearish",
+                  "price": 0.17571,
+                  "brokenAt": 1786953600000
                 }
               ]
             },
             "ema": {
-              "e20": 0.17801848052309616,
-              "e50": 0.1821747844387074,
-              "e200": 0.1791286722140919,
+              "e20": 0.17760960029187148,
+              "e50": 0.18184354128941893,
+              "e200": 0.17911011417873535,
               "stack": "mixed",
               "priceVsE200": "below"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 0.18038,
-                "bottom": 0.17801,
-                "time": 1786708800000
-              },
-              {
-                "dir": "bullish",
                 "top": 0.17809,
                 "bottom": 0.17571,
                 "time": 1786824000000
+              },
+              {
+                "dir": "bullish",
+                "top": 0.17612,
+                "bottom": 0.17241,
+                "time": 1786953600000
               },
               {
                 "dir": "bearish",
@@ -8925,35 +8939,35 @@
                 "dir": "bullish",
                 "top": 0.16983,
                 "bottom": 0.16528,
-                "idx": 193,
+                "idx": 192,
                 "time": 1785427200000
               },
               {
                 "dir": "bearish",
                 "top": 0.19236,
                 "bottom": 0.19142,
-                "idx": 261,
+                "idx": 260,
                 "time": 1786406400000
               },
               {
                 "dir": "bearish",
                 "top": 0.19065,
                 "bottom": 0.19055,
-                "idx": 262,
+                "idx": 261,
                 "time": 1786420800000
               },
               {
                 "dir": "bearish",
                 "top": 0.17963,
                 "bottom": 0.17952,
-                "idx": 287,
+                "idx": 286,
                 "time": 1786780800000
               },
               {
                 "dir": "bearish",
                 "top": 0.17569,
                 "bottom": 0.17541,
-                "idx": 300,
+                "idx": 299,
                 "time": 1786968000000
               }
             ],
@@ -9005,40 +9019,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
-                "price": 0.18026,
-                "type": "low",
-                "time": 1786636800000
-              },
-              {
-                "idx": 281,
+                "idx": 280,
                 "price": 0.18356,
                 "type": "high",
                 "time": 1786694400000
               },
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 0.17801,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.18174,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 290,
+                "idx": 289,
                 "price": 0.17571,
                 "type": "low",
                 "time": 1786824000000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 0.1792,
                 "type": "high",
                 "time": 1786896000000
+              },
+              {
+                "idx": 298,
+                "price": 0.17241,
+                "type": "low",
+                "time": 1786953600000
               }
             ]
           },
@@ -9046,9 +9060,9 @@
         },
         "1D": {
           "smc": {
-            "price": 0.17504,
+            "price": 0.17368,
             "atr": 0.008398349323672078,
-            "atrPct": 4.8,
+            "atrPct": 4.84,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -9097,9 +9111,9 @@
               ]
             },
             "ema": {
-              "e20": 0.18120253797684616,
-              "e50": 0.17973950838548555,
-              "e200": 0.24643860973475262,
+              "e20": 0.18107301416732235,
+              "e50": 0.1796861750521522,
+              "e200": 0.24642507739644415,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -9240,23 +9254,23 @@
       "symbol": "BNB",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 3106049.1494899993,
-        "oiValue": 36900117.8176,
+        "turnover24h": 3636291.2245999994,
+        "oiValue": 37277000.69252,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00125,
-        "fundingAnnualPct": 10.95,
-        "openInterestUsd": 36900117.8176,
-        "markPrice": 607.06,
-        "change24hPct": 0.02
+        "fundingHourlyPct": 0.00035,
+        "fundingAnnualPct": 3.1,
+        "openInterestUsd": 37277000.69252,
+        "markPrice": 606.38,
+        "change24hPct": -0.13
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 607.06,
-            "atr": 1.690141976987302,
-            "atrPct": 0.28,
+            "price": 606.42,
+            "atr": 1.6020611944532421,
+            "atrPct": 0.26,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -9305,9 +9319,9 @@
               ]
             },
             "ema": {
-              "e20": 605.2932070089817,
-              "e50": 606.0742271521153,
-              "e200": 605.0423725929104,
+              "e20": 605.5553052947946,
+              "e50": 606.1258373114093,
+              "e200": 605.0582650616112,
               "stack": "mixed",
               "priceVsE200": "above"
             },
@@ -9354,35 +9368,35 @@
                 "dir": "bearish",
                 "top": 612.87,
                 "bottom": 611.72,
-                "idx": 199,
+                "idx": 197,
                 "time": 1786615200000
               },
               {
                 "dir": "bearish",
                 "top": 610.19,
                 "bottom": 610.12,
-                "idx": 259,
+                "idx": 257,
                 "time": 1786831200000
               },
               {
                 "dir": "bearish",
                 "top": 610,
                 "bottom": 609.05,
-                "idx": 260,
+                "idx": 258,
                 "time": 1786834800000
               },
               {
                 "dir": "bearish",
                 "top": 609.03,
                 "bottom": 607.6,
-                "idx": 261,
+                "idx": 259,
                 "time": 1786838400000
               },
               {
                 "dir": "bullish",
                 "top": 604.84,
                 "bottom": 604.73,
-                "idx": 299,
+                "idx": 297,
                 "time": 1786975200000
               }
             ],
@@ -9434,37 +9448,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 270,
+                "idx": 268,
                 "price": 607.74,
                 "type": "high",
                 "time": 1786870800000
               },
               {
-                "idx": 272,
+                "idx": 270,
                 "price": 605.83,
                 "type": "low",
                 "time": 1786878000000
               },
               {
-                "idx": 274,
+                "idx": 272,
                 "price": 607.85,
                 "type": "high",
                 "time": 1786885200000
               },
               {
-                "idx": 285,
+                "idx": 283,
                 "price": 600.54,
                 "type": "low",
                 "time": 1786924800000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 607.09,
                 "type": "high",
                 "time": 1786946400000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 603.33,
                 "type": "low",
                 "time": 1786957200000
@@ -9475,9 +9489,9 @@
         },
         "4h": {
           "smc": {
-            "price": 607.06,
-            "atr": 3.4209151420237527,
-            "atrPct": 0.56,
+            "price": 606.42,
+            "atr": 3.2701354889986836,
+            "atrPct": 0.54,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -9526,9 +9540,9 @@
               ]
             },
             "ema": {
-              "e20": 606.7163555068945,
-              "e50": 605.3064151473461,
-              "e200": 590.2772107139334,
+              "e20": 606.6795143928592,
+              "e50": 605.3463062671616,
+              "e200": 590.4373003738546,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -9573,38 +9587,38 @@
             "fvgs": [
               {
                 "dir": "bullish",
-                "top": 584.41,
-                "bottom": 584.08,
-                "idx": 216,
-                "time": 1785758400000
-              },
-              {
-                "dir": "bullish",
                 "top": 593.49,
                 "bottom": 593.46,
-                "idx": 245,
+                "idx": 244,
                 "time": 1786176000000
               },
               {
                 "dir": "bullish",
                 "top": 595.21,
                 "bottom": 595,
-                "idx": 246,
+                "idx": 245,
                 "time": 1786190400000
               },
               {
                 "dir": "bullish",
                 "top": 602.63,
                 "bottom": 596.6,
-                "idx": 247,
+                "idx": 246,
                 "time": 1786204800000
               },
               {
                 "dir": "bearish",
                 "top": 609.79,
                 "bottom": 607.6,
-                "idx": 291,
+                "idx": 290,
                 "time": 1786838400000
+              },
+              {
+                "dir": "bullish",
+                "top": 606.33,
+                "bottom": 605.18,
+                "idx": 300,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
@@ -9655,37 +9669,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 279,
+                "idx": 278,
                 "price": 612.6,
                 "type": "high",
                 "time": 1786665600000
               },
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 602.67,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 288,
+                "idx": 287,
                 "price": 612.61,
                 "type": "high",
                 "time": 1786795200000
               },
               {
-                "idx": 292,
+                "idx": 291,
                 "price": 603.88,
                 "type": "low",
                 "time": 1786852800000
               },
               {
-                "idx": 294,
+                "idx": 293,
                 "price": 607.85,
                 "type": "high",
                 "time": 1786881600000
               },
               {
-                "idx": 297,
+                "idx": 296,
                 "price": 600.54,
                 "type": "low",
                 "time": 1786924800000
@@ -9696,8 +9710,8 @@
         },
         "1D": {
           "smc": {
-            "price": 607.06,
-            "atr": 11.640180779143078,
+            "price": 606.42,
+            "atr": 11.643752207714503,
             "atrPct": 1.92,
             "structure": {
               "trend": "up",
@@ -9747,9 +9761,9 @@
               ]
             },
             "ema": {
-              "e20": 597.7118232482194,
-              "e50": 591.4694118180449,
-              "e200": 663.3142496489725,
+              "e20": 597.650870867267,
+              "e50": 591.4443137788293,
+              "e200": 663.3078814897685,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -9921,23 +9935,23 @@
       "symbol": "FARTCOIN",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 4963707.796989001,
-        "oiValue": 30294074.17619999,
+        "turnover24h": 4772579.303437005,
+        "oiValue": 30182047.02610399,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.0056,
-        "fundingAnnualPct": 49.08,
-        "openInterestUsd": 30294074.17619999,
-        "markPrice": 0.14325,
-        "change24hPct": 0.01
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 30182047.02610399,
+        "markPrice": 0.14236,
+        "change24hPct": -2.18
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.14337,
-            "atr": 0.001648101024812877,
-            "atrPct": 1.15,
+            "price": 0.14238,
+            "atr": 0.0015710156795803979,
+            "atrPct": 1.1,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -9986,9 +10000,9 @@
               ]
             },
             "ema": {
-              "e20": 0.1434987592249276,
-              "e50": 0.14296188296808174,
-              "e200": 0.13848099831849844,
+              "e20": 0.1433804182792545,
+              "e50": 0.14295453914783623,
+              "e200": 0.1385537714992227,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -10033,38 +10047,38 @@
             "fvgs": [
               {
                 "dir": "bullish",
+                "top": 0.12807,
+                "bottom": 0.12716,
+                "idx": 71,
+                "time": 1786161600000
+              },
+              {
+                "dir": "bullish",
                 "top": 0.13011,
                 "bottom": 0.13009,
-                "idx": 189,
+                "idx": 187,
                 "time": 1786579200000
               },
               {
                 "dir": "bullish",
                 "top": 0.13388,
                 "bottom": 0.13384,
-                "idx": 207,
+                "idx": 205,
                 "time": 1786644000000
               },
               {
                 "dir": "bullish",
                 "top": 0.14084,
                 "bottom": 0.1388,
-                "idx": 237,
+                "idx": 235,
                 "time": 1786752000000
               },
               {
                 "dir": "bearish",
                 "top": 0.14479,
                 "bottom": 0.14452,
-                "idx": 294,
+                "idx": 292,
                 "time": 1786957200000
-              },
-              {
-                "dir": "bearish",
-                "top": 0.14395,
-                "bottom": 0.14364,
-                "idx": 295,
-                "time": 1786960800000
               }
             ],
             "liquidity": {
@@ -10115,37 +10129,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 282,
+                "idx": 280,
                 "price": 0.14018,
                 "type": "low",
                 "time": 1786914000000
               },
               {
-                "idx": 288,
+                "idx": 286,
                 "price": 0.14596,
                 "type": "high",
                 "time": 1786935600000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 0.14345,
                 "type": "low",
                 "time": 1786946400000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 0.14629,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 295,
+                "idx": 293,
                 "price": 0.14214,
                 "type": "low",
                 "time": 1786960800000
               },
               {
-                "idx": 298,
+                "idx": 296,
                 "price": 0.14153,
                 "type": "low",
                 "time": 1786971600000
@@ -10156,9 +10170,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.14337,
-            "atr": 0.0035084825835352226,
-            "atrPct": 2.45,
+            "price": 0.14238,
+            "atr": 0.0033757338276634526,
+            "atrPct": 2.37,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -10207,9 +10221,9 @@
               ]
             },
             "ema": {
-              "e20": 0.14220173325656035,
-              "e50": 0.1386396585161672,
-              "e200": 0.13732087324500744,
+              "e20": 0.1422350829237364,
+              "e50": 0.1387935071235149,
+              "e200": 0.13742192273359405,
               "stack": "bullish",
               "priceVsE200": "above"
             },
@@ -10256,35 +10270,35 @@
                 "dir": "bearish",
                 "top": 0.15989,
                 "bottom": 0.15561,
-                "idx": 57,
+                "idx": 56,
                 "time": 1783468800000
               },
               {
                 "dir": "bearish",
                 "top": 0.14814,
                 "bottom": 0.14549,
-                "idx": 107,
+                "idx": 106,
                 "time": 1784188800000
               },
               {
                 "dir": "bullish",
                 "top": 0.12422,
                 "bottom": 0.12296,
-                "idx": 201,
+                "idx": 200,
                 "time": 1785542400000
               },
               {
                 "dir": "bullish",
                 "top": 0.12611,
                 "bottom": 0.12468,
-                "idx": 202,
+                "idx": 201,
                 "time": 1785556800000
               },
               {
                 "dir": "bullish",
                 "top": 0.12793,
                 "bottom": 0.12761,
-                "idx": 244,
+                "idx": 243,
                 "time": 1786161600000
               }
             ],
@@ -10336,37 +10350,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.14405,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 288,
+                "idx": 287,
                 "price": 0.1398,
                 "type": "low",
                 "time": 1786795200000
               },
               {
-                "idx": 292,
+                "idx": 291,
                 "price": 0.14637,
                 "type": "high",
                 "time": 1786852800000
               },
               {
-                "idx": 293,
+                "idx": 292,
                 "price": 0.14145,
                 "type": "low",
                 "time": 1786867200000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 0.14659,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 0.14018,
                 "type": "low",
                 "time": 1786910400000
@@ -10377,9 +10391,9 @@
         },
         "1D": {
           "smc": {
-            "price": 0.14337,
+            "price": 0.14238,
             "atr": 0.008116508878542214,
-            "atrPct": 5.66,
+            "atrPct": 5.7,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -10428,9 +10442,9 @@
               ]
             },
             "ema": {
-              "e20": 0.13570106892693853,
-              "e50": 0.13742762168677078,
-              "e200": 0.18448309925938508,
+              "e20": 0.13560678321265282,
+              "e50": 0.13738879815735902,
+              "e200": 0.18447324851311642,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -10587,23 +10601,23 @@
       "symbol": "WIF",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 208225.5448200001,
-        "oiValue": 1874342.7455999998,
+        "turnover24h": 219320.8975100001,
+        "oiValue": 1881641.0731,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 1874342.7455999998,
-        "markPrice": 0.13845,
-        "change24hPct": 0.23
+        "openInterestUsd": 1881641.0731,
+        "markPrice": 0.13835,
+        "change24hPct": 0.14
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 0.13841,
-            "atr": 0.0008070022733043428,
-            "atrPct": 0.58,
+            "price": 0.13832,
+            "atr": 0.0008544560417953737,
+            "atrPct": 0.62,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -10652,11 +10666,11 @@
               ]
             },
             "ema": {
-              "e20": 0.13707557285124905,
-              "e50": 0.13707229547633556,
-              "e200": 0.13840095693984433,
+              "e20": 0.13723049754727548,
+              "e50": 0.1371373106229729,
+              "e200": 0.13839684859032717,
               "stack": "mixed",
-              "priceVsE200": "above"
+              "priceVsE200": "below"
             },
             "orderBlocks": [
               {
@@ -10699,38 +10713,38 @@
             "fvgs": [
               {
                 "dir": "bearish",
-                "top": 0.14572,
-                "bottom": 0.14427,
-                "idx": 116,
-                "time": 1786316400000
-              },
-              {
-                "dir": "bearish",
                 "top": 0.14357,
                 "bottom": 0.14336,
-                "idx": 138,
+                "idx": 136,
                 "time": 1786395600000
               },
               {
                 "dir": "bearish",
                 "top": 0.14294,
                 "bottom": 0.1425,
-                "idx": 139,
+                "idx": 137,
                 "time": 1786399200000
               },
               {
                 "dir": "bullish",
                 "top": 0.13587,
                 "bottom": 0.13577,
-                "idx": 286,
+                "idx": 284,
                 "time": 1786928400000
               },
               {
                 "dir": "bullish",
                 "top": 0.13694,
                 "bottom": 0.13587,
-                "idx": 287,
+                "idx": 285,
                 "time": 1786932000000
+              },
+              {
+                "dir": "bullish",
+                "top": 0.13735,
+                "bottom": 0.13724,
+                "idx": 299,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
@@ -10781,37 +10795,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 271,
+                "idx": 269,
                 "price": 0.13664,
                 "type": "low",
                 "time": 1786874400000
               },
               {
-                "idx": 277,
+                "idx": 275,
                 "price": 0.13857,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 282,
+                "idx": 280,
                 "price": 0.13455,
                 "type": "low",
                 "time": 1786914000000
               },
               {
-                "idx": 287,
+                "idx": 285,
                 "price": 0.13829,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 0.13658,
                 "type": "low",
                 "time": 1786946400000
               },
               {
-                "idx": 297,
+                "idx": 295,
                 "price": 0.13632,
                 "type": "low",
                 "time": 1786968000000
@@ -10822,9 +10836,9 @@
         },
         "4h": {
           "smc": {
-            "price": 0.13841,
-            "atr": 0.0018248631678459404,
-            "atrPct": 1.32,
+            "price": 0.13832,
+            "atr": 0.0017838015129430374,
+            "atrPct": 1.29,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -10873,9 +10887,9 @@
               ]
             },
             "ema": {
-              "e20": 0.1373919203614874,
-              "e50": 0.1384592471352526,
-              "e200": 0.14605043848890728,
+              "e20": 0.13748203225449773,
+              "e50": 0.1384545425608592,
+              "e200": 0.14597009023921284,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -10922,21 +10936,21 @@
                 "dir": "bearish",
                 "top": 0.17103,
                 "bottom": 0.16886,
-                "idx": 52,
+                "idx": 51,
                 "time": 1783396800000
               },
               {
                 "dir": "bearish",
                 "top": 0.16412,
                 "bottom": 0.16002,
-                "idx": 58,
+                "idx": 57,
                 "time": 1783483200000
               },
               {
                 "dir": "bearish",
                 "top": 0.15233,
                 "bottom": 0.15169,
-                "idx": 175,
+                "idx": 174,
                 "time": 1785168000000
               }
             ],
@@ -10988,37 +11002,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
+                "idx": 276,
                 "price": 0.1361,
                 "type": "low",
                 "time": 1786636800000
               },
               {
-                "idx": 282,
+                "idx": 281,
                 "price": 0.13418,
                 "type": "low",
                 "time": 1786708800000
               },
               {
-                "idx": 285,
+                "idx": 284,
                 "price": 0.13965,
                 "type": "high",
                 "time": 1786752000000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 0.13548,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 0.13857,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 0.13455,
                 "type": "low",
                 "time": 1786910400000
@@ -11029,7 +11043,7 @@
         },
         "1D": {
           "smc": {
-            "price": 0.13841,
+            "price": 0.13832,
             "atr": 0.005979498596168119,
             "atrPct": 4.32,
             "structure": {
@@ -11080,9 +11094,9 @@
               ]
             },
             "ema": {
-              "e20": 0.14063514325369642,
-              "e50": 0.1488993662016482,
-              "e200": 0.20989237129024546,
+              "e20": 0.140626571825125,
+              "e50": 0.1488958367898835,
+              "e200": 0.2098914757678574,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -11244,22 +11258,22 @@
       "symbol": "UNI",
       "bias": "bullish",
       "liquidity": {
-        "turnover24h": 2621901.9190800004,
-        "oiValue": 19666275.2077,
+        "turnover24h": 2386299.6836299994,
+        "oiValue": 19615985.09936,
         "tier": "low"
       },
       "derivs": {
         "fundingHourlyPct": 0.00125,
         "fundingAnnualPct": 10.95,
-        "openInterestUsd": 19666275.2077,
-        "markPrice": 3.3055,
-        "change24hPct": -0.22
+        "openInterestUsd": 19615985.09936,
+        "markPrice": 3.2834,
+        "change24hPct": -0.42
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 3.3052,
-            "atr": 0.027139663725224524,
+            "price": 3.2834,
+            "atr": 0.026881503054078937,
             "atrPct": 0.82,
             "structure": {
               "trend": "up",
@@ -11309,24 +11323,24 @@
               ]
             },
             "ema": {
-              "e20": 3.287041547838389,
-              "e50": 3.2887927130653027,
-              "e200": 3.524154470075277,
+              "e20": 3.286118342961113,
+              "e50": 3.2882733949447323,
+              "e200": 3.520793051116203,
               "stack": "bearish",
               "priceVsE200": "below"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 3.2833,
-                "bottom": 3.2459,
-                "time": 1786942800000
-              },
-              {
-                "dir": "bullish",
                 "top": 3.2978,
                 "bottom": 3.2698,
                 "time": 1786953600000
+              },
+              {
+                "dir": "bullish",
+                "top": 3.315,
+                "bottom": 3.2765,
+                "time": 1786971600000
               },
               {
                 "dir": "bearish",
@@ -11358,35 +11372,35 @@
                 "dir": "bearish",
                 "top": 3.4627,
                 "bottom": 3.4566,
-                "idx": 222,
+                "idx": 220,
                 "time": 1786698000000
               },
               {
                 "dir": "bearish",
                 "top": 3.448,
                 "bottom": 3.4348,
-                "idx": 223,
+                "idx": 221,
                 "time": 1786701600000
               },
               {
                 "dir": "bearish",
                 "top": 3.4292,
                 "bottom": 3.3956,
-                "idx": 224,
+                "idx": 222,
                 "time": 1786705200000
               },
               {
                 "dir": "bearish",
                 "top": 3.3784,
                 "bottom": 3.2596,
-                "idx": 225,
+                "idx": 223,
                 "time": 1786708800000
               },
               {
                 "dir": "bullish",
                 "top": 3.2179,
                 "bottom": 3.2096,
-                "idx": 238,
+                "idx": 236,
                 "time": 1786755600000
               }
             ],
@@ -11438,40 +11452,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 285,
-                "price": 3.2564,
-                "type": "low",
-                "time": 1786924800000
-              },
-              {
-                "idx": 286,
+                "idx": 284,
                 "price": 3.306,
                 "type": "high",
                 "time": 1786928400000
               },
               {
-                "idx": 291,
+                "idx": 289,
                 "price": 3.2356,
                 "type": "low",
                 "time": 1786946400000
               },
               {
-                "idx": 292,
+                "idx": 290,
                 "price": 3.2984,
                 "type": "high",
                 "time": 1786950000000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 3.2642,
                 "type": "low",
                 "time": 1786957200000
               },
               {
-                "idx": 296,
+                "idx": 294,
                 "price": 3.3184,
                 "type": "high",
                 "time": 1786964400000
+              },
+              {
+                "idx": 297,
+                "price": 3.2756,
+                "type": "low",
+                "time": 1786975200000
               }
             ]
           },
@@ -11479,9 +11493,9 @@
         },
         "4h": {
           "smc": {
-            "price": 3.3052,
-            "atr": 0.06301582901420008,
-            "atrPct": 1.91,
+            "price": 3.2834,
+            "atr": 0.0611718412266858,
+            "atrPct": 1.86,
             "structure": {
               "trend": "up",
               "lastBreak": {
@@ -11530,9 +11544,9 @@
               ]
             },
             "ema": {
-              "e20": 3.3198952627850193,
-              "e50": 3.4950510692473764,
-              "e200": 3.6367422383945667,
+              "e20": 3.3168245121342923,
+              "e50": 3.486928076602569,
+              "e200": 3.632810513313775,
               "stack": "bearish",
               "priceVsE200": "below"
             },
@@ -11551,12 +11565,6 @@
               },
               {
                 "dir": "bearish",
-                "top": 3.6137,
-                "bottom": 3.5457,
-                "time": 1786593600000
-              },
-              {
-                "dir": "bearish",
                 "top": 3.4997,
                 "bottom": 3.4563,
                 "time": 1786636800000
@@ -11572,6 +11580,12 @@
                 "top": 3.3355,
                 "bottom": 3.266,
                 "time": 1786881600000
+              },
+              {
+                "dir": "bearish",
+                "top": 3.2984,
+                "bottom": 3.2356,
+                "time": 1786939200000
               }
             ],
             "fvgs": [
@@ -11579,49 +11593,49 @@
                 "dir": "bearish",
                 "top": 3.8756,
                 "bottom": 3.7415,
-                "idx": 265,
+                "idx": 264,
                 "time": 1786464000000
               },
               {
                 "dir": "bearish",
                 "top": 3.7349,
                 "bottom": 3.5603,
-                "idx": 269,
+                "idx": 268,
                 "time": 1786521600000
               },
               {
                 "dir": "bearish",
                 "top": 3.5457,
                 "bottom": 3.5281,
-                "idx": 276,
+                "idx": 275,
                 "time": 1786622400000
               },
               {
                 "dir": "bearish",
                 "top": 3.4286,
                 "bottom": 3.2596,
-                "idx": 282,
+                "idx": 281,
                 "time": 1786708800000
               },
               {
                 "dir": "bullish",
                 "top": 3.2366,
                 "bottom": 3.2112,
-                "idx": 286,
+                "idx": 285,
                 "time": 1786766400000
               }
             ],
             "liquidity": {
               "equalHighs": [
                 {
-                  "price": 3.2856,
-                  "count": 2,
-                  "time": 1783008000000
-                },
-                {
                   "price": 3.31135,
                   "count": 2,
                   "time": 1783080000000
+                },
+                {
+                  "price": 3.31815,
+                  "count": 2,
+                  "time": 1783440000000
                 },
                 {
                   "price": 3.75535,
@@ -11659,40 +11673,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 279,
-                "price": 3.5301,
-                "type": "high",
-                "time": 1786665600000
-              },
-              {
-                "idx": 283,
+                "idx": 282,
                 "price": 3.1697,
                 "type": "low",
                 "time": 1786723200000
               },
               {
-                "idx": 286,
+                "idx": 285,
                 "price": 3.3128,
                 "type": "high",
                 "time": 1786766400000
               },
               {
-                "idx": 291,
+                "idx": 290,
                 "price": 3.2158,
                 "type": "low",
                 "time": 1786838400000
               },
               {
-                "idx": 295,
+                "idx": 294,
                 "price": 3.3378,
                 "type": "high",
                 "time": 1786896000000
               },
               {
-                "idx": 298,
+                "idx": 297,
                 "price": 3.2356,
                 "type": "low",
                 "time": 1786939200000
+              },
+              {
+                "idx": 298,
+                "price": 3.3184,
+                "type": "high",
+                "time": 1786953600000
               }
             ]
           },
@@ -11700,9 +11714,9 @@
         },
         "1D": {
           "smc": {
-            "price": 3.3052,
+            "price": 3.2834,
             "atr": 0.2192169059097327,
-            "atrPct": 6.63,
+            "atrPct": 6.68,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -11751,9 +11765,9 @@
               ]
             },
             "ema": {
-              "e20": 3.642488511534908,
-              "e50": 3.593380978845115,
-              "e200": 3.887468274909797,
+              "e20": 3.640412321058718,
+              "e50": 3.5925260768843303,
+              "e200": 3.8872513594869114,
               "stack": "mixed",
               "priceVsE200": "below"
             },
@@ -11925,23 +11939,23 @@
       "symbol": "LTC",
       "bias": "bearish",
       "liquidity": {
-        "turnover24h": 943187.7561700004,
-        "oiValue": 10227464.984819999,
+        "turnover24h": 1024965.87125,
+        "oiValue": 10115975.673179999,
         "tier": "low"
       },
       "derivs": {
-        "fundingHourlyPct": 0.00091,
-        "fundingAnnualPct": 7.99,
-        "openInterestUsd": 10227464.984819999,
-        "markPrice": 44.327,
-        "change24hPct": -0.79
+        "fundingHourlyPct": 0.00125,
+        "fundingAnnualPct": 10.95,
+        "openInterestUsd": 10115975.673179999,
+        "markPrice": 44.421,
+        "change24hPct": -0.23
       },
       "timeframes": {
         "1h": {
           "smc": {
-            "price": 44.327,
-            "atr": 0.15855385854939189,
-            "atrPct": 0.36,
+            "price": 44.421,
+            "atr": 0.15601327599940043,
+            "atrPct": 0.35,
             "structure": {
               "trend": "down",
               "lastBreak": {
@@ -11990,10 +12004,10 @@
               ]
             },
             "ema": {
-              "e20": 44.23126596336708,
-              "e50": 44.245211711681776,
-              "e200": 44.67417183185058,
-              "stack": "bearish",
+              "e20": 44.271577072485236,
+              "e50": 44.26129684577013,
+              "e200": 44.67427924329739,
+              "stack": "mixed",
               "priceVsE200": "below"
             },
             "orderBlocks": [
@@ -12039,28 +12053,28 @@
                 "dir": "bearish",
                 "top": 45.965,
                 "bottom": 45.647,
-                "idx": 116,
+                "idx": 114,
                 "time": 1786316400000
               },
               {
                 "dir": "bearish",
                 "top": 45.432,
                 "bottom": 45.159,
-                "idx": 180,
+                "idx": 178,
                 "time": 1786546800000
               },
               {
                 "dir": "bullish",
                 "top": 44.146,
                 "bottom": 44.069,
-                "idx": 296,
+                "idx": 294,
                 "time": 1786964400000
               },
               {
                 "dir": "bullish",
                 "top": 44.252,
                 "bottom": 44.22,
-                "idx": 299,
+                "idx": 297,
                 "time": 1786975200000
               }
             ],
@@ -12112,37 +12126,37 @@
             },
             "swingsRecent": [
               {
-                "idx": 274,
+                "idx": 272,
                 "price": 44.227,
                 "type": "low",
                 "time": 1786885200000
               },
               {
-                "idx": 276,
+                "idx": 274,
                 "price": 44.764,
                 "type": "high",
                 "time": 1786892400000
               },
               {
-                "idx": 281,
+                "idx": 279,
                 "price": 44.544,
                 "type": "high",
                 "time": 1786910400000
               },
               {
-                "idx": 283,
+                "idx": 281,
                 "price": 44.026,
                 "type": "low",
                 "time": 1786917600000
               },
               {
-                "idx": 287,
+                "idx": 285,
                 "price": 44.449,
                 "type": "high",
                 "time": 1786932000000
               },
               {
-                "idx": 294,
+                "idx": 292,
                 "price": 43.815,
                 "type": "low",
                 "time": 1786957200000
@@ -12153,24 +12167,18 @@
         },
         "4h": {
           "smc": {
-            "price": 44.327,
-            "atr": 0.3231959032383525,
-            "atrPct": 0.73,
+            "price": 44.421,
+            "atr": 0.3148961958585782,
+            "atrPct": 0.71,
             "structure": {
               "trend": "down",
               "lastBreak": {
                 "kind": "BOS",
                 "dir": "bearish",
-                "price": 44.622,
-                "brokenAt": 1786723200000
+                "price": 44.026,
+                "brokenAt": 1786953600000
               },
               "events": [
-                {
-                  "kind": "CHoCH",
-                  "dir": "bullish",
-                  "price": 46.051,
-                  "brokenAt": 1786276800000
-                },
                 {
                   "kind": "CHoCH",
                   "dir": "bearish",
@@ -12200,28 +12208,34 @@
                   "dir": "bearish",
                   "price": 44.622,
                   "brokenAt": 1786723200000
+                },
+                {
+                  "kind": "BOS",
+                  "dir": "bearish",
+                  "price": 44.026,
+                  "brokenAt": 1786953600000
                 }
               ]
             },
             "ema": {
-              "e20": 44.32779584028282,
-              "e50": 44.63495798511529,
-              "e200": 44.9191021290047,
+              "e20": 44.33632775572072,
+              "e50": 44.62641627573456,
+              "e200": 44.91948696773102,
               "stack": "bearish",
               "priceVsE200": "below"
             },
             "orderBlocks": [
               {
                 "dir": "bullish",
-                "top": 44.225,
-                "bottom": 44.02,
-                "time": 1786824000000
-              },
-              {
-                "dir": "bullish",
                 "top": 44.544,
                 "bottom": 44.026,
                 "time": 1786910400000
+              },
+              {
+                "dir": "bullish",
+                "top": 44.286,
+                "bottom": 44.1,
+                "time": 1786939200000
               },
               {
                 "dir": "bearish",
@@ -12253,22 +12267,29 @@
                 "dir": "bearish",
                 "top": 46.864,
                 "bottom": 46.596,
-                "idx": 175,
+                "idx": 174,
                 "time": 1785168000000
               },
               {
                 "dir": "bearish",
                 "top": 46.112,
                 "bottom": 45.731,
-                "idx": 255,
+                "idx": 254,
                 "time": 1786320000000
               },
               {
                 "dir": "bearish",
                 "top": 45.246,
                 "bottom": 45.182,
-                "idx": 271,
+                "idx": 270,
                 "time": 1786550400000
+              },
+              {
+                "dir": "bullish",
+                "top": 44.315,
+                "bottom": 44.245,
+                "idx": 300,
+                "time": 1786982400000
               }
             ],
             "liquidity": {
@@ -12319,40 +12340,40 @@
             },
             "swingsRecent": [
               {
-                "idx": 277,
-                "price": 44.622,
-                "type": "low",
-                "time": 1786636800000
-              },
-              {
-                "idx": 279,
+                "idx": 278,
                 "price": 44.915,
                 "type": "high",
                 "time": 1786665600000
               },
               {
-                "idx": 283,
+                "idx": 282,
                 "price": 43.37,
                 "type": "low",
                 "time": 1786723200000
               },
               {
-                "idx": 290,
+                "idx": 289,
                 "price": 44.02,
                 "type": "low",
                 "time": 1786824000000
               },
               {
-                "idx": 294,
+                "idx": 293,
                 "price": 44.764,
                 "type": "high",
                 "time": 1786881600000
               },
               {
-                "idx": 296,
+                "idx": 295,
                 "price": 44.026,
                 "type": "low",
                 "time": 1786910400000
+              },
+              {
+                "idx": 298,
+                "price": 43.815,
+                "type": "low",
+                "time": 1786953600000
               }
             ]
           },
@@ -12360,8 +12381,8 @@
         },
         "1D": {
           "smc": {
-            "price": 44.327,
-            "atr": 1.0565349810821392,
+            "price": 44.421,
+            "atr": 1.059392123939282,
             "atrPct": 2.38,
             "structure": {
               "trend": "down",
@@ -12411,9 +12432,9 @@
               ]
             },
             "ema": {
-              "e20": 44.90130685649541,
-              "e50": 45.39445994258275,
-              "e200": 54.729962814487116,
+              "e20": 44.91025923744779,
+              "e50": 45.39814621709255,
+              "e200": 54.7308981378702,
               "stack": "bearish",
               "priceVsE200": "below"
             },
